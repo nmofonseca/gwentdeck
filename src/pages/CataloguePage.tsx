@@ -43,7 +43,7 @@ export function CataloguePage() {
   return (
     <div className="animate-rise mx-auto max-w-6xl px-4 py-6 space-y-5">
       <header>
-        <h1 className="font-display text-3xl font-bold text-[var(--color-gold)]">Card Library</h1>
+        <h1 className="font-display text-3xl font-bold text-[var(--color-silver)]">Card Library</h1>
         <p className="text-sm text-[var(--color-ink-muted)]">
           {catalogue.cards.length} cards · filter, search, and mark owned copies
         </p>

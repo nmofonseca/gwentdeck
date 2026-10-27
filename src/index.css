@@ -7,41 +7,43 @@
     serif;
   --font-body: 'Source Sans 3 Variable', 'Source Sans 3', 'Segoe UI', sans-serif;
 
-  /* Surfaces — charcoal / near-black */
-  --color-void: #080705;
-  --color-charcoal: #100e0b;
-  --color-panel: #18140f;
-  --color-panel-raised: #221c15;
-  --color-leather: #2a2218;
-  --color-border: #3d3428;
-  --color-border-bright: #5c4e3a;
+  /* Surfaces — deep near-black night hunt */
+  --color-void: #040507;
+  --color-charcoal: #080a0e;
+  --color-panel: #10141c;
+  --color-panel-raised: #171c27;
+  --color-leather: #1c2230;
+  --color-border: #3a4558;
+  --color-border-bright: #6b7c94;
 
-  /* Text */
-  --color-ink: #e8dfd0;
-  --color-ink-muted: #a89880;
-  --color-ink-faint: #7a6c58;
+  /* Text — cold silver */
+  --color-ink: #d5dce8;
+  --color-ink-muted: #97a3b6;
+  --color-ink-faint: #667487;
 
-  /* Accents — bronze, gold, restrained crimson */
-  --color-bronze: #a67c3d;
-  --color-gold: #d4af37;
-  --color-gold-dim: #9a7b28;
-  --color-crimson: #8f2f2a;
-  --color-crimson-bright: #b8433c;
-  --color-moss: #3d6b52;
-  --color-moss-bright: #4f8a68;
+  /* Accents — steel / silver + sparse amber medallion */
+  --color-bronze: #8a97ab;
+  --color-gold: #e0b44a;
+  --color-gold-dim: #a88228;
+  --color-steel: #9aabbf;
+  --color-silver: #c5d0de;
+  --color-crimson: #7a3538;
+  --color-crimson-bright: #a8484c;
+  --color-moss: #3a5f62;
+  --color-moss-bright: #4d7a7e;
 
   /* Legacy aliases used across components */
-  --color-parchment: #e8dfd0;
-  --color-parchment-deep: #cbb892;
-  --color-ember: #8f2f2a;
+  --color-parchment: #d5dce8;
+  --color-parchment-deep: #a8b4c6;
+  --color-ember: #e0b44a;
 
-  /* Faction accents */
-  --color-nilf: #3a3f48;
-  --color-scoia: #3a5a28;
-  --color-monster: #4a1f2e;
-  --color-skellige: #1e3a5f;
-  --color-neutral: #5a5248;
-  --color-nr: #3d5a80;
+  /* Faction accents — cooler night-hunt cast */
+  --color-nilf: #3a4048;
+  --color-scoia: #2f4a38;
+  --color-monster: #3a1f2a;
+  --color-skellige: #1a3558;
+  --color-neutral: #4a5260;
+  --color-nr: #2f4a6e;
 }
 
 :root {
@@ -52,13 +54,13 @@
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  /* Subtle leather grain + warm vignette */
+  /* Night fog, cold vignette, film grain — no purple */
   background-image:
-    radial-gradient(ellipse 100% 70% at 50% -20%, rgba(166, 124, 61, 0.12), transparent 55%),
-    radial-gradient(ellipse 80% 50% at 100% 100%, rgba(143, 47, 42, 0.08), transparent 50%),
-    radial-gradient(ellipse 60% 40% at 0% 80%, rgba(61, 107, 82, 0.06), transparent 45%),
-    url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.12 0 0 0 0 0.09 0 0 0 0 0.06 0 0 0 0.55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
-    linear-gradient(165deg, #100e0b 0%, #0c0a08 45%, #14110d 100%);
+    radial-gradient(ellipse 95% 60% at 50% -18%, rgba(154, 171, 191, 0.1), transparent 58%),
+    radial-gradient(ellipse 70% 45% at 88% 100%, rgba(224, 180, 74, 0.05), transparent 52%),
+    radial-gradient(ellipse 55% 40% at 0% 85%, rgba(58, 95, 98, 0.07), transparent 48%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.08 0 0 0 0 0.1 0 0 0 0 0.14 0 0 0 0.5 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
+    linear-gradient(168deg, #080a0e 0%, #050608 42%, #0c1018 100%);
   background-attachment: fixed;
 }
 
@@ -80,22 +82,25 @@ h3,
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-gold);
+  outline: 2px solid var(--color-silver);
   outline-offset: 2px;
 }
 
-/* Shared UI primitives */
+/* Shared UI primitives — forged steel panels */
 .panel {
-  background: linear-gradient(160deg, rgba(34, 28, 21, 0.92), rgba(24, 20, 15, 0.96));
+  background: linear-gradient(160deg, rgba(23, 28, 39, 0.94), rgba(16, 20, 28, 0.97));
   border: 1px solid var(--color-border);
-  border-radius: 0.25rem;
-  box-shadow: inset 0 1px 0 rgba(212, 175, 55, 0.06);
+  border-radius: 0.15rem;
+  box-shadow:
+    inset 0 1px 0 rgba(197, 208, 222, 0.08),
+    inset 0 0 0 1px rgba(0, 0, 0, 0.35),
+    0 8px 28px rgba(0, 0, 0, 0.35);
 }
 
 .field {
-  border-radius: 0.25rem;
+  border-radius: 0.15rem;
   border: 1px solid var(--color-border);
-  background: rgba(8, 7, 5, 0.65);
+  background: rgba(4, 5, 7, 0.72);
   color: var(--color-ink);
   padding: 0.5rem 0.75rem;
 }
@@ -105,9 +110,9 @@ h3,
 }
 
 .field:focus {
-  border-color: var(--color-bronze);
+  border-color: var(--color-steel);
   outline: none;
-  box-shadow: 0 0 0 1px rgba(166, 124, 61, 0.35);
+  box-shadow: 0 0 0 1px rgba(154, 171, 191, 0.35);
 }
 
 .btn {
@@ -115,15 +120,17 @@ h3,
   align-items: center;
   justify-content: center;
   gap: 0.375rem;
-  border-radius: 0.25rem;
+  border-radius: 0.15rem;
   padding: 0.55rem 1.1rem;
   font-size: 0.875rem;
   font-weight: 600;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   transition:
     background-color 0.2s ease,
     border-color 0.2s ease,
     color 0.2s ease,
+    box-shadow 0.2s ease,
     filter 0.2s ease;
 }
 
@@ -133,13 +140,20 @@ h3,
 }
 
 .btn-primary {
-  background: linear-gradient(180deg, var(--color-gold) 0%, var(--color-gold-dim) 100%);
-  color: var(--color-void);
-  border: 1px solid rgba(212, 175, 55, 0.5);
+  background: linear-gradient(180deg, #2a3344 0%, #161b26 100%);
+  color: var(--color-silver);
+  border: 1px solid rgba(224, 180, 74, 0.55);
+  box-shadow:
+    inset 0 1px 0 rgba(197, 208, 222, 0.12),
+    0 0 16px rgba(224, 180, 74, 0.12);
 }
 
 .btn-primary:hover:not(:disabled) {
-  filter: brightness(1.08);
+  border-color: rgba(224, 180, 74, 0.85);
+  color: var(--color-gold);
+  box-shadow:
+    inset 0 1px 0 rgba(197, 208, 222, 0.16),
+    0 0 22px rgba(224, 180, 74, 0.22);
 }
 
 .btn-secondary {
@@ -149,18 +163,19 @@ h3,
 }
 
 .btn-secondary:hover:not(:disabled) {
-  border-color: var(--color-bronze);
-  background: rgba(166, 124, 61, 0.1);
+  border-color: var(--color-steel);
+  background: rgba(154, 171, 191, 0.08);
+  color: var(--color-silver);
 }
 
 .btn-danger {
   background: transparent;
-  color: #e8a09a;
-  border: 1px solid rgba(143, 47, 42, 0.55);
+  color: #e0a8a8;
+  border: 1px solid rgba(122, 53, 56, 0.6);
 }
 
 .btn-danger:hover:not(:disabled) {
-  background: rgba(143, 47, 42, 0.15);
+  background: rgba(122, 53, 56, 0.18);
 }
 
 .btn-ghost {
@@ -170,6 +185,8 @@ h3,
   text-decoration: underline;
   text-underline-offset: 3px;
   padding-inline: 0.25rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
 }
 
 .btn-ghost:hover:not(:disabled) {
@@ -188,8 +205,8 @@ h3,
 .section-rule {
   border: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--color-bronze), transparent);
-  opacity: 0.45;
+  background: linear-gradient(90deg, transparent, var(--color-steel), transparent);
+  opacity: 0.5;
 }
 
 @keyframes rise-in {
@@ -217,10 +234,26 @@ h3,
 @keyframes ember-glow {
   0%,
   100% {
-    box-shadow: 0 0 0 0 rgba(212, 175, 55, 0);
+    box-shadow:
+      0 0 0 0 rgba(224, 180, 74, 0),
+      0 18px 40px rgba(0, 0, 0, 0.55);
   }
   50% {
-    box-shadow: 0 0 18px 0 rgba(212, 175, 55, 0.18);
+    box-shadow:
+      0 0 22px 0 rgba(224, 180, 74, 0.2),
+      0 18px 40px rgba(0, 0, 0, 0.55);
+  }
+}
+
+@keyframes fog-drift {
+  0%,
+  100% {
+    opacity: 0.12;
+    transform: translateX(0);
+  }
+  50% {
+    opacity: 0.2;
+    transform: translateX(1.5%);
   }
 }
 
@@ -236,10 +269,35 @@ h3,
   animation: ember-glow 3.5s ease-in-out infinite;
 }
 
+.animate-fog {
+  animation: fog-drift 14s ease-in-out infinite;
+}
+
+/* Metal medallion card frame */
+.medallion-frame {
+  border-radius: 0.35rem;
+  border: 2px solid var(--color-border-bright);
+  box-shadow:
+    inset 0 1px 0 rgba(197, 208, 222, 0.18),
+    inset 0 0 0 1px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(4, 5, 7, 0.9),
+    0 10px 28px rgba(0, 0, 0, 0.45);
+}
+
+.medallion-disc {
+  background: radial-gradient(circle at 35% 30%, #f0d27a 0%, var(--color-gold) 38%, var(--color-gold-dim) 72%, #5a4518 100%);
+  color: var(--color-void);
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.55),
+    0 0 0 2px rgba(197, 208, 222, 0.25),
+    0 0 14px rgba(224, 180, 74, 0.28);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .animate-rise,
   .animate-card,
-  .animate-ember {
+  .animate-ember,
+  .animate-fog {
     animation: none !important;
   }
 

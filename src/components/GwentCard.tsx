@@ -81,14 +81,13 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
       type={onClick ? 'button' : undefined}
       onClick={onClick}
       className={[
-        'animate-card text-left overflow-hidden transition group',
+        'animate-card medallion-frame text-left overflow-hidden transition group',
         'text-[var(--color-parchment)] w-full',
-        'bg-gradient-to-br border shadow-[inset_0_1px_0_rgba(212,175,55,0.12)]',
+        'bg-gradient-to-br',
         FACTION_BG[card.faction],
         FACTION_EDGE[card.faction],
-        selected ? 'ring-2 ring-[var(--color-gold)]' : '',
+        selected ? 'ring-2 ring-[var(--color-gold)] shadow-[0_0_20px_rgba(224,180,74,0.2)]' : '',
         onClick ? 'hover:brightness-110 cursor-pointer' : '',
-        compact ? 'rounded-sm' : 'rounded',
       ].join(' ')}
       aria-label={`${card.name}, ${KIND_LABEL[card.kind]}, ${card.strength ?? 'no'} strength`}
     >
@@ -146,13 +145,13 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
           <div className="flex flex-col items-end gap-1 shrink-0">
             {card.strength != null ? (
               <span
-                className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-b from-[var(--color-gold)] to-[var(--color-gold-dim)] text-[var(--color-void)] font-display text-lg font-bold shadow-[0_0_0_1px_rgba(0,0,0,0.4)]"
+                className="medallion-disc inline-flex h-8 w-8 items-center justify-center rounded-full font-display text-lg font-bold"
                 aria-hidden
               >
                 {card.strength}
               </span>
             ) : (
-              <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-black/45 text-xs border border-white/10">
+              <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-black/55 text-xs border border-[var(--color-border-bright)]/40 text-[var(--color-silver)]">
                 —
               </span>
             )}

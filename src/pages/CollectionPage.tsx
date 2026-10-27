@@ -126,7 +126,7 @@ export function CollectionPage() {
     <div className="animate-rise mx-auto max-w-6xl px-4 py-6 space-y-6">
       <header className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <h1 className="font-display text-3xl font-bold text-[var(--color-gold)]">
+          <h1 className="font-display text-3xl font-bold text-[var(--color-silver)]">
             My Collection
           </h1>
           <p className="text-sm text-[var(--color-ink-muted)]">
@@ -220,7 +220,7 @@ export function CollectionPage() {
       )}
 
       <section className="space-y-3">
-        <h2 className="font-display text-2xl font-semibold text-[var(--color-gold)]">My Decks</h2>
+        <h2 className="font-display text-2xl font-semibold text-[var(--color-silver)]">My Decks</h2>
         {state.savedDecks.length === 0 ? (
           <p className="text-sm text-[var(--color-ink-faint)]">
             None yet — save from the Deck Optimiser.
@@ -253,7 +253,7 @@ export function CollectionPage() {
       </section>
 
       <section className="space-y-3 panel p-4">
-        <h2 className="font-display text-2xl font-semibold text-[var(--color-gold)] flex items-center gap-2">
+        <h2 className="font-display text-2xl font-semibold text-[var(--color-silver)] flex items-center gap-2">
           <Image className="h-5 w-5" aria-hidden /> Optional local card images
         </h2>
         <p className="text-sm text-[var(--color-ink-muted)]">

@@ -17,14 +17,14 @@ export function Layout() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="border-b border-[var(--color-border)] bg-[var(--color-charcoal)]/95 text-[var(--color-ink)] backdrop-blur sticky top-0 z-20">
+      <header className="border-b border-[var(--color-border)] bg-[var(--color-charcoal)]/92 text-[var(--color-ink)] backdrop-blur sticky top-0 z-20 shadow-[0_1px_0_rgba(197,208,222,0.06)]">
         <div className="mx-auto max-w-6xl px-4 py-3 flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-baseline gap-3">
-            <span className="font-display text-2xl md:text-3xl font-bold tracking-wide text-[var(--color-gold)]">
+            <span className="font-display text-2xl md:text-3xl font-bold tracking-wide text-[var(--color-gold)] drop-shadow-[0_0_18px_rgba(224,180,74,0.35)]">
               GwentDeck
             </span>
             <span className="hidden sm:inline text-[10px] uppercase tracking-[0.22em] text-[var(--color-ink-faint)]">
-              TW3 minigame · unofficial
+              Wolf medallion · TW3 minigame
             </span>
           </div>
           <nav className="flex flex-wrap gap-1" aria-label="Primary">
@@ -35,10 +35,10 @@ export function Layout() {
                 end={end}
                 className={({ isActive }) =>
                   [
-                    'inline-flex items-center gap-1.5 rounded-sm px-2.5 py-1.5 text-sm transition',
+                    'inline-flex items-center gap-1.5 rounded-sm px-2.5 py-1.5 text-sm transition border',
                     isActive
-                      ? 'bg-gradient-to-b from-[var(--color-gold)] to-[var(--color-gold-dim)] text-[var(--color-void)] font-semibold'
-                      : 'hover:bg-white/5 text-[var(--color-ink-muted)] hover:text-[var(--color-ink)]',
+                      ? 'border-[rgba(224,180,74,0.55)] bg-[var(--color-panel-raised)] text-[var(--color-gold)] font-semibold shadow-[0_0_14px_rgba(224,180,74,0.15)]'
+                      : 'border-transparent hover:border-[var(--color-border)] hover:bg-white/5 text-[var(--color-ink-muted)] hover:text-[var(--color-silver)]',
                   ].join(' ')
                 }
               >
@@ -48,7 +48,8 @@ export function Layout() {
             ))}
           </nav>
           <div className="text-xs text-[var(--color-ink-muted)]" aria-live="polite">
-            Owned unique: <strong className="text-[var(--color-gold)]">{ownedUnique}</strong>
+            Owned unique:{' '}
+            <strong className="text-[var(--color-silver)]">{ownedUnique}</strong>
           </div>
         </div>
       </header>
