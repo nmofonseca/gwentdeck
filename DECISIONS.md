@@ -80,3 +80,9 @@
   4. Prefer current maintained majors (`checkout`/`setup-node` v7, Pages artifact/deploy v5) without changing CI steps (lint/test/build remain identical).
 - **Consequences:** Tag moves no longer silently change runner code; token blast radius is smaller. Owners should still treat the `github-pages` Environment as the deploy gate (optional required reviewers / wait timer). Re-pin SHAs when bumping action versions.
 - **Environment note:** Restrict who can approve `workflow_dispatch` / Environment deploys in repo Settings → Environments → `github-pages` if extra human gate is desired.
+## ADR-012: Experimental fantasy medallion + parchment mix UI
+
+- **Status:** Experimental (branch `experiment/ui-fantasy-mix` only — not default on `main`)
+- **Context:** User feedback preferred a mix of wolf-medallion (#5) and parchment (#6) but wanted a stronger Witcher 3 fantasy-world feel — illuminated manuscript / heraldic flourishes, wood/stone atmosphere, not generic dark SaaS. Imagery must be original (CSS/SVG/CC0 AI atmospheres), not CDPR card or character lookalikes.
+- **Decision:** Hybrid theme: cold steel/silver chrome shell + parchment/ink raised panels with ornamental corner ticks; hero uses full-bleed original CC0 landscape + SVG keep silhouette + steel medallion mark; cards combine metal frame with illuminated parchment body wash. Decorative assets live under `public/atmosphere/` (CC0).
+- **Consequences:** Visual experiment only; compare via draft PR screenshots against #5/#6/#7. Merge to `main` only if chosen (would supersede parts of ADR-009 presentation).

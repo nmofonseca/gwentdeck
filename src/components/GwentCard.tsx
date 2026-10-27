@@ -81,14 +81,13 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
       type={onClick ? 'button' : undefined}
       onClick={onClick}
       className={[
-        'animate-card text-left overflow-hidden transition group',
+        'gwent-card animate-card text-left overflow-hidden transition group',
         'text-[var(--color-parchment)] w-full',
-        'bg-gradient-to-br border shadow-[inset_0_1px_0_rgba(212,175,55,0.12)]',
+        'bg-gradient-to-br',
         FACTION_BG[card.faction],
         FACTION_EDGE[card.faction],
-        selected ? 'ring-2 ring-[var(--color-gold)]' : '',
+        selected ? 'ring-2 ring-[var(--color-gold)] shadow-[0_0_20px_rgba(224,180,74,0.22)]' : '',
         onClick ? 'hover:brightness-110 cursor-pointer' : '',
-        compact ? 'rounded-sm' : 'rounded',
       ].join(' ')}
       aria-label={`${card.name}, ${KIND_LABEL[card.kind]}, ${card.strength ?? 'no'} strength`}
     >
@@ -116,7 +115,12 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
         <CssArtFallback card={card} compact={compact} />
       )}
 
-      <div className={compact ? 'p-2 min-h-[4.5rem]' : 'p-3 min-h-[7.5rem]'}>
+      <div
+        className={[
+          'gwent-card-body relative z-[1]',
+          compact ? 'p-2 min-h-[4.5rem]' : 'p-3 min-h-[7.5rem]',
+        ].join(' ')}
+      >
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
             <div
@@ -125,18 +129,18 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
               {card.name}
             </div>
             <div className="mt-1.5 flex flex-wrap gap-1 text-[10px] uppercase tracking-wide opacity-90">
-              <span className="rounded-sm bg-black/45 px-1.5 py-0.5 border border-white/10">
+              <span className="rounded-sm bg-black/50 px-1.5 py-0.5 border border-[var(--color-gold)]/25">
                 {KIND_LABEL[card.kind]}
               </span>
               {card.row ? (
-                <span className="rounded-sm bg-black/45 px-1.5 py-0.5 border border-white/10">
+                <span className="rounded-sm bg-black/50 px-1.5 py-0.5 border border-[var(--color-gold)]/25">
                   {ROW_LABEL[card.row]}
                 </span>
               ) : null}
               {card.abilities.slice(0, 3).map((a) => (
                 <span
                   key={a}
-                  className="rounded-sm bg-black/45 px-1.5 py-0.5 border border-white/10"
+                  className="rounded-sm bg-black/50 px-1.5 py-0.5 border border-[var(--color-gold)]/25"
                 >
                   {a.replace(/_/g, ' ')}
                 </span>
@@ -146,19 +150,19 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
           <div className="flex flex-col items-end gap-1 shrink-0">
             {card.strength != null ? (
               <span
-                className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-b from-[var(--color-gold)] to-[var(--color-gold-dim)] text-[var(--color-void)] font-display text-lg font-bold shadow-[0_0_0_1px_rgba(0,0,0,0.4)]"
+                className="medallion-disc inline-flex h-8 w-8 items-center justify-center rounded-full font-display text-lg font-bold"
                 aria-hidden
               >
                 {card.strength}
               </span>
             ) : (
-              <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-black/45 text-xs border border-white/10">
+              <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-black/55 text-xs border border-[var(--color-border-bright)]/40 text-[var(--color-silver)]">
                 —
               </span>
             )}
             {typeof qty === 'number' ? (
               <span
-                className="text-xs bg-black/45 rounded-sm px-1.5 py-0.5 border border-white/10"
+                className="text-xs bg-black/50 rounded-sm px-1.5 py-0.5 border border-[var(--color-gold)]/25"
                 aria-label={`Owned ${qty}`}
               >
                 ×{qty}
@@ -167,7 +171,7 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
           </div>
         </div>
         {!compact && card.abilityText ? (
-          <p className="mt-2 text-xs leading-snug text-[var(--color-parchment)]/80 line-clamp-3">
+          <p className="mt-2 text-xs leading-snug text-[var(--color-parchment)]/85 line-clamp-3">
             {card.abilityText}
           </p>
         ) : null}

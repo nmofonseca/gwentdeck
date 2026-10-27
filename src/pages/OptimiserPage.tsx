@@ -91,7 +91,7 @@ export function OptimiserPage() {
   return (
     <div className="animate-rise mx-auto max-w-6xl px-4 py-6 space-y-6">
       <header>
-        <h1 className="font-display text-3xl font-bold text-[var(--color-gold)]">
+        <h1 className="font-display text-3xl font-bold text-[var(--color-silver)]">
           Deck Optimiser
         </h1>
         <p className="text-sm text-[var(--color-ink-muted)]">
@@ -196,7 +196,7 @@ export function OptimiserPage() {
 
           <section className="grid lg:grid-cols-2 gap-8">
             <div className="space-y-3">
-              <h2 className="font-display text-2xl font-semibold text-[var(--color-gold)]">
+              <h2 className="font-display text-2xl font-semibold text-[var(--color-silver)]">
                 Leader &amp; cards
               </h2>
               {result.leader ? (
@@ -217,7 +217,7 @@ export function OptimiserPage() {
 
             <div className="space-y-6">
               <div>
-                <h2 className="font-display text-2xl font-semibold text-[var(--color-gold)] mb-2">
+                <h2 className="font-display text-2xl font-semibold text-[var(--color-silver)] mb-2">
                   Why these cards
                 </h2>
                 <ol className="list-decimal pl-5 space-y-1.5 text-sm text-[var(--color-ink-muted)]">
@@ -227,7 +227,7 @@ export function OptimiserPage() {
                 </ol>
               </div>
               <div>
-                <h2 className="font-display text-2xl font-semibold text-[var(--color-gold)] mb-2">
+                <h2 className="font-display text-2xl font-semibold text-[var(--color-silver)] mb-2">
                   Missing-card roadmap
                 </h2>
                 <p className="text-xs text-[var(--color-ink-faint)] mb-2">
