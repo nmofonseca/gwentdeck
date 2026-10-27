@@ -227,7 +227,7 @@ export function OptimiserPage() {
                 </ol>
               </div>
               <div>
-                <h2 className="font-display text-2xl font-semibold text-[var(--color-gold)] mb-2">
+                <h2 className="font-display text-2xl font-semibold text-[var(--color-silver)] mb-2">
                   Missing-card roadmap
                 </h2>
                 <p className="text-xs text-[var(--color-ink-faint)] mb-2">
