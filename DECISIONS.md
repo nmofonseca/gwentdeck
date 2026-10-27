@@ -49,3 +49,20 @@
 - **Context:** Vite template shipped oxlint; keep lint fast.
 - **Decision:** oxlint for lint; Prettier for format; eslint-config-prettier available if ESLint is added later.
 - **Consequences:** Slightly different rule set than classic ESLint; acceptable for this app size.
+
+## ADR-008: Card art — CSS faces + optional local user images only
+
+- **Status:** Accepted
+- **Context:** Users asked for card images / “similar” web art. CDPR Gwent art and most wiki/fan assets are not clearly redistributable; scraping or vendoring lookalikes would violate AGENTS.md / PLAN non-goals.
+- **Decision:**
+  1. Keep **CSS / procedural** card faces as the default (enriched with faction bands, metal strength disc, leather-style grain).
+  2. Support **optional user-supplied** image URLs (`https` / `http` / `data:image/…`) stored separately in `localStorage` (`gwentdeck.imageOverrides.v1`), never in `catalogue.json` or the repo.
+  3. Do **not** hotlink community CDNs, scrape fandom, or ship any third-party card art.
+- **Consequences:** Default UX stays fully offline and legally conservative. Power users who own rights can map images locally via My Collection import; the app does not vouch for those assets.
+
+## ADR-009: Dark Witcher 3–branded UI tokens
+
+- **Status:** Accepted
+- **Context:** Feedback that the light parchment look did not feel TW3-branded.
+- **Decision:** Charcoal/near-black surfaces, bronze/gold accents, restrained crimson, self-hosted Cormorant Garamond + Source Sans 3 variables, leather noise texture via CSS/SVG; nav labels Dashboard / Card Library / My Collection / Deck Optimiser; Optimiser uses explicit Generate + Auto faction.
+- **Consequences:** Stronger brand signal without purple-gradient AI clichés; Pages assets change on next deploy after merge.
