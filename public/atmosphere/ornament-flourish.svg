@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" fill="none" aria-hidden="true">
+  <!-- Original heraldic flourish  CC0 with atmosphere assets -->
+  <path d="M8 24h52" stroke="#9aabbf" stroke-width="1.2" stroke-opacity="0.55"/>
+  <path d="M180 24h52" stroke="#9aabbf" stroke-width="1.2" stroke-opacity="0.55"/>
+  <path d="M68 24c8-14 22-18 36-10 6 3.5 10 8 16 8s10-4.5 16-8c14-8 28-4 36 10"
+        stroke="#c5a14a" stroke-width="1.4" stroke-opacity="0.75"/>
+  <circle cx="120" cy="24" r="3.5" fill="#c5a14a" fill-opacity="0.85"/>
+  <path d="M112 24h-8M136 24h8" stroke="#c5a14a" stroke-width="1.2" stroke-opacity="0.7"/>
+  <path d="M96 16c4 2 8 6 8 8s-4 6-8 8M144 16c-4 2-8 6-8 8s4 6 8 8"
+        stroke="#9aabbf" stroke-width="1" stroke-opacity="0.45"/>
+</svg>

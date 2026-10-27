@@ -5,51 +5,72 @@ export function HomePage() {
   const stats = catalogueStats()
   return (
     <div className="animate-rise">
-      <section className="relative min-h-[min(88vh,52rem)] flex flex-col justify-end overflow-hidden border-b border-[var(--color-border)]">
+      <section className="relative min-h-[min(90vh,54rem)] flex flex-col justify-end overflow-hidden border-b border-[var(--color-border)]">
+        {/* Full-bleed atmospheric plane — original CC0 landscape */}
         <div
-          className="absolute inset-0"
-          style={{
-            background:
-              'radial-gradient(ellipse 70% 55% at 72% 35%, rgba(166,124,61,0.22), transparent 55%), radial-gradient(ellipse 50% 40% at 15% 70%, rgba(143,47,42,0.12), transparent 50%), linear-gradient(125deg, #080705 0%, #161210 40%, #1a1410 70%, #0c0a08 100%)',
-          }}
-          aria-hidden
-        />
-        <div
-          className="absolute inset-0 opacity-[0.14]"
+          className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 200 200\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cfilter id=\'n\'%3E%3CfeTurbulence type=\'fractalNoise\' baseFrequency=\'0.9\' numOctaves=\'3\'/%3E%3C/filter%3E%3Crect width=\'100%25\' height=\'100%25\' filter=\'url(%23n)\' opacity=\'0.55\'/%3E%3C/svg%3E")',
+              "linear-gradient(180deg, rgba(4,5,7,0.35) 0%, rgba(4,5,7,0.15) 35%, rgba(4,5,7,0.72) 78%, rgba(4,5,7,0.96) 100%), url('/atmosphere/forest-keep.webp')",
           }}
           aria-hidden
         />
         <div
-          className="pointer-events-none absolute -right-8 top-16 hidden md:block h-72 w-52 rotate-6 rounded border border-[var(--color-bronze)]/70 bg-gradient-to-br from-[#2a4060] via-[#1a2838] to-[#0e141c] shadow-[0_20px_60px_rgba(0,0,0,0.7)] animate-ember opacity-95"
+          className="absolute inset-0 opacity-40 mix-blend-soft-light"
+          style={{
+            backgroundImage: "url('/atmosphere/forest-path.webp')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center bottom',
+          }}
+          aria-hidden
+        />
+        <div
+          className="pointer-events-none absolute inset-x-0 bottom-0 h-[42%] bg-[url('/atmosphere/keep-silhouette.svg')] bg-bottom bg-no-repeat bg-[length:100%_auto] opacity-90 animate-mist"
+          aria-hidden
+        />
+        <div
+          className="absolute inset-0 opacity-[0.16] animate-fog"
+          style={{
+            backgroundImage:
+              'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 200 200\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cfilter id=\'n\'%3E%3CfeTurbulence type=\'fractalNoise\' baseFrequency=\'0.85\' numOctaves=\'3\'/%3E%3C/filter%3E%3Crect width=\'100%25\' height=\'100%25\' filter=\'url(%23n)\' opacity=\'0.55\'/%3E%3C/svg%3E")',
+          }}
+          aria-hidden
+        />
+        <div
+          className="pointer-events-none absolute inset-x-0 bottom-0 h-56 bg-gradient-to-t from-[var(--color-void)] via-[var(--color-void)]/80 to-transparent"
+          aria-hidden
+        />
+
+        {/* Steel medallion — original heraldic mark, not CDPR wolf */}
+        <div
+          className="pointer-events-none absolute right-[7%] top-[16%] hidden md:flex h-56 w-56 items-center justify-center animate-ember"
           aria-hidden
         >
-          <div className="m-3 h-full rounded-sm border border-[var(--color-gold)]/40 bg-black/40 p-4">
-            <div className="font-display text-[var(--color-gold)] text-xl">Foltest</div>
-            <div className="mt-2 text-[10px] uppercase tracking-widest text-[var(--color-ink-muted)]">
-              Leader · Northern Realms
-            </div>
-            <div
-              className="mt-6 h-20 opacity-40"
-              style={{
-                backgroundImage:
-                  'radial-gradient(circle at 40% 35%, rgba(212,175,55,0.35), transparent 55%), repeating-linear-gradient(135deg, transparent, transparent 5px, rgba(0,0,0,0.35) 6px)',
-              }}
-            />
-            <div className="mt-4 h-14 w-14 rounded-full bg-gradient-to-b from-[var(--color-gold)] to-[var(--color-gold-dim)] text-[var(--color-void)] font-display text-2xl font-bold grid place-items-center">
-              —
+          <div
+            className="absolute inset-0 rounded-full"
+            style={{
+              background:
+                'radial-gradient(circle at 50% 50%, rgba(224,180,74,0.2) 0%, transparent 62%)',
+            }}
+          />
+          <div className="relative h-44 w-44 rounded-full border-2 border-[var(--color-border-bright)] bg-gradient-to-br from-[#1a2030] via-[#0c1018] to-[#05070c] shadow-[inset_0_2px_8px_rgba(197,208,222,0.15),0_0_0_1px_rgba(0,0,0,0.8),0_20px_50px_rgba(0,0,0,0.65)]">
+            <div className="absolute inset-3 rounded-full border border-[rgba(224,180,74,0.35)]" />
+            <div className="absolute inset-6 rounded-full border border-[var(--color-border)]/70" />
+            <div className="absolute inset-0 grid place-items-center">
+              <span className="font-display text-4xl font-bold tracking-[0.18em] text-[var(--color-gold)] drop-shadow-[0_0_12px_rgba(224,180,74,0.45)]">
+                G
+              </span>
             </div>
           </div>
         </div>
 
-        <div className="relative z-10 mx-auto w-full max-w-6xl px-4 pb-14 pt-24 md:pb-20">
-          <p className="font-display text-5xl md:text-7xl font-bold text-[var(--color-gold)] leading-none mb-4">
+        <div className="relative z-10 mx-auto w-full max-w-6xl px-4 pb-14 pt-28 md:pb-20">
+          <p className="font-display text-5xl md:text-7xl font-bold text-[var(--color-gold)] leading-none mb-2 drop-shadow-[0_2px_24px_rgba(0,0,0,0.65)]">
             GwentDeck
           </p>
-          <h1 className="font-display text-2xl md:text-3xl font-semibold text-[var(--color-ink)] mb-3 max-w-xl">
-            Own your cards. Build legal decks.
+          <span className="flourish" aria-hidden />
+          <h1 className="font-display text-2xl md:text-3xl font-semibold text-[var(--color-silver)] mb-3 max-w-xl">
+            Enter the path. Mark your cards. Forge legal decks.
           </h1>
           <p className="text-[var(--color-ink-muted)] mb-8 max-w-lg">
             Offline collection manager and deck optimiser for The Witcher 3 Gwent minigame — five
@@ -66,34 +87,68 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-12 grid md:grid-cols-3 gap-8">
-        <div>
+      <section className="mx-auto max-w-6xl px-4 pt-10 pb-2" aria-labelledby="how-to-use">
+        <div className="panel p-5 md:p-6">
+          <h2
+            id="how-to-use"
+            className="font-display text-2xl font-semibold text-[var(--color-gold)] mb-3"
+          >
+            How to use
+          </h2>
+          <ol className="list-decimal pl-5 space-y-2 text-sm text-[var(--color-ink-muted)]">
+            <li>
+              <Link to="/collection" className="text-[var(--color-ink)] font-semibold underline-offset-2 hover:underline">
+                My Collection
+              </Link>{' '}
+              — mark cards you own (or load the sample Northern Realms set). Data stays in this
+              browser.
+            </li>
+            <li>
+              <Link to="/optimiser" className="text-[var(--color-ink)] font-semibold underline-offset-2 hover:underline">
+                Deck Optimiser
+              </Link>{' '}
+              — pick a faction (or Auto) and a strategy, then press <em>Generate</em>.
+            </li>
+            <li>
+              Review the legal owned-only deck, explanations, and missing-card gaps; optionally save
+              to My Decks. More detail on{' '}
+              <Link to="/about" className="underline-offset-2 hover:underline">
+                About
+              </Link>
+              .
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-10 grid md:grid-cols-3 gap-5">
+        <div className="panel p-5">
           <h2 className="font-display text-xl font-semibold text-[var(--color-gold)] mb-2">
             Card Library
           </h2>
-          <p className="text-sm text-[var(--color-ink-muted)] mb-2">
+          <p className="text-sm text-[var(--color-ink-muted)] mb-3">
             {stats.total} verified identities with strength, row, abilities, and acquisition notes.
           </p>
           <Link className="btn-ghost text-sm" to="/catalogue">
             Browse cards
           </Link>
         </div>
-        <div>
+        <div className="panel p-5">
           <h2 className="font-display text-xl font-semibold text-[var(--color-gold)] mb-2">
             My Collection
           </h2>
-          <p className="text-sm text-[var(--color-ink-muted)] mb-2">
+          <p className="text-sm text-[var(--color-ink-muted)] mb-3">
             Mark quantities you own. Saved in this browser only — export anytime.
           </p>
           <Link className="btn-ghost text-sm" to="/collection">
             Manage owned cards
           </Link>
         </div>
-        <div>
+        <div className="panel p-5">
           <h2 className="font-display text-xl font-semibold text-[var(--color-gold)] mb-2">
             Deck Optimiser
           </h2>
-          <p className="text-sm text-[var(--color-ink-muted)] mb-2">
+          <p className="text-sm text-[var(--color-ink-muted)] mb-3">
             Choose faction and strategy, generate a legal owned-only deck with explanations.
           </p>
           <Link className="btn-ghost text-sm" to="/optimiser">

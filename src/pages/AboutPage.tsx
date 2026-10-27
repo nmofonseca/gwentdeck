@@ -4,7 +4,7 @@ export function AboutPage() {
   const stats = catalogueStats()
   return (
     <div className="animate-rise mx-auto max-w-3xl px-4 py-6 space-y-6 text-sm leading-relaxed text-[var(--color-ink-muted)]">
-      <h1 className="font-display text-3xl font-bold text-[var(--color-gold)]">About GwentDeck</h1>
+      <h1 className="font-display text-3xl font-bold text-[var(--color-silver)]">About GwentDeck</h1>
       <p>
         GwentDeck helps you track your <em className="text-[var(--color-ink)]">The Witcher 3: Wild
         Hunt</em>{' '}

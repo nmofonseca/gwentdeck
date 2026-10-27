@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" fill="none" aria-hidden="true">
+  <!-- Original keep/forest silhouette  CC0 decorative, not CDPR art -->
+  <defs>
+    <linearGradient id="fog" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9aabbf" stop-opacity="0"/>
+      <stop offset="55%" stop-color="#6b7c94" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#040507" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="280" fill="url(#fog)"/>
+  <!-- Distant pines -->
+  <path fill="#0a0e14" fill-opacity="0.85"
+        d="M0 220 L28 140 L52 220 Z M40 230 L70 128 L98 230 Z M88 225 L118 150 L145 225 Z
+           M640 228 L672 135 L702 228 Z M690 232 L725 118 L758 232 Z M740 225 L772 145 L800 225 Z"/>
+  <!-- Keep -->
+  <path fill="#0c1018" fill-opacity="0.92"
+        d="M310 240 V120 H330 V95 H350 V120 H370 V85 H390 V120 H410 V95 H430 V120 H450 V240 Z
+           M350 85 V55 H370 V85 Z M390 85 V48 H410 V85 Z"/>
+  <path fill="#0c1018" fill-opacity="0.92"
+        d="M280 240 V155 H310 V240 Z M450 240 V150 H485 V240 Z"/>
+  <!-- Warm window dots (amber, sparse) -->
+  <g fill="#e0b44a" fill-opacity="0.55">
+    <rect x="338" y="145" width="5" height="7" rx="0.5"/>
+    <rect x="358" y="145" width="5" height="7" rx="0.5"/>
+    <rect x="398" y="145" width="5" height="7" rx="0.5"/>
+    <rect x="418" y="145" width="5" height="7" rx="0.5"/>
+    <rect x="358" y="175" width="5" height="7" rx="0.5"/>
+    <rect x="398" y="175" width="5" height="7" rx="0.5"/>
+  </g>
+  <!-- Ground ridge -->
+  <path fill="#05070c" fill-opacity="0.95"
+        d="M0 240 C120 228 220 248 310 238 C400 228 480 248 580 236 C680 224 740 242 800 234 L800 280 L0 280 Z"/>
+</svg>
