@@ -1,3 +1,5 @@
+import { useState } from 'react'
+import { cardArtPath } from '../domain/cardArt'
 import type { Card, FactionId } from '../domain/types'
 
 const FACTION_BG: Record<FactionId, string> = {
@@ -38,12 +40,42 @@ interface Props {
   qty?: number
   compact?: boolean
   selected?: boolean
-  imageUrl?: string
+  /** User override URL; when omitted, bundled CC0 AI art is used. Pass null to force CSS-only. */
+  imageUrl?: string | null
   onClick?: () => void
 }
 
+function CssArtFallback({ card, compact }: { card: Card; compact?: boolean }) {
+  return (
+    <div
+      className={[
+        'relative overflow-hidden border-b border-black/35',
+        compact ? 'h-10' : 'h-16',
+      ].join(' ')}
+      aria-hidden
+    >
+      <div className={`absolute inset-0 bg-gradient-to-br opacity-90 ${FACTION_BG[card.faction]}`} />
+      <div
+        className="absolute inset-0 opacity-30"
+        style={{
+          backgroundImage:
+            'repeating-linear-gradient(135deg, transparent, transparent 6px, rgba(0,0,0,0.35) 7px), radial-gradient(circle at 30% 40%, rgba(212,175,55,0.2), transparent 45%)',
+        }}
+      />
+      <div className="absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-black/50 to-transparent" />
+      <div className="absolute left-2 bottom-1.5 font-display text-[10px] uppercase tracking-[0.2em] text-[var(--color-gold)]/70">
+        {card.faction.replace(/_/g, ' ')}
+      </div>
+    </div>
+  )
+}
+
 export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: Props) {
+  const [artFailed, setArtFailed] = useState(false)
+  const resolvedUrl = imageUrl === null ? null : (imageUrl ?? cardArtPath(card.id))
+  const showArt = Boolean(resolvedUrl) && !artFailed
   const Tag = onClick ? 'button' : 'article'
+
   return (
     <Tag
       type={onClick ? 'button' : undefined}
@@ -60,7 +92,7 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
       ].join(' ')}
       aria-label={`${card.name}, ${KIND_LABEL[card.kind]}, ${card.strength ?? 'no'} strength`}
     >
-      {imageUrl ? (
+      {showArt ? (
         <div
           className={[
             'relative overflow-hidden border-b border-black/40 bg-black/40',
@@ -68,14 +100,12 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
           ].join(' ')}
         >
           <img
-            src={imageUrl}
+            src={resolvedUrl!}
             alt=""
             loading="lazy"
             decoding="async"
             className="h-full w-full object-cover object-top opacity-90"
-            onError={(e) => {
-              e.currentTarget.style.display = 'none'
-            }}
+            onError={() => setArtFailed(true)}
           />
           <div
             className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"
@@ -83,28 +113,7 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
           />
         </div>
       ) : (
-        <div
-          className={[
-            'relative overflow-hidden border-b border-black/35',
-            compact ? 'h-10' : 'h-16',
-          ].join(' ')}
-          aria-hidden
-        >
-          <div
-            className={`absolute inset-0 bg-gradient-to-br opacity-90 ${FACTION_BG[card.faction]}`}
-          />
-          <div
-            className="absolute inset-0 opacity-30"
-            style={{
-              backgroundImage:
-                'repeating-linear-gradient(135deg, transparent, transparent 6px, rgba(0,0,0,0.35) 7px), radial-gradient(circle at 30% 40%, rgba(212,175,55,0.2), transparent 45%)',
-            }}
-          />
-          <div className="absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-black/50 to-transparent" />
-          <div className="absolute left-2 bottom-1.5 font-display text-[10px] uppercase tracking-[0.2em] text-[var(--color-gold)]/70">
-            {card.faction.replace(/_/g, ' ')}
-          </div>
-        </div>
+        <CssArtFallback card={card} compact={compact} />
       )}
 
       <div className={compact ? 'p-2 min-h-[4.5rem]' : 'p-3 min-h-[7.5rem]'}>

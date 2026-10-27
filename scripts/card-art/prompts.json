@@ -1,0 +1,1283 @@
+[
+  {
+    "id": "monsters-eredin-breacc-glas-the-treacherous",
+    "name": "Eredin Bréacc Glas: The Treacherous",
+    "faction": "monsters",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Eredin Bréacc Glas: The Treacherous' — a leader card for the monsters faction. Combat row: none. Abilities theme: spy.  Ability flavour (inspiration only, do not render as text): Doubles the strength of all spy cards (affects both players)."
+  },
+  {
+    "id": "monsters-eredin-bringer-of-death",
+    "name": "Eredin: Bringer of Death",
+    "faction": "monsters",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Eredin: Bringer of Death' — a leader card for the monsters faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Restore a card from your discard pile to your hand."
+  },
+  {
+    "id": "monsters-eredin-commander-of-the-red-riders",
+    "name": "Eredin: Commander of the Red Riders",
+    "faction": "monsters",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Eredin: Commander of the Red Riders' — a leader card for the monsters faction. Combat row: none. Abilities theme: commanders_horn.  Ability flavour (inspiration only, do not render as text): Double the strength of all your Close Combat units (unless a Commander's horn is also present on that row)."
+  },
+  {
+    "id": "monsters-eredin-destroyer-of-worlds",
+    "name": "Eredin: Destroyer of Worlds",
+    "faction": "monsters",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Eredin: Destroyer of Worlds' — a leader card for the monsters faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Discard 2 card and draw 1 card of your choice from your deck."
+  },
+  {
+    "id": "monsters-eredin-king-of-the-wild-hunt",
+    "name": "Eredin: King of the Wild Hunt",
+    "faction": "monsters",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Eredin: King of the Wild Hunt' — a leader card for the monsters faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Pick any weather card from your deck and play it instantly."
+  },
+  {
+    "id": "monsters-arachas",
+    "name": "Arachas",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Arachas' — a unit card for the monsters faction. Combat row: close. Abilities theme: muster. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "monsters-arachas-behemoth",
+    "name": "Arachas Behemoth",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Arachas Behemoth' — a unit card for the monsters faction. Combat row: siege. Abilities theme: muster. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "monsters-botchling",
+    "name": "Botchling",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Botchling' — a unit card for the monsters faction. Combat row: close. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "monsters-celaeno-harpy",
+    "name": "Celaeno Harpy",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Celaeno Harpy' — a unit card for the monsters faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  },
+  {
+    "id": "monsters-cockatrice",
+    "name": "Cockatrice",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Cockatrice' — a unit card for the monsters faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "monsters-crone-brewess",
+    "name": "Crone: Brewess",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Crone: Brewess' — a unit card for the monsters faction. Combat row: close. Abilities theme: muster. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "monsters-crone-weavess",
+    "name": "Crone: Weavess",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Crone: Weavess' — a unit card for the monsters faction. Combat row: close. Abilities theme: muster. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "monsters-crone-whispess",
+    "name": "Crone: Whispess",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Crone: Whispess' — a unit card for the monsters faction. Combat row: close. Abilities theme: muster. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "monsters-draug",
+    "name": "Draug",
+    "faction": "monsters",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Draug' — a hero card for the monsters faction. Combat row: close. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "monsters-earth-elemental",
+    "name": "Earth Elemental",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Earth Elemental' — a unit card for the monsters faction. Combat row: siege. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "monsters-endrega",
+    "name": "Endrega",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Endrega' — a unit card for the monsters faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "monsters-fiend",
+    "name": "Fiend",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Fiend' — a unit card for the monsters faction. Combat row: close. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "monsters-fire-elemental",
+    "name": "Fire Elemental",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Fire Elemental' — a unit card for the monsters faction. Combat row: siege. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "monsters-foglet",
+    "name": "Foglet",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Foglet' — a unit card for the monsters faction. Combat row: close. Abilities theme: none. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "monsters-forktail",
+    "name": "Forktail",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Forktail' — a unit card for the monsters faction. Combat row: close. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "monsters-frightener",
+    "name": "Frightener",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Frightener' — a unit card for the monsters faction. Combat row: close. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "monsters-gargoyle",
+    "name": "Gargoyle",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Gargoyle' — a unit card for the monsters faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "monsters-ghoul",
+    "name": "Ghoul",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Ghoul' — a unit card for the monsters faction. Combat row: close. Abilities theme: muster. combat strength vibe ~1. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "monsters-grave-hag",
+    "name": "Grave Hag",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Grave Hag' — a unit card for the monsters faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "monsters-griffin",
+    "name": "Griffin",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Griffin' — a unit card for the monsters faction. Combat row: close. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "monsters-harpy",
+    "name": "Harpy",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Harpy' — a unit card for the monsters faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  },
+  {
+    "id": "monsters-ice-giant",
+    "name": "Ice Giant",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Ice Giant' — a unit card for the monsters faction. Combat row: siege. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "monsters-imlerith",
+    "name": "Imlerith",
+    "faction": "monsters",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Imlerith' — a hero card for the monsters faction. Combat row: close. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "monsters-kayran",
+    "name": "Kayran",
+    "faction": "monsters",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Kayran' — a hero card for the monsters faction. Combat row: agile. Abilities theme: hero. combat strength vibe ~8. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "monsters-leshen",
+    "name": "Leshen",
+    "faction": "monsters",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Leshen' — a hero card for the monsters faction. Combat row: ranged. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "monsters-nekker",
+    "name": "Nekker",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Nekker' — a unit card for the monsters faction. Combat row: close. Abilities theme: muster. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "monsters-plague-maiden",
+    "name": "Plague Maiden",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Plague Maiden' — a unit card for the monsters faction. Combat row: close. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "monsters-toad",
+    "name": "Toad",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Toad' — a unit card for the monsters faction. Combat row: ranged. Abilities theme: scorch. combat strength vibe ~7. Ability flavour (inspiration only, do not render as text): Scorch - Ranged: Destroy your enemy's strongest Ranged Combat unit(s) if the combined strength of all his or her Ranged Combat units is 10 or more."
+  },
+  {
+    "id": "monsters-vampire-bruxa",
+    "name": "Vampire: Bruxa",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Vampire: Bruxa' — a unit card for the monsters faction. Combat row: close. Abilities theme: muster. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly"
+  },
+  {
+    "id": "monsters-vampire-ekimmara",
+    "name": "Vampire: Ekimmara",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Vampire: Ekimmara' — a unit card for the monsters faction. Combat row: close. Abilities theme: muster. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly"
+  },
+  {
+    "id": "monsters-vampire-fleder",
+    "name": "Vampire: Fleder",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Vampire: Fleder' — a unit card for the monsters faction. Combat row: close. Abilities theme: muster. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly"
+  },
+  {
+    "id": "monsters-vampire-garkain",
+    "name": "Vampire: Garkain",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Vampire: Garkain' — a unit card for the monsters faction. Combat row: close. Abilities theme: muster. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly"
+  },
+  {
+    "id": "monsters-vampire-katakan",
+    "name": "Vampire: Katakan",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Vampire: Katakan' — a unit card for the monsters faction. Combat row: close. Abilities theme: muster. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "monsters-werewolf",
+    "name": "Werewolf",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Werewolf' — a unit card for the monsters faction. Combat row: close. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "monsters-wyvern",
+    "name": "Wyvern",
+    "faction": "monsters",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: blood-crimson and bone-white accents, necrotic cold blues, Wild Hunt motif without copying official art. Card type: character or creature portrait suitable for a collectible card. Subject: 'Wyvern' — a unit card for the monsters faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "neutral-biting-frost",
+    "name": "Biting Frost",
+    "faction": "neutral",
+    "kind": "weather",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: atmospheric weather phenomenon as the sole subject, landscape mood. Subject: 'Biting Frost' — a weather card for the neutral faction. Combat row: none. Abilities theme: biting_frost.  Ability flavour (inspiration only, do not render as text): Sets the strength of all Close Combat cards to 1 for both players."
+  },
+  {
+    "id": "neutral-cirilla-fiona-elen-riannon",
+    "name": "Cirilla Fiona Elen Riannon",
+    "faction": "neutral",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Cirilla Fiona Elen Riannon' — a hero card for the neutral faction. Combat row: close. Abilities theme: hero. combat strength vibe ~15. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "neutral-clear-weather",
+    "name": "Clear Weather",
+    "faction": "neutral",
+    "kind": "weather",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: atmospheric weather phenomenon as the sole subject, landscape mood. Subject: 'Clear Weather' — a weather card for the neutral faction. Combat row: none. Abilities theme: biting_frost, impenetrable_fog, torrential_rain, clear_weather.  Ability flavour (inspiration only, do not render as text): Removes all Weather Card (Biting Frost, Impenetrable Fog and Torrential Rain) effects."
+  },
+  {
+    "id": "neutral-commander-s-horn",
+    "name": "Commander's Horn",
+    "faction": "neutral",
+    "kind": "special",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: symbolic magical object or ritual scene, not a portrait if abstract ability. Subject: 'Commander's Horn' — a special card for the neutral faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Doubles the strength of all unit cards in that row. Limited to 1 per row."
+  },
+  {
+    "id": "neutral-cow",
+    "name": "Cow",
+    "faction": "neutral",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Cow' — a unit card for the neutral faction. Combat row: ranged. Abilities theme: summon_avenger. combat strength vibe ~0. Ability flavour (inspiration only, do not render as text): Summon Avenger: When removed from the battlefield, summon Bovine Defense Force (8 strength)."
+  },
+  {
+    "id": "neutral-dandelion",
+    "name": "Dandelion",
+    "faction": "neutral",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Dandelion' — a unit card for the neutral faction. Combat row: close. Abilities theme: commanders_horn. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): Commander's Horn: Doubles the strength of all unit cards in that row. Limited to 1 per row."
+  },
+  {
+    "id": "neutral-decoy",
+    "name": "Decoy",
+    "faction": "neutral",
+    "kind": "special",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: symbolic magical object or ritual scene, not a portrait if abstract ability. Subject: 'Decoy' — a special card for the neutral faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Swap with a card on the battlefield to return it to your hand."
+  },
+  {
+    "id": "neutral-emiel-regis-rohellec-terzieff",
+    "name": "Emiel Regis Rohellec Terzieff",
+    "faction": "neutral",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Emiel Regis Rohellec Terzieff' — a unit card for the neutral faction. Combat row: close. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "neutral-gaunter-o-dimm",
+    "name": "Gaunter O'Dimm",
+    "faction": "neutral",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Gaunter O'Dimm' — a unit card for the neutral faction. Combat row: siege. Abilities theme: muster. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "neutral-gaunter-o-dimm-darkness",
+    "name": "Gaunter O'Dimm: Darkness",
+    "faction": "neutral",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Gaunter O'Dimm: Darkness' — a unit card for the neutral faction. Combat row: ranged. Abilities theme: muster. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "neutral-geralt-of-rivia",
+    "name": "Geralt of Rivia",
+    "faction": "neutral",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Geralt of Rivia' — a hero card for the neutral faction. Combat row: close. Abilities theme: hero. combat strength vibe ~15. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "neutral-impenetrable-fog",
+    "name": "Impenetrable Fog",
+    "faction": "neutral",
+    "kind": "weather",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: atmospheric weather phenomenon as the sole subject, landscape mood. Subject: 'Impenetrable Fog' — a weather card for the neutral faction. Combat row: none. Abilities theme: impenetrable_fog.  Ability flavour (inspiration only, do not render as text): Sets the strength of all Ranged Combat cards to 1 for both players."
+  },
+  {
+    "id": "neutral-mardroeme",
+    "name": "Mardroeme",
+    "faction": "neutral",
+    "kind": "special",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: symbolic magical object or ritual scene, not a portrait if abstract ability. Subject: 'Mardroeme' — a special card for the neutral faction. Combat row: none. Abilities theme: berserker.  Ability flavour (inspiration only, do not render as text): Triggers transformation of all Berserker cards on the same row."
+  },
+  {
+    "id": "neutral-mysterious-elf",
+    "name": "Mysterious Elf",
+    "faction": "neutral",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Mysterious Elf' — a hero card for the neutral faction. Combat row: close. Abilities theme: spy, hero. combat strength vibe ~0. Ability flavour (inspiration only, do not render as text): Spy: Place on your opponent's battlefield (counts towards opponent's total) and draw 2 cards from your deck."
+  },
+  {
+    "id": "neutral-olgierd-von-everec",
+    "name": "Olgierd von Everec",
+    "faction": "neutral",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Olgierd von Everec' — a unit card for the neutral faction. Combat row: agile. Abilities theme: morale_boost. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Morale boost: Adds +1 to all units in the row (excluding itself)."
+  },
+  {
+    "id": "neutral-scorch",
+    "name": "Scorch",
+    "faction": "neutral",
+    "kind": "special",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: symbolic magical object or ritual scene, not a portrait if abstract ability. Subject: 'Scorch' — a special card for the neutral faction. Combat row: none. Abilities theme: scorch.  Ability flavour (inspiration only, do not render as text): Scorch: Discards after playing. Kills the strongest card(s) on the battlefield."
+  },
+  {
+    "id": "neutral-skellige-storm",
+    "name": "Skellige Storm",
+    "faction": "neutral",
+    "kind": "weather",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: atmospheric weather phenomenon as the sole subject, landscape mood. Subject: 'Skellige Storm' — a weather card for the neutral faction. Combat row: none. Abilities theme: skellige_storm.  Ability flavour (inspiration only, do not render as text): Reduces the Strength of all Range and Siege Units to 1."
+  },
+  {
+    "id": "neutral-torrential-rain",
+    "name": "Torrential Rain",
+    "faction": "neutral",
+    "kind": "weather",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: atmospheric weather phenomenon as the sole subject, landscape mood. Subject: 'Torrential Rain' — a weather card for the neutral faction. Combat row: none. Abilities theme: torrential_rain.  Ability flavour (inspiration only, do not render as text): Sets the strength of all Siege Combat cards to 1 for both players."
+  },
+  {
+    "id": "neutral-triss-merigold",
+    "name": "Triss Merigold",
+    "faction": "neutral",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Triss Merigold' — a hero card for the neutral faction. Combat row: close. Abilities theme: hero. combat strength vibe ~7. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "neutral-vesemir",
+    "name": "Vesemir",
+    "faction": "neutral",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Vesemir' — a unit card for the neutral faction. Combat row: close. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "neutral-villentretenmerth",
+    "name": "Villentretenmerth",
+    "faction": "neutral",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Villentretenmerth' — a unit card for the neutral faction. Combat row: close. Abilities theme: scorch. combat strength vibe ~7. Ability flavour (inspiration only, do not render as text): Scorch - Close Combat: Destroy your enemy's strongest Close Combat unit(s) if the combined strength of all his or her Close Combat units is 10 or more."
+  },
+  {
+    "id": "neutral-yennefer-of-vengerberg",
+    "name": "Yennefer of Vengerberg",
+    "faction": "neutral",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Yennefer of Vengerberg' — a hero card for the neutral faction. Combat row: ranged. Abilities theme: medic, hero. combat strength vibe ~7. Ability flavour (inspiration only, do not render as text): Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards)."
+  },
+  {
+    "id": "neutral-zoltan-chivay",
+    "name": "Zoltan Chivay",
+    "faction": "neutral",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: warm parchment bronze and charcoal, tavern-road wanderer mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Zoltan Chivay' — a unit card for the neutral faction. Combat row: close. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-emhyr-var-emreis-emperor-of-nilfgaard",
+    "name": "Emhyr var Emreis: Emperor of Nilfgaard",
+    "faction": "nilfgaard",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Emhyr var Emreis: Emperor of Nilfgaard' — a leader card for the nilfgaard faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Emperor of Nilfgaard: Look at 3 random cards from your opponent's hand."
+  },
+  {
+    "id": "nilfgaard-emhyr-var-emreis-his-imperial-majesty",
+    "name": "Emhyr var Emreis: His Imperial Majesty",
+    "faction": "nilfgaard",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Emhyr var Emreis: His Imperial Majesty' — a leader card for the nilfgaard faction. Combat row: none. Abilities theme: torrential_rain.  Ability flavour (inspiration only, do not render as text): His Imperial Majesty: Pick a Torrential Rain card from your deck and play it instantly."
+  },
+  {
+    "id": "nilfgaard-emhyr-var-emreis-invader-of-the-north",
+    "name": "Emhyr var Emreis: Invader of the North",
+    "faction": "nilfgaard",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Emhyr var Emreis: Invader of the North' — a leader card for the nilfgaard faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Invader of the North: Abilities that restore a unit to the battlefield restore a randomly-chosen unit. Affects both players."
+  },
+  {
+    "id": "nilfgaard-emhyr-var-emreis-the-relentless",
+    "name": "Emhyr var Emreis: The Relentless",
+    "faction": "nilfgaard",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Emhyr var Emreis: The Relentless' — a leader card for the nilfgaard faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): The Relentless: Draw a card from your opponent's discard pile."
+  },
+  {
+    "id": "nilfgaard-emhyr-var-emreis-the-white-flame",
+    "name": "Emhyr var Emreis: The White Flame",
+    "faction": "nilfgaard",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Emhyr var Emreis: The White Flame' — a leader card for the nilfgaard faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): The White Flame: Cancel your opponent's Leader Ability."
+  },
+  {
+    "id": "nilfgaard-albrich",
+    "name": "Albrich",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Albrich' — a unit card for the nilfgaard faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-assire-var-anahid",
+    "name": "Assire var Anahid",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Assire var Anahid' — a unit card for the nilfgaard faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-black-infantry-archer",
+    "name": "Black Infantry Archer",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Black Infantry Archer' — a unit card for the nilfgaard faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-cahir-mawr-dyffryn-aep-ceallach",
+    "name": "Cahir Mawr Dyffryn aep Ceallach",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Cahir Mawr Dyffryn aep Ceallach' — a unit card for the nilfgaard faction. Combat row: close. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-cynthia",
+    "name": "Cynthia",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Cynthia' — a unit card for the nilfgaard faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-etolian-auxiliary-archers",
+    "name": "Etolian Auxiliary Archers",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Etolian Auxiliary Archers' — a unit card for the nilfgaard faction. Combat row: ranged. Abilities theme: medic, hero. combat strength vibe ~1. Ability flavour (inspiration only, do not render as text): Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards)."
+  },
+  {
+    "id": "nilfgaard-fringilla-vigo",
+    "name": "Fringilla Vigo",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Fringilla Vigo' — a unit card for the nilfgaard faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-heavy-zerrikanian-fire-scorpion",
+    "name": "Heavy Zerrikanian Fire Scorpion",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Heavy Zerrikanian Fire Scorpion' — a unit card for the nilfgaard faction. Combat row: siege. Abilities theme: none. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-impera-brigade-guard",
+    "name": "Impera Brigade Guard",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Impera Brigade Guard' — a unit card for the nilfgaard faction. Combat row: close. Abilities theme: tight_bond. combat strength vibe ~3. Ability flavour (inspiration only, do not render as text): Tight Bond: Place next to a card with the same name to double the strength of both cards."
+  },
+  {
+    "id": "nilfgaard-letho-of-gulet",
+    "name": "Letho of Gulet",
+    "faction": "nilfgaard",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Letho of Gulet' — a hero card for the nilfgaard faction. Combat row: close. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "nilfgaard-menno-coehoorn",
+    "name": "Menno Coehoorn",
+    "faction": "nilfgaard",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Menno Coehoorn' — a hero card for the nilfgaard faction. Combat row: close. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "nilfgaard-morteisen",
+    "name": "Morteisen",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Morteisen' — a unit card for the nilfgaard faction. Combat row: close. Abilities theme: none. combat strength vibe ~3. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-morvran-voorhis",
+    "name": "Morvran Voorhis",
+    "faction": "nilfgaard",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Morvran Voorhis' — a hero card for the nilfgaard faction. Combat row: siege. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "nilfgaard-nausicaa-cavalry-rider",
+    "name": "Nausicaa Cavalry Rider",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Nausicaa Cavalry Rider' — a unit card for the nilfgaard faction. Combat row: close. Abilities theme: tight_bond. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): Tight Bond: Place next to a card with the same name to double the strength of both cards."
+  },
+  {
+    "id": "nilfgaard-puttkammer",
+    "name": "Puttkammer",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Puttkammer' — a unit card for the nilfgaard faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~3. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-rainfarn",
+    "name": "Rainfarn",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Rainfarn' — a unit card for the nilfgaard faction. Combat row: close. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-renuald-aep-matsen",
+    "name": "Renuald aep Matsen",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Renuald aep Matsen' — a unit card for the nilfgaard faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-rotten-mangonel",
+    "name": "Rotten Mangonel",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Rotten Mangonel' — a unit card for the nilfgaard faction. Combat row: siege. Abilities theme: none. combat strength vibe ~3. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-shilard-fitz-oesterlen",
+    "name": "Shilard Fitz-Oesterlen",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Shilard Fitz-Oesterlen' — a unit card for the nilfgaard faction. Combat row: close. Abilities theme: spy. combat strength vibe ~7. Ability flavour (inspiration only, do not render as text): Spy: Place on your opponent's battlefield (counts towards your opponent's total) and draw 2 cards from your deck."
+  },
+  {
+    "id": "nilfgaard-siege-engineer",
+    "name": "Siege Engineer",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Siege Engineer' — a unit card for the nilfgaard faction. Combat row: siege. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-siege-technician",
+    "name": "Siege Technician",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Siege Technician' — a unit card for the nilfgaard faction. Combat row: siege. Abilities theme: medic, hero. combat strength vibe ~0. Ability flavour (inspiration only, do not render as text): Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards)."
+  },
+  {
+    "id": "nilfgaard-stefan-skellen",
+    "name": "Stefan Skellen",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Stefan Skellen' — a unit card for the nilfgaard faction. Combat row: close. Abilities theme: spy. combat strength vibe ~9. Ability flavour (inspiration only, do not render as text): Spy: Place on your opponent's battlefield (counts towards opponent's total) and draw 2 cards from your deck."
+  },
+  {
+    "id": "nilfgaard-sweers",
+    "name": "Sweers",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Sweers' — a unit card for the nilfgaard faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-tibor-eggebracht",
+    "name": "Tibor Eggebracht",
+    "faction": "nilfgaard",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Tibor Eggebracht' — a hero card for the nilfgaard faction. Combat row: ranged. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "nilfgaard-vanhemar",
+    "name": "Vanhemar",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Vanhemar' — a unit card for the nilfgaard faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-vattier-de-rideaux",
+    "name": "Vattier de Rideaux",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Vattier de Rideaux' — a unit card for the nilfgaard faction. Combat row: close. Abilities theme: spy. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): Spy: Place on your opponent's battlefield (counts towards opponent's total) and draw 2 cards from your deck."
+  },
+  {
+    "id": "nilfgaard-vreemde",
+    "name": "Vreemde",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Vreemde' — a unit card for the nilfgaard faction. Combat row: close. Abilities theme: none. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "nilfgaard-young-emissary",
+    "name": "Young Emissary",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Young Emissary' — a unit card for the nilfgaard faction. Combat row: close. Abilities theme: tight_bond. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): Tight Bond: Place next to a card with the same name to double the strength of both cards."
+  },
+  {
+    "id": "nilfgaard-zerrikanian-fire-scorpion",
+    "name": "Zerrikanian Fire Scorpion",
+    "faction": "nilfgaard",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: black-and-gold imperial palette, sunburst motifs, austere steel and ebony. Card type: character or creature portrait suitable for a collectible card. Subject: 'Zerrikanian Fire Scorpion' — a unit card for the nilfgaard faction. Combat row: siege. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "northern_realms-foltest-king-of-temeria",
+    "name": "Foltest: King of Temeria",
+    "faction": "northern_realms",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Foltest: King of Temeria' — a leader card for the northern realms faction. Combat row: none. Abilities theme: impenetrable_fog.  Ability flavour (inspiration only, do not render as text): Pick an Impenetrable Fog card from your deck and play it instantly."
+  },
+  {
+    "id": "northern_realms-foltest-lord-commander-of-the-north",
+    "name": "Foltest: Lord Commander of the North",
+    "faction": "northern_realms",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Foltest: Lord Commander of the North' — a leader card for the northern realms faction. Combat row: none. Abilities theme: biting_frost, impenetrable_fog, torrential_rain.  Ability flavour (inspiration only, do not render as text): Clear any weather effects (resulting from Biting Frost, Torrential Rain or Impenetrable Fog cards) in play."
+  },
+  {
+    "id": "northern_realms-foltest-son-of-medell",
+    "name": "Foltest: Son of Medell",
+    "faction": "northern_realms",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Foltest: Son of Medell' — a leader card for the northern realms faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Destroy your enemy's strongest Ranged Combat unit(s) if the combined strength of all his or her Ranged Combat units is 10 or more."
+  },
+  {
+    "id": "northern_realms-foltest-the-siegemaster",
+    "name": "Foltest: The Siegemaster",
+    "faction": "northern_realms",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Foltest: The Siegemaster' — a leader card for the northern realms faction. Combat row: none. Abilities theme: commanders_horn.  Ability flavour (inspiration only, do not render as text): Doubles the strength of all your Siege units (unless a Commander's Horn is also present on that row)."
+  },
+  {
+    "id": "northern_realms-foltest-the-steel-forged",
+    "name": "Foltest: The Steel-Forged",
+    "faction": "northern_realms",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Foltest: The Steel-Forged' — a leader card for the northern realms faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Destroy your enemy's strongest Siege unit(s) if the combined strength of all his or her Siege units is 10 or more."
+  },
+  {
+    "id": "northern_realms-ballista",
+    "name": "Ballista",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Ballista' — a unit card for the northern realms faction. Combat row: siege. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "northern_realms-blue-stripes-commando",
+    "name": "Blue Stripes Commando",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Blue Stripes Commando' — a unit card for the northern realms faction. Combat row: close. Abilities theme: tight_bond. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): Tight Bond: Place next to a card with the same name to double the strength of both cards."
+  },
+  {
+    "id": "northern_realms-catapult",
+    "name": "Catapult",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Catapult' — a unit card for the northern realms faction. Combat row: siege. Abilities theme: tight_bond. combat strength vibe ~8. Ability flavour (inspiration only, do not render as text): Tight Bond: Place next to a card with the same name to double the strength of both cards."
+  },
+  {
+    "id": "northern_realms-crinfrid-reavers-dragon-hunter",
+    "name": "Crinfrid Reavers Dragon Hunter",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Crinfrid Reavers Dragon Hunter' — a unit card for the northern realms faction. Combat row: ranged. Abilities theme: tight_bond. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): Tight Bond: Place next to a card with the same name to double the strength of both cards."
+  },
+  {
+    "id": "northern_realms-dethmold",
+    "name": "Dethmold",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Dethmold' — a unit card for the northern realms faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "northern_realms-dun-banner-medic",
+    "name": "Dun Banner Medic",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Dun Banner Medic' — a unit card for the northern realms faction. Combat row: siege. Abilities theme: medic, hero. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards)."
+  },
+  {
+    "id": "northern_realms-esterad-thyssen",
+    "name": "Esterad Thyssen",
+    "faction": "northern_realms",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Esterad Thyssen' — a hero card for the northern realms faction. Combat row: close. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "northern_realms-john-natalis",
+    "name": "John Natalis",
+    "faction": "northern_realms",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'John Natalis' — a hero card for the northern realms faction. Combat row: close. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "northern_realms-kaedweni-siege-expert",
+    "name": "Kaedweni Siege Expert",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Kaedweni Siege Expert' — a unit card for the northern realms faction. Combat row: siege. Abilities theme: morale_boost. combat strength vibe ~1. Ability flavour (inspiration only, do not render as text): Morale boost: Adds +1 to all units in the row (excluding itself)."
+  },
+  {
+    "id": "northern_realms-keira-metz",
+    "name": "Keira Metz",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Keira Metz' — a unit card for the northern realms faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "northern_realms-philippa-eilhart",
+    "name": "Philippa Eilhart",
+    "faction": "northern_realms",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Philippa Eilhart' — a hero card for the northern realms faction. Combat row: ranged. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "northern_realms-poor-fucking-infantry",
+    "name": "Poor Fucking Infantry",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Poor Fucking Infantry' — a unit card for the northern realms faction. Combat row: close. Abilities theme: tight_bond. combat strength vibe ~1. Ability flavour (inspiration only, do not render as text): Tight Bond: Place next to a card with the same name to double the strength of both cards."
+  },
+  {
+    "id": "northern_realms-prince-stennis",
+    "name": "Prince Stennis",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Prince Stennis' — a unit card for the northern realms faction. Combat row: close. Abilities theme: spy. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): Spy: Place on your opponent's battlefield (counts towards opponent's total) and draw 2 cards from your deck."
+  },
+  {
+    "id": "northern_realms-redanian-foot-soldier",
+    "name": "Redanian Foot Soldier",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Redanian Foot Soldier' — a unit card for the northern realms faction. Combat row: close. Abilities theme: none. combat strength vibe ~1. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "northern_realms-sabrina-glevissig",
+    "name": "Sabrina Glevissig",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Sabrina Glevissig' — a unit card for the northern realms faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "northern_realms-sheldon-skaggs",
+    "name": "Sheldon Skaggs",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Sheldon Skaggs' — a unit card for the northern realms faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "northern_realms-siege-tower",
+    "name": "Siege Tower",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Siege Tower' — a unit card for the northern realms faction. Combat row: siege. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "northern_realms-siegfried-of-denesle",
+    "name": "Siegfried of Denesle",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Siegfried of Denesle' — a unit card for the northern realms faction. Combat row: close. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "northern_realms-sigismund-dijkstra",
+    "name": "Sigismund Dijkstra",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Sigismund Dijkstra' — a unit card for the northern realms faction. Combat row: close. Abilities theme: spy. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): Spy: Place on your opponent's battlefield (counts towards opponent's total) and draw 2 cards from your deck."
+  },
+  {
+    "id": "northern_realms-sile-de-tansarville",
+    "name": "Síle de Tansarville",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Síle de Tansarville' — a unit card for the northern realms faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "northern_realms-thaler",
+    "name": "Thaler",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Thaler' — a unit card for the northern realms faction. Combat row: siege. Abilities theme: spy. combat strength vibe ~1. Ability flavour (inspiration only, do not render as text): Spy: Place on your opponent's battlefield (counts towards opponent's total) and draw 2 cards from your deck."
+  },
+  {
+    "id": "northern_realms-trebuchet",
+    "name": "Trebuchet",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Trebuchet' — a unit card for the northern realms faction. Combat row: siege. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "northern_realms-vernon-roche",
+    "name": "Vernon Roche",
+    "faction": "northern_realms",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Vernon Roche' — a hero card for the northern realms faction. Combat row: close. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "northern_realms-ves",
+    "name": "Ves",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Ves' — a unit card for the northern realms faction. Combat row: close. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "northern_realms-yarpen-zigrin",
+    "name": "Yarpen Zigrin",
+    "faction": "northern_realms",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: royal blue and heraldic gold, stone keeps, temperate forests. Card type: character or creature portrait suitable for a collectible card. Subject: 'Yarpen Zigrin' — a unit card for the northern realms faction. Combat row: close. Abilities theme: none. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "scoiatael-francesca-findabair-daisy-of-the-valley",
+    "name": "Francesca Findabair: Daisy of the Valley",
+    "faction": "scoiatael",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Francesca Findabair: Daisy of the Valley' — a leader card for the scoiatael faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Daisy of the Valley: Draw an extra card at the beginning of the battle."
+  },
+  {
+    "id": "scoiatael-francesca-findabair-hope-of-the-aen-seidhe",
+    "name": "Francesca Findabair: Hope of the Aen Seidhe",
+    "faction": "scoiatael",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Francesca Findabair: Hope of the Aen Seidhe' — a leader card for the scoiatael faction. Combat row: agile. Abilities theme: agile.  Ability flavour (inspiration only, do not render as text): Hope of the Aen Seidhe: Move agile units to whichever valid row maximizes their strength (don't move units already in optimal row)."
+  },
+  {
+    "id": "scoiatael-francesca-findabair-pureblood-elf",
+    "name": "Francesca Findabair: Pureblood Elf",
+    "faction": "scoiatael",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Francesca Findabair: Pureblood Elf' — a leader card for the scoiatael faction. Combat row: none. Abilities theme: biting_frost.  Ability flavour (inspiration only, do not render as text): Pureblood Elf: Pick a Biting Frost card from your deck and play it instantly."
+  },
+  {
+    "id": "scoiatael-francesca-findabair-queen-of-dol-blathanna",
+    "name": "Francesca Findabair: Queen of Dol Blathanna",
+    "faction": "scoiatael",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Francesca Findabair: Queen of Dol Blathanna' — a leader card for the scoiatael faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Queen of Dol Blathanna: Destroy your enemy's strongest Close Combat unit(s) if the combined strength of all his or her Close Combat units is 10 or more."
+  },
+  {
+    "id": "scoiatael-francesca-findabair-the-beautiful",
+    "name": "Francesca Findabair: The Beautiful",
+    "faction": "scoiatael",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Francesca Findabair: The Beautiful' — a leader card for the scoiatael faction. Combat row: none. Abilities theme: commanders_horn.  Ability flavour (inspiration only, do not render as text): The Beautiful: Doubles the strength of all your Ranged Combat units (unless a Commander's Horn is also present on that row)."
+  },
+  {
+    "id": "scoiatael-barclay-els",
+    "name": "Barclay Els",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Barclay Els' — a unit card for the scoiatael faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  },
+  {
+    "id": "scoiatael-ciaran-aep-easnillien",
+    "name": "Ciaran aep Easnillien",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Ciaran aep Easnillien' — a unit card for the scoiatael faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~3. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  },
+  {
+    "id": "scoiatael-dennis-cranmer",
+    "name": "Dennis Cranmer",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Dennis Cranmer' — a unit card for the scoiatael faction. Combat row: close. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "scoiatael-dol-blathanna-archer",
+    "name": "Dol Blathanna Archer",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Dol Blathanna Archer' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "scoiatael-dol-blathanna-scout",
+    "name": "Dol Blathanna Scout",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Dol Blathanna Scout' — a unit card for the scoiatael faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  },
+  {
+    "id": "scoiatael-dwarven-skirmisher",
+    "name": "Dwarven Skirmisher",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Dwarven Skirmisher' — a unit card for the scoiatael faction. Combat row: close. Abilities theme: muster. combat strength vibe ~3. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "scoiatael-eithne",
+    "name": "Eithné",
+    "faction": "scoiatael",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Eithné' — a hero card for the scoiatael faction. Combat row: ranged. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "scoiatael-elven-skirmisher",
+    "name": "Elven Skirmisher",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Elven Skirmisher' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: muster. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "scoiatael-filavandrel-aen-fidhail",
+    "name": "Filavandrel aen Fidhail",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Filavandrel aen Fidhail' — a unit card for the scoiatael faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  },
+  {
+    "id": "scoiatael-havekar-healer",
+    "name": "Havekar Healer",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Havekar Healer' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: medic, hero. combat strength vibe ~0. Ability flavour (inspiration only, do not render as text): Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards)."
+  },
+  {
+    "id": "scoiatael-havekar-smuggler",
+    "name": "Havekar Smuggler",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Havekar Smuggler' — a unit card for the scoiatael faction. Combat row: close. Abilities theme: muster. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "scoiatael-ida-emean-aep-sivney",
+    "name": "Ida Emean aep Sivney",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Ida Emean aep Sivney' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "scoiatael-iorveth",
+    "name": "Iorveth",
+    "faction": "scoiatael",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Iorveth' — a hero card for the scoiatael faction. Combat row: ranged. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "scoiatael-isengrim-faoiltiarna",
+    "name": "Isengrim Faoiltiarna",
+    "faction": "scoiatael",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Isengrim Faoiltiarna' — a hero card for the scoiatael faction. Combat row: close. Abilities theme: morale_boost, hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Morale boost: Adds +1 to all units in the row (excluding itself)."
+  },
+  {
+    "id": "scoiatael-mahakaman-defender",
+    "name": "Mahakaman Defender",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Mahakaman Defender' — a unit card for the scoiatael faction. Combat row: close. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "scoiatael-milva",
+    "name": "Milva",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Milva' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: morale_boost. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Morale boost: Adds +1 to all units in the row (excluding itself)."
+  },
+  {
+    "id": "scoiatael-riordain",
+    "name": "Riordain",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Riordain' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~1. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "scoiatael-saesenthessis",
+    "name": "Saesenthessis",
+    "faction": "scoiatael",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Saesenthessis' — a hero card for the scoiatael faction. Combat row: ranged. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "scoiatael-schirru",
+    "name": "Schirrú",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Schirrú' — a unit card for the scoiatael faction. Combat row: siege. Abilities theme: scorch. combat strength vibe ~8. Ability flavour (inspiration only, do not render as text): Scorch - Siege: Destroys your enemy's strongest Siege Combat unit(s) if the combined strength of all his or her Siege Combat units is 10 or more."
+  },
+  {
+    "id": "scoiatael-toruviel",
+    "name": "Toruviel",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Toruviel' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "scoiatael-vrihedd-brigade-recruit",
+    "name": "Vrihedd Brigade Recruit",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Vrihedd Brigade Recruit' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "scoiatael-vrihedd-brigade-veteran",
+    "name": "Vrihedd Brigade Veteran",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Vrihedd Brigade Veteran' — a unit card for the scoiatael faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  },
+  {
+    "id": "scoiatael-yaevinn",
+    "name": "Yaevinn",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Yaevinn' — a unit card for the scoiatael faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  },
+  {
+    "id": "skellige-crach-an-craite",
+    "name": "Crach an Craite",
+    "faction": "skellige",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Crach an Craite' — a leader card for the skellige faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Shuffle all cards from each player's graveyard back into their decks."
+  },
+  {
+    "id": "skellige-king-bran",
+    "name": "King Bran",
+    "faction": "skellige",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'King Bran' — a leader card for the skellige faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Units only lose half their Strength in bad weather conditions."
+  },
+  {
+    "id": "skellige-berserker",
+    "name": "Berserker",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Berserker' — a unit card for the skellige faction. Combat row: close. Abilities theme: mardroeme. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): Transforms into a bear when a Mardroeme card is on its row."
+  },
+  {
+    "id": "skellige-birna-bran",
+    "name": "Birna Bran",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Birna Bran' — a unit card for the skellige faction. Combat row: close. Abilities theme: medic, hero. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards)."
+  },
+  {
+    "id": "skellige-blueboy-lugos",
+    "name": "Blueboy Lugos",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Blueboy Lugos' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-cerys",
+    "name": "Cerys",
+    "faction": "skellige",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Cerys' — a hero card for the skellige faction. Combat row: close. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "skellige-clan-an-craite-warrior",
+    "name": "Clan an Craite Warrior",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Clan an Craite Warrior' — a unit card for the skellige faction. Combat row: close. Abilities theme: tight_bond. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Tight Bond: Place next to a card with the same name to double the strength of both cards."
+  },
+  {
+    "id": "skellige-clan-brokvar-archer",
+    "name": "Clan Brokvar Archer",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Clan Brokvar Archer' — a unit card for the skellige faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-clan-dimun-pirate",
+    "name": "Clan Dimun Pirate",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Clan Dimun Pirate' — a unit card for the skellige faction. Combat row: ranged. Abilities theme: scorch. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Scorch: Kills the strongest card(s) on the battlefield."
+  },
+  {
+    "id": "skellige-clan-drummond-shield-maiden",
+    "name": "Clan Drummond Shield Maiden",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Clan Drummond Shield Maiden' — a unit card for the skellige faction. Combat row: close. Abilities theme: tight_bond. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): Tight Bond: Place next to a card with the same name to double the strength of both cards."
+  },
+  {
+    "id": "skellige-clan-heymaey-skald",
+    "name": "Clan Heymaey Skald",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Clan Heymaey Skald' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-clan-tordarroch-armorsmith",
+    "name": "Clan Tordarroch Armorsmith",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Clan Tordarroch Armorsmith' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-donar-an-hindar",
+    "name": "Donar an Hindar",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Donar an Hindar' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-draig-bon-dhu",
+    "name": "Draig Bon-Dhu",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Draig Bon-Dhu' — a unit card for the skellige faction. Combat row: siege. Abilities theme: commanders_horn. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): Commander's Horn: Doubles the strength of all unit cards in that row. Limited to 1 per row."
+  },
+  {
+    "id": "skellige-ermion",
+    "name": "Ermion",
+    "faction": "skellige",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Ermion' — a hero card for the skellige faction. Combat row: ranged. Abilities theme: hero. combat strength vibe ~8. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "skellige-hemdall",
+    "name": "Hemdall",
+    "faction": "skellige",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Hemdall' — a hero card for the skellige faction. Combat row: close. Abilities theme: hero. combat strength vibe ~11. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "skellige-hjalmar",
+    "name": "Hjalmar",
+    "faction": "skellige",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Hjalmar' — a hero card for the skellige faction. Combat row: ranged. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "skellige-holger-blackhand",
+    "name": "Holger Blackhand",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Holger Blackhand' — a unit card for the skellige faction. Combat row: siege. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-kambi",
+    "name": "Kambi",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Kambi' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~0. Ability flavour (inspiration only, do not render as text): When this card is removed from the battlefield, it summons a powerful new Unit Card to take its place."
+  },
+  {
+    "id": "skellige-light-longship",
+    "name": "Light Longship",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Light Longship' — a unit card for the skellige faction. Combat row: ranged. Abilities theme: muster. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "skellige-madman-lugos",
+    "name": "Madman Lugos",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Madman Lugos' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-olaf",
+    "name": "Olaf",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Olaf' — a unit card for the skellige faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~12. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  },
+  {
+    "id": "skellige-svanrige",
+    "name": "Svanrige",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Svanrige' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-transformed-vildkaarl",
+    "name": "Transformed Vildkaarl",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Transformed Vildkaarl' — a unit card for the skellige faction. Combat row: close. Abilities theme: morale_boost. combat strength vibe ~14. Ability flavour (inspiration only, do not render as text): Morale boost: Adds +1 strength to all units in the row (excluding itself)."
+  },
+  {
+    "id": "skellige-transformed-young-vildkaarl",
+    "name": "Transformed Young Vildkaarl",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Transformed Young Vildkaarl' — a unit card for the skellige faction. Combat row: ranged. Abilities theme: tight_bond. combat strength vibe ~8. Ability flavour (inspiration only, do not render as text): Tight Bond: Place next to a card with the same name to double the strength of both cards."
+  },
+  {
+    "id": "skellige-udalryk",
+    "name": "Udalryk",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Udalryk' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-war-longship",
+    "name": "War Longship",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'War Longship' — a unit card for the skellige faction. Combat row: siege. Abilities theme: tight_bond. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Tight Bond: Place next to a card with the same name to double the strength of both cards."
+  },
+  {
+    "id": "skellige-young-berserker",
+    "name": "Young Berserker",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Young Berserker' — a unit card for the skellige faction. Combat row: ranged. Abilities theme: mardroeme. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): Transforms into a bear when a Mardroeme card is on its row."
+  }
+]

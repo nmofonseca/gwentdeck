@@ -1,0 +1,198 @@
+[
+  {
+    "id": "scoiatael-francesca-findabair-daisy-of-the-valley",
+    "name": "Francesca Findabair: Daisy of the Valley",
+    "faction": "scoiatael",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Francesca Findabair: Daisy of the Valley' — a leader card for the scoiatael faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Daisy of the Valley: Draw an extra card at the beginning of the battle."
+  },
+  {
+    "id": "scoiatael-francesca-findabair-hope-of-the-aen-seidhe",
+    "name": "Francesca Findabair: Hope of the Aen Seidhe",
+    "faction": "scoiatael",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Francesca Findabair: Hope of the Aen Seidhe' — a leader card for the scoiatael faction. Combat row: agile. Abilities theme: agile.  Ability flavour (inspiration only, do not render as text): Hope of the Aen Seidhe: Move agile units to whichever valid row maximizes their strength (don't move units already in optimal row)."
+  },
+  {
+    "id": "scoiatael-francesca-findabair-pureblood-elf",
+    "name": "Francesca Findabair: Pureblood Elf",
+    "faction": "scoiatael",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Francesca Findabair: Pureblood Elf' — a leader card for the scoiatael faction. Combat row: none. Abilities theme: biting_frost.  Ability flavour (inspiration only, do not render as text): Pureblood Elf: Pick a Biting Frost card from your deck and play it instantly."
+  },
+  {
+    "id": "scoiatael-francesca-findabair-queen-of-dol-blathanna",
+    "name": "Francesca Findabair: Queen of Dol Blathanna",
+    "faction": "scoiatael",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Francesca Findabair: Queen of Dol Blathanna' — a leader card for the scoiatael faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Queen of Dol Blathanna: Destroy your enemy's strongest Close Combat unit(s) if the combined strength of all his or her Close Combat units is 10 or more."
+  },
+  {
+    "id": "scoiatael-francesca-findabair-the-beautiful",
+    "name": "Francesca Findabair: The Beautiful",
+    "faction": "scoiatael",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Francesca Findabair: The Beautiful' — a leader card for the scoiatael faction. Combat row: none. Abilities theme: commanders_horn.  Ability flavour (inspiration only, do not render as text): The Beautiful: Doubles the strength of all your Ranged Combat units (unless a Commander's Horn is also present on that row)."
+  },
+  {
+    "id": "scoiatael-barclay-els",
+    "name": "Barclay Els",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Barclay Els' — a unit card for the scoiatael faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  },
+  {
+    "id": "scoiatael-ciaran-aep-easnillien",
+    "name": "Ciaran aep Easnillien",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Ciaran aep Easnillien' — a unit card for the scoiatael faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~3. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  },
+  {
+    "id": "scoiatael-dennis-cranmer",
+    "name": "Dennis Cranmer",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Dennis Cranmer' — a unit card for the scoiatael faction. Combat row: close. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "scoiatael-dol-blathanna-archer",
+    "name": "Dol Blathanna Archer",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Dol Blathanna Archer' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "scoiatael-dol-blathanna-scout",
+    "name": "Dol Blathanna Scout",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Dol Blathanna Scout' — a unit card for the scoiatael faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  },
+  {
+    "id": "scoiatael-dwarven-skirmisher",
+    "name": "Dwarven Skirmisher",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Dwarven Skirmisher' — a unit card for the scoiatael faction. Combat row: close. Abilities theme: muster. combat strength vibe ~3. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "scoiatael-eithne",
+    "name": "Eithné",
+    "faction": "scoiatael",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Eithné' — a hero card for the scoiatael faction. Combat row: ranged. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "scoiatael-elven-skirmisher",
+    "name": "Elven Skirmisher",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Elven Skirmisher' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: muster. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "scoiatael-filavandrel-aen-fidhail",
+    "name": "Filavandrel aen Fidhail",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Filavandrel aen Fidhail' — a unit card for the scoiatael faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  },
+  {
+    "id": "scoiatael-havekar-healer",
+    "name": "Havekar Healer",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Havekar Healer' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: medic, hero. combat strength vibe ~0. Ability flavour (inspiration only, do not render as text): Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards)."
+  },
+  {
+    "id": "scoiatael-havekar-smuggler",
+    "name": "Havekar Smuggler",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Havekar Smuggler' — a unit card for the scoiatael faction. Combat row: close. Abilities theme: muster. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "scoiatael-ida-emean-aep-sivney",
+    "name": "Ida Emean aep Sivney",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Ida Emean aep Sivney' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "scoiatael-iorveth",
+    "name": "Iorveth",
+    "faction": "scoiatael",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Iorveth' — a hero card for the scoiatael faction. Combat row: ranged. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "scoiatael-isengrim-faoiltiarna",
+    "name": "Isengrim Faoiltiarna",
+    "faction": "scoiatael",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Isengrim Faoiltiarna' — a hero card for the scoiatael faction. Combat row: close. Abilities theme: morale_boost, hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Morale boost: Adds +1 to all units in the row (excluding itself)."
+  },
+  {
+    "id": "scoiatael-mahakaman-defender",
+    "name": "Mahakaman Defender",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Mahakaman Defender' — a unit card for the scoiatael faction. Combat row: close. Abilities theme: none. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "scoiatael-milva",
+    "name": "Milva",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Milva' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: morale_boost. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Morale boost: Adds +1 to all units in the row (excluding itself)."
+  },
+  {
+    "id": "scoiatael-riordain",
+    "name": "Riordain",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Riordain' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~1. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "scoiatael-saesenthessis",
+    "name": "Saesenthessis",
+    "faction": "scoiatael",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Saesenthessis' — a hero card for the scoiatael faction. Combat row: ranged. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "scoiatael-schirru",
+    "name": "Schirrú",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Schirrú' — a unit card for the scoiatael faction. Combat row: siege. Abilities theme: scorch. combat strength vibe ~8. Ability flavour (inspiration only, do not render as text): Scorch - Siege: Destroys your enemy's strongest Siege Combat unit(s) if the combined strength of all his or her Siege Combat units is 10 or more."
+  },
+  {
+    "id": "scoiatael-toruviel",
+    "name": "Toruviel",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Toruviel' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "scoiatael-vrihedd-brigade-recruit",
+    "name": "Vrihedd Brigade Recruit",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Vrihedd Brigade Recruit' — a unit card for the scoiatael faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "scoiatael-vrihedd-brigade-veteran",
+    "name": "Vrihedd Brigade Veteran",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Vrihedd Brigade Veteran' — a unit card for the scoiatael faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~5. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  },
+  {
+    "id": "scoiatael-yaevinn",
+    "name": "Yaevinn",
+    "faction": "scoiatael",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: forest greens and amber, elven/dwarven woodland guerrilla mood. Card type: character or creature portrait suitable for a collectible card. Subject: 'Yaevinn' — a unit card for the scoiatael faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  }
+]

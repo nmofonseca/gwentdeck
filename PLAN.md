@@ -13,8 +13,7 @@ Free, open-source collection manager and intelligent deck optimiser for **The Wi
 
 - Standalone CDPR GWENT client/metagame.
 - Multiplayer, accounts, cloud sync, analytics/tracking.
-- Hosting third-party copyrighted card art (CSS/procedural faces by default; optional user-local images only — see ADR-008).
-- Docker/K8s/auth infrastructure.
+- Hosting third-party copyrighted card art (original CC0 AI art + CSS fallback is OK; optional user-local images only — see ADR-008; no wiki/game rips).- Docker/K8s/auth infrastructure.
 
 ## Stack
 
