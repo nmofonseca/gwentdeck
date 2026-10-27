@@ -87,7 +87,41 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-12 grid md:grid-cols-3 gap-5">
+      <section className="mx-auto max-w-6xl px-4 pt-10 pb-2" aria-labelledby="how-to-use">
+        <div className="panel p-5 md:p-6">
+          <h2
+            id="how-to-use"
+            className="font-display text-2xl font-semibold text-[var(--color-gold)] mb-3"
+          >
+            How to use
+          </h2>
+          <ol className="list-decimal pl-5 space-y-2 text-sm text-[var(--color-ink-muted)]">
+            <li>
+              <Link to="/collection" className="text-[var(--color-ink)] font-semibold underline-offset-2 hover:underline">
+                My Collection
+              </Link>{' '}
+              — mark cards you own (or load the sample Northern Realms set). Data stays in this
+              browser.
+            </li>
+            <li>
+              <Link to="/optimiser" className="text-[var(--color-ink)] font-semibold underline-offset-2 hover:underline">
+                Deck Optimiser
+              </Link>{' '}
+              — pick a faction (or Auto) and a strategy, then press <em>Generate</em>.
+            </li>
+            <li>
+              Review the legal owned-only deck, explanations, and missing-card gaps; optionally save
+              to My Decks. More detail on{' '}
+              <Link to="/about" className="underline-offset-2 hover:underline">
+                About
+              </Link>
+              .
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-10 grid md:grid-cols-3 gap-5">
         <div className="panel p-5">
           <h2 className="font-display text-xl font-semibold text-[var(--color-gold)] mb-2">
             Card Library
