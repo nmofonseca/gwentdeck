@@ -1,11 +1,11 @@
 # Architecture Decision Records
 
-## ADR-001: HashRouter + `/gwentdeck/` base
+## ADR-001: HashRouter + `/` base (custom domain)
 
-- **Status:** Accepted
-- **Context:** GitHub Pages project sites do not support SPA history fallbacks without a `404.html` hack.
-- **Decision:** Use React Router `HashRouter` and Vite `base: '/gwentdeck/'`.
-- **Consequences:** URLs look like `/gwentdeck/#/collection`; deep links work without server config.
+- **Status:** Accepted (supersedes `/gwentdeck/` project-path base)
+- **Context:** GitHub Pages project sites do not support SPA history fallbacks without a `404.html` hack. With custom domain `gwentbuilder.devopsplays.top`, Pages serves the artifact at the apex (`/`), not under `/gwentdeck/`. A `/gwentdeck/` Vite base made root HTML request assets that 404'd.
+- **Decision:** Use React Router `HashRouter` and Vite `base: '/'`. Publish `public/CNAME` (`gwentbuilder.devopsplays.top`). Keep HashRouter for deep links without server rewrites.
+- **Consequences:** Canonical URL is `https://gwentbuilder.devopsplays.top/#/…`. `https://nmofonseca.github.io/gwentdeck/` continues to **301** to the custom-domain apex while the custom domain is configured (GitHub Pages enforce-HTTPS / custom-domain redirect).
 
 ## ADR-002: CSS card faces, no vendored art
 
