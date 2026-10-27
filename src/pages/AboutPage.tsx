@@ -62,11 +62,20 @@ export function AboutPage() {
         Art &amp; trademarks
       </h2>
       <p>
-        Card faces are CSS / procedural reconstructions (faction colours, strength, ability badges).
-        Official CDPR card art is <strong className="text-[var(--color-ink)]">not</strong>{' '}
-        redistributed, and the app does not scrape or vendor wiki/fan lookalikes. You may optionally
-        supply your own local image URLs under My Collection if you hold the rights. The Witcher and
-        Gwent are trademarks of their respective owners; this is an unofficial fan project.
+        Portrait art under <code className="text-[var(--color-bronze)]">card-art/</code> is{' '}
+        <strong className="text-[var(--color-ink)]">original AI illustration</strong> dedicated
+        under <strong className="text-[var(--color-ink)]">CC0 1.0</strong> (see{' '}
+        <code className="text-[var(--color-bronze)]">NOTICE-ART.md</code>). It is not official CDPR /
+        Witcher Wiki art and is not a lookalike rip of Gwent compositions. If an image fails to load,
+        the UI falls back to procedural CSS faces. You may optionally supply your own local image
+        URLs under My Collection if you hold the rights. Official CDPR art is{' '}
+        <strong className="text-[var(--color-ink)]">not</strong> redistributed.
+      </p>
+      <p>
+        The Witcher and Gwent are trademarks of their respective owners.{' '}
+        <strong className="text-[var(--color-ink)]">
+          This is an unofficial fan work and is not approved or endorsed by CD PROJEKT RED.
+        </strong>
       </p>
 
       <h2 className="font-display text-2xl font-semibold text-[var(--color-gold)]">Privacy</h2>

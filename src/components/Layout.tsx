@@ -69,9 +69,14 @@ export function Layout() {
         <Outlet />
       </main>
 
-      <footer className="border-t border-[var(--color-border)] py-4 text-center text-xs text-[var(--color-ink-faint)]">
-        Unofficial fan project · MIT · No accounts · Data stays in your browser · Not affiliated
-        with CDPR
+      <footer className="border-t border-[var(--color-border)] py-4 text-center text-xs text-[var(--color-ink-faint)] max-w-3xl mx-auto px-4 space-y-1">
+        <div>
+          Unofficial fan project · MIT · Card art CC0 · No accounts · Data stays in your browser
+        </div>
+        <div>
+          Not approved or endorsed by CD PROJEKT RED. The Witcher and Gwent are trademarks of their
+          respective owners.
+        </div>
       </footer>
     </div>
   )

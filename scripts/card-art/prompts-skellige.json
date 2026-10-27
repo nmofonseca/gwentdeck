@@ -1,0 +1,198 @@
+[
+  {
+    "id": "skellige-crach-an-craite",
+    "name": "Crach an Craite",
+    "faction": "skellige",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'Crach an Craite' — a leader card for the skellige faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Shuffle all cards from each player's graveyard back into their decks."
+  },
+  {
+    "id": "skellige-king-bran",
+    "name": "King Bran",
+    "faction": "skellige",
+    "kind": "leader",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: commanding portrait of a faction leader, regal presence, shoulder-up or three-quarter. Subject: 'King Bran' — a leader card for the skellige faction. Combat row: none. Abilities theme: none.  Ability flavour (inspiration only, do not render as text): Units only lose half their Strength in bad weather conditions."
+  },
+  {
+    "id": "skellige-berserker",
+    "name": "Berserker",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Berserker' — a unit card for the skellige faction. Combat row: close. Abilities theme: mardroeme. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): Transforms into a bear when a Mardroeme card is on its row."
+  },
+  {
+    "id": "skellige-birna-bran",
+    "name": "Birna Bran",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Birna Bran' — a unit card for the skellige faction. Combat row: close. Abilities theme: medic, hero. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): Medic: Choose one card from your discard pile and play it instantly (no Heroes or Special Cards)."
+  },
+  {
+    "id": "skellige-blueboy-lugos",
+    "name": "Blueboy Lugos",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Blueboy Lugos' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-cerys",
+    "name": "Cerys",
+    "faction": "skellige",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Cerys' — a hero card for the skellige faction. Combat row: close. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "skellige-clan-an-craite-warrior",
+    "name": "Clan an Craite Warrior",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Clan an Craite Warrior' — a unit card for the skellige faction. Combat row: close. Abilities theme: tight_bond. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Tight Bond: Place next to a card with the same name to double the strength of both cards."
+  },
+  {
+    "id": "skellige-clan-brokvar-archer",
+    "name": "Clan Brokvar Archer",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Clan Brokvar Archer' — a unit card for the skellige faction. Combat row: ranged. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-clan-dimun-pirate",
+    "name": "Clan Dimun Pirate",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Clan Dimun Pirate' — a unit card for the skellige faction. Combat row: ranged. Abilities theme: scorch. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Scorch: Kills the strongest card(s) on the battlefield."
+  },
+  {
+    "id": "skellige-clan-drummond-shield-maiden",
+    "name": "Clan Drummond Shield Maiden",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Clan Drummond Shield Maiden' — a unit card for the skellige faction. Combat row: close. Abilities theme: tight_bond. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): Tight Bond: Place next to a card with the same name to double the strength of both cards."
+  },
+  {
+    "id": "skellige-clan-heymaey-skald",
+    "name": "Clan Heymaey Skald",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Clan Heymaey Skald' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-clan-tordarroch-armorsmith",
+    "name": "Clan Tordarroch Armorsmith",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Clan Tordarroch Armorsmith' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-donar-an-hindar",
+    "name": "Donar an Hindar",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Donar an Hindar' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-draig-bon-dhu",
+    "name": "Draig Bon-Dhu",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Draig Bon-Dhu' — a unit card for the skellige faction. Combat row: siege. Abilities theme: commanders_horn. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): Commander's Horn: Doubles the strength of all unit cards in that row. Limited to 1 per row."
+  },
+  {
+    "id": "skellige-ermion",
+    "name": "Ermion",
+    "faction": "skellige",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Ermion' — a hero card for the skellige faction. Combat row: ranged. Abilities theme: hero. combat strength vibe ~8. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "skellige-hemdall",
+    "name": "Hemdall",
+    "faction": "skellige",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Hemdall' — a hero card for the skellige faction. Combat row: close. Abilities theme: hero. combat strength vibe ~11. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "skellige-hjalmar",
+    "name": "Hjalmar",
+    "faction": "skellige",
+    "kind": "hero",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: heroic legendary figure portrait, elevated dramatic lighting. Subject: 'Hjalmar' — a hero card for the skellige faction. Combat row: ranged. Abilities theme: hero. combat strength vibe ~10. Ability flavour (inspiration only, do not render as text): Hero: Not affected by any Special Cards or abilities."
+  },
+  {
+    "id": "skellige-holger-blackhand",
+    "name": "Holger Blackhand",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Holger Blackhand' — a unit card for the skellige faction. Combat row: siege. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-kambi",
+    "name": "Kambi",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Kambi' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~0. Ability flavour (inspiration only, do not render as text): When this card is removed from the battlefield, it summons a powerful new Unit Card to take its place."
+  },
+  {
+    "id": "skellige-light-longship",
+    "name": "Light Longship",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Light Longship' — a unit card for the skellige faction. Combat row: ranged. Abilities theme: muster. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): Muster: Find any cards with the same name in your deck and play them instantly."
+  },
+  {
+    "id": "skellige-madman-lugos",
+    "name": "Madman Lugos",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Madman Lugos' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-olaf",
+    "name": "Olaf",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Olaf' — a unit card for the skellige faction. Combat row: agile. Abilities theme: agile. combat strength vibe ~12. Ability flavour (inspiration only, do not render as text): Agile: Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+  },
+  {
+    "id": "skellige-svanrige",
+    "name": "Svanrige",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Svanrige' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-transformed-vildkaarl",
+    "name": "Transformed Vildkaarl",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Transformed Vildkaarl' — a unit card for the skellige faction. Combat row: close. Abilities theme: morale_boost. combat strength vibe ~14. Ability flavour (inspiration only, do not render as text): Morale boost: Adds +1 strength to all units in the row (excluding itself)."
+  },
+  {
+    "id": "skellige-transformed-young-vildkaarl",
+    "name": "Transformed Young Vildkaarl",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Transformed Young Vildkaarl' — a unit card for the skellige faction. Combat row: ranged. Abilities theme: tight_bond. combat strength vibe ~8. Ability flavour (inspiration only, do not render as text): Tight Bond: Place next to a card with the same name to double the strength of both cards."
+  },
+  {
+    "id": "skellige-udalryk",
+    "name": "Udalryk",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Udalryk' — a unit card for the skellige faction. Combat row: close. Abilities theme: none. combat strength vibe ~4. Ability flavour (inspiration only, do not render as text): none"
+  },
+  {
+    "id": "skellige-war-longship",
+    "name": "War Longship",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'War Longship' — a unit card for the skellige faction. Combat row: siege. Abilities theme: tight_bond. combat strength vibe ~6. Ability flavour (inspiration only, do not render as text): Tight Bond: Place next to a card with the same name to double the strength of both cards."
+  },
+  {
+    "id": "skellige-young-berserker",
+    "name": "Young Berserker",
+    "faction": "skellige",
+    "kind": "unit",
+    "prompt": "Original dark-fantasy digital painting for a collectible card game portrait. Vertical composition, subject fills frame, painterly brushwork, readable at small size, high contrast silhouette, no text, no logos, no UI chrome, no watermarks, no official Gwent or CDPR likeness, not a copy of any existing card art composition, original character design inspired only by the name and role. Faction mood: stormy sea teal and iron grey, rugged isles, cold spray. Card type: character or creature portrait suitable for a collectible card. Subject: 'Young Berserker' — a unit card for the skellige faction. Combat row: ranged. Abilities theme: mardroeme. combat strength vibe ~2. Ability flavour (inspiration only, do not render as text): Transforms into a bear when a Mardroeme card is on its row."
+  }
+]

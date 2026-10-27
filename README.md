@@ -17,7 +17,7 @@ Free, open-source **collection manager** and **intelligent deck optimiser** for 
 - Import / export collection and saved decks as JSON
 - Generate **legal** decks from cards you own
 - Explanations for inclusions and a missing-card roadmap
-- CSS / procedural card faces by default; optional local image map if you supply your own URLs
+- Original CC0 AI card portraits with CSS fallback; optional local image map if you supply your own URLs
 - Static site — no accounts, no server, no tracking
 
 ## Live demo
@@ -55,8 +55,8 @@ Vite · React · TypeScript (strict) · HashRouter · Tailwind CSS v4 · Lucide 
 
 - Code: [MIT](./LICENSE)
 - Card names, stats, and acquisition text are derived from community datasets citing the [Witcher Wiki](https://witcher.fandom.com/) (CC BY-SA). See `src/data/catalogue.json` `sources` and the in-app About page.
-- No official CDPR card art is redistributed; the UI uses CSS card faces. Optional user-supplied images stay in your browser only.
-
+- **Original AI card art** under `public/card-art/` is dedicated **[CC0 1.0](./public/card-art/LICENSE)** — see [NOTICE-ART.md](./NOTICE-ART.md). Not official CDPR art; UI falls back to CSS faces if an image is missing. Optional user-supplied image URLs stay in your browser only.
+- This is an unofficial fan work and is not approved or endorsed by CD PROJEKT RED.
 ## Docs
 
 - [PLAN.md](./PLAN.md) — roadmap and checklist

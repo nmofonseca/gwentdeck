@@ -50,15 +50,17 @@
 - **Decision:** oxlint for lint; Prettier for format; eslint-config-prettier available if ESLint is added later.
 - **Consequences:** Slightly different rule set than classic ESLint; acceptable for this app size.
 
-## ADR-008: Card art — CSS faces + optional local user images only
+## ADR-008: Original CC0 AI card art, CSS fallback, optional local overrides
 
 - **Status:** Accepted
-- **Context:** Users asked for card images / “similar” web art. CDPR Gwent art and most wiki/fan assets are not clearly redistributable; scraping or vendoring lookalikes would violate AGENTS.md / PLAN non-goals.
+- **Context:** ADR-002 barred vendoring wiki/game textures. Research found no free redistributable TW3 face set. Users also want portraits and optional personal image maps without scraping CDPR/wiki lookalikes.
 - **Decision:**
-  1. Keep **CSS / procedural** card faces as the default (enriched with faction bands, metal strength disc, leather-style grain).
-  2. Support **optional user-supplied** image URLs (`https` / `http` / `data:image/…`) stored separately in `localStorage` (`gwentdeck.imageOverrides.v1`), never in `catalogue.json` or the repo.
-  3. Do **not** hotlink community CDNs, scrape fandom, or ship any third-party card art.
-- **Consequences:** Default UX stays fully offline and legally conservative. Power users who own rights can map images locally via My Collection import; the app does not vouch for those assets.
+  1. Ship one **original AI illustration** per catalogue `id` under `public/card-art/{id}.webp` (dark fantasy, faction-tinted, not CDPR compositions), dedicated **CC0 1.0** (`public/card-art/LICENSE` + root `NOTICE-ART.md`).
+  2. `GwentCard` loads user `imageUrl` override when set, otherwise `cardArtPath(id)`; on load error, fall back to **CSS / procedural** faces (faction bands, metal strength disc, leather grain).
+  3. Support **optional user-supplied** image URLs (`https` / `http` / `data:image/…`) in `localStorage` (`gwentdeck.imageOverrides.v1`), never in `catalogue.json`.
+  4. Do **not** hotlink community CDNs, scrape fandom, or ship third-party copyrighted card art. Keep the unofficial CDPR fan disclaimer.
+- **Consequences:** Repo grows by ~N×35KB WebP files (no LFS at current size). Prompt/optimize scripts live in `scripts/card-art/`. Power users can still map personal images; the app does not vouch for those assets.
+- **Supersedes (partially):** ADR-002’s “CSS only” presentation — CSS remains the mandatory fallback, not the sole face.
 
 ## ADR-009: Dark Witcher 3–branded UI tokens
 
