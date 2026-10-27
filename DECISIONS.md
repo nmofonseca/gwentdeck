@@ -80,3 +80,10 @@
   4. Prefer current maintained majors (`checkout`/`setup-node` v7, Pages artifact/deploy v5) without changing CI steps (lint/test/build remain identical).
 - **Consequences:** Tag moves no longer silently change runner code; token blast radius is smaller. Owners should still treat the `github-pages` Environment as the deploy gate (optional required reviewers / wait timer). Re-pin SHAs when bumping action versions.
 - **Environment note:** Restrict who can approve `workflow_dispatch` / Environment deploys in repo Settings → Environments → `github-pages` if extra human gate is desired.
+
+## ADR-011: Experimental Gwent tavern-table UI theme
+
+- **Status:** Experimental (branch `experiment/ui-gwent-table` only — not default on `main`)
+- **Context:** Explore an immersive alternate skin that feels like sitting at the in-game TW3 Gwent board, without replacing the accepted charcoal/leather ADR-009 baseline until reviewed.
+- **Decision:** Theme tokens + CSS primitives lean into dark wood tabletop, restrained felt/green play-surface accents, carved wood panel frames, candlelight warm highlights, and physical-card chrome on `GwentCard` (`.gwent-card-face`). Keep fonts and client-only architecture unchanged.
+- **Consequences:** Visual experiment only; compare via draft PR screenshots. Merge to `main` only if chosen as the new default (would supersede parts of ADR-009 presentation).

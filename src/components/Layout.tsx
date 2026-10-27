@@ -17,14 +17,21 @@ export function Layout() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="border-b border-[var(--color-border)] bg-[var(--color-charcoal)]/95 text-[var(--color-ink)] backdrop-blur sticky top-0 z-20">
+      <header
+        className="border-b-2 border-[var(--color-wood-edge)] text-[var(--color-ink)] sticky top-0 z-20"
+        style={{
+          background:
+            'linear-gradient(180deg, rgba(42,30,20,0.97), rgba(20,14,10,0.98)), radial-gradient(ellipse 60% 120% at 10% 0%, rgba(255,176,96,0.1), transparent 55%)',
+          boxShadow: '0 4px 24px rgba(0,0,0,0.45), inset 0 -1px 0 rgba(26,58,40,0.35)',
+        }}
+      >
         <div className="mx-auto max-w-6xl px-4 py-3 flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-baseline gap-3">
-            <span className="font-display text-2xl md:text-3xl font-bold tracking-wide text-[var(--color-gold)]">
+            <span className="font-display text-2xl md:text-3xl font-bold tracking-wide text-[var(--color-gold)] drop-shadow-[0_0_12px_rgba(255,176,96,0.25)]">
               GwentDeck
             </span>
             <span className="hidden sm:inline text-[10px] uppercase tracking-[0.22em] text-[var(--color-ink-faint)]">
-              TW3 minigame · unofficial
+              TW3 minigame · tavern table
             </span>
           </div>
           <nav className="flex flex-wrap gap-1" aria-label="Primary">
@@ -35,10 +42,10 @@ export function Layout() {
                 end={end}
                 className={({ isActive }) =>
                   [
-                    'inline-flex items-center gap-1.5 rounded-sm px-2.5 py-1.5 text-sm transition',
+                    'inline-flex items-center gap-1.5 rounded-sm px-2.5 py-1.5 text-sm transition border',
                     isActive
-                      ? 'bg-gradient-to-b from-[var(--color-gold)] to-[var(--color-gold-dim)] text-[var(--color-void)] font-semibold'
-                      : 'hover:bg-white/5 text-[var(--color-ink-muted)] hover:text-[var(--color-ink)]',
+                      ? 'bg-gradient-to-b from-[var(--color-gold)] to-[var(--color-gold-dim)] text-[var(--color-void)] font-semibold border-[var(--color-bronze)]/50 shadow-[0_0_12px_rgba(255,176,96,0.2)]'
+                      : 'border-transparent hover:border-[var(--color-wood-edge)] hover:bg-[var(--color-wood)]/40 text-[var(--color-ink-muted)] hover:text-[var(--color-ink)]',
                   ].join(' ')
                 }
               >
@@ -69,7 +76,7 @@ export function Layout() {
         <Outlet />
       </main>
 
-      <footer className="border-t border-[var(--color-border)] py-4 text-center text-xs text-[var(--color-ink-faint)] max-w-3xl mx-auto px-4 space-y-1">
+      <footer className="border-t-2 border-[var(--color-wood-edge)] py-4 text-center text-xs text-[var(--color-ink-faint)] max-w-3xl mx-auto px-4 space-y-1">
         <div>
           Unofficial fan project · MIT · Card art CC0 · No accounts · Data stays in your browser
         </div>

@@ -7,33 +7,41 @@
     serif;
   --font-body: 'Source Sans 3 Variable', 'Source Sans 3', 'Segoe UI', sans-serif;
 
-  /* Surfaces — charcoal / near-black */
-  --color-void: #080705;
-  --color-charcoal: #100e0b;
-  --color-panel: #18140f;
-  --color-panel-raised: #221c15;
-  --color-leather: #2a2218;
-  --color-border: #3d3428;
-  --color-border-bright: #5c4e3a;
+  /* Surfaces — dark tavern wood + felt */
+  --color-void: #0a0705;
+  --color-charcoal: #14100c;
+  --color-panel: #1c140e;
+  --color-panel-raised: #2a1e14;
+  --color-leather: #3a2818;
+  --color-wood: #2b1c12;
+  --color-wood-deep: #1a100a;
+  --color-wood-edge: #4a3422;
+  --color-felt: #1a3a28;
+  --color-felt-bright: #2a5a3e;
+  --color-felt-dim: #12281c;
+  --color-border: #5a4030;
+  --color-border-bright: #7a5a3a;
 
-  /* Text */
-  --color-ink: #e8dfd0;
-  --color-ink-muted: #a89880;
-  --color-ink-faint: #7a6c58;
+  /* Text — warm candle parchment */
+  --color-ink: #f0e6d4;
+  --color-ink-muted: #b8a888;
+  --color-ink-faint: #8a7858;
 
-  /* Accents — bronze, gold, restrained crimson */
-  --color-bronze: #a67c3d;
-  --color-gold: #d4af37;
-  --color-gold-dim: #9a7b28;
+  /* Accents — candlelight gold, brass, restrained felt green */
+  --color-bronze: #c4924a;
+  --color-gold: #e8c060;
+  --color-gold-dim: #b89030;
+  --color-candle: #ffb060;
+  --color-candle-dim: #d47830;
   --color-crimson: #8f2f2a;
   --color-crimson-bright: #b8433c;
-  --color-moss: #3d6b52;
-  --color-moss-bright: #4f8a68;
+  --color-moss: #2a5a3e;
+  --color-moss-bright: #3d7a55;
 
   /* Legacy aliases used across components */
-  --color-parchment: #e8dfd0;
-  --color-parchment-deep: #cbb892;
-  --color-ember: #8f2f2a;
+  --color-parchment: #f0e6d4;
+  --color-parchment-deep: #d4c098;
+  --color-ember: #d47830;
 
   /* Faction accents */
   --color-nilf: #3a3f48;
@@ -52,13 +60,14 @@
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  /* Subtle leather grain + warm vignette */
+  /* Dark wood tabletop + felt wash + candlelight vignettes */
   background-image:
-    radial-gradient(ellipse 100% 70% at 50% -20%, rgba(166, 124, 61, 0.12), transparent 55%),
-    radial-gradient(ellipse 80% 50% at 100% 100%, rgba(143, 47, 42, 0.08), transparent 50%),
-    radial-gradient(ellipse 60% 40% at 0% 80%, rgba(61, 107, 82, 0.06), transparent 45%),
-    url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.12 0 0 0 0 0.09 0 0 0 0 0.06 0 0 0 0.55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
-    linear-gradient(165deg, #100e0b 0%, #0c0a08 45%, #14110d 100%);
+    radial-gradient(ellipse 55% 40% at 18% 12%, rgba(255, 176, 96, 0.14), transparent 55%),
+    radial-gradient(ellipse 45% 35% at 88% 8%, rgba(232, 192, 96, 0.1), transparent 50%),
+    radial-gradient(ellipse 70% 55% at 50% 100%, rgba(26, 58, 40, 0.22), transparent 55%),
+    radial-gradient(ellipse 90% 60% at 50% 40%, rgba(42, 30, 20, 0.35), transparent 70%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='w'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.035 0.12' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.22 0 0 0 0 0.14 0 0 0 0 0.08 0 0 0 0.45 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23w)'/%3E%3C/svg%3E"),
+    linear-gradient(168deg, #1a100a 0%, #120c08 40%, #1e140e 70%, #0e0a07 100%);
   background-attachment: fixed;
 }
 
@@ -84,20 +93,37 @@ h3,
   outline-offset: 2px;
 }
 
-/* Shared UI primitives */
+/* Shared UI primitives — carved wood frames */
 .panel {
-  background: linear-gradient(160deg, rgba(34, 28, 21, 0.92), rgba(24, 20, 15, 0.96));
-  border: 1px solid var(--color-border);
-  border-radius: 0.25rem;
-  box-shadow: inset 0 1px 0 rgba(212, 175, 55, 0.06);
+  background:
+    linear-gradient(165deg, rgba(42, 30, 20, 0.94), rgba(22, 16, 10, 0.97)),
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(26, 58, 40, 0.12), transparent 60%);
+  border: 2px solid var(--color-wood-edge);
+  border-radius: 0.2rem;
+  box-shadow:
+    inset 0 1px 0 rgba(232, 192, 96, 0.12),
+    inset 0 0 0 1px rgba(26, 58, 40, 0.25),
+    0 8px 28px rgba(0, 0, 0, 0.45),
+    0 0 0 1px rgba(10, 7, 5, 0.8);
+  position: relative;
+}
+
+.panel::before {
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  inset: 3px;
+  border: 1px solid rgba(196, 146, 74, 0.18);
+  border-radius: 0.1rem;
 }
 
 .field {
-  border-radius: 0.25rem;
+  border-radius: 0.2rem;
   border: 1px solid var(--color-border);
-  background: rgba(8, 7, 5, 0.65);
+  background: rgba(10, 7, 5, 0.72);
   color: var(--color-ink);
   padding: 0.5rem 0.75rem;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.35);
 }
 
 .field:hover {
@@ -107,7 +133,9 @@ h3,
 .field:focus {
   border-color: var(--color-bronze);
   outline: none;
-  box-shadow: 0 0 0 1px rgba(166, 124, 61, 0.35);
+  box-shadow:
+    0 0 0 1px rgba(196, 146, 74, 0.4),
+    0 0 12px rgba(255, 176, 96, 0.12);
 }
 
 .btn {
@@ -115,7 +143,7 @@ h3,
   align-items: center;
   justify-content: center;
   gap: 0.375rem;
-  border-radius: 0.25rem;
+  border-radius: 0.2rem;
   padding: 0.55rem 1.1rem;
   font-size: 0.875rem;
   font-weight: 600;
@@ -124,7 +152,8 @@ h3,
     background-color 0.2s ease,
     border-color 0.2s ease,
     color 0.2s ease,
-    filter 0.2s ease;
+    filter 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .btn:disabled {
@@ -135,22 +164,25 @@ h3,
 .btn-primary {
   background: linear-gradient(180deg, var(--color-gold) 0%, var(--color-gold-dim) 100%);
   color: var(--color-void);
-  border: 1px solid rgba(212, 175, 55, 0.5);
+  border: 1px solid rgba(232, 192, 96, 0.55);
+  box-shadow: 0 0 14px rgba(255, 176, 96, 0.18);
 }
 
 .btn-primary:hover:not(:disabled) {
   filter: brightness(1.08);
+  box-shadow: 0 0 20px rgba(255, 176, 96, 0.28);
 }
 
 .btn-secondary {
-  background: transparent;
+  background: linear-gradient(180deg, rgba(42, 30, 20, 0.9), rgba(26, 16, 10, 0.95));
   color: var(--color-ink);
   border: 1px solid var(--color-border-bright);
+  box-shadow: inset 0 1px 0 rgba(232, 192, 96, 0.08);
 }
 
 .btn-secondary:hover:not(:disabled) {
   border-color: var(--color-bronze);
-  background: rgba(166, 124, 61, 0.1);
+  background: rgba(196, 146, 74, 0.12);
 }
 
 .btn-danger {
@@ -188,8 +220,26 @@ h3,
 .section-rule {
   border: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--color-bronze), transparent);
-  opacity: 0.45;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-felt-bright),
+    var(--color-bronze),
+    var(--color-felt-bright),
+    transparent
+  );
+  opacity: 0.5;
+}
+
+/* Felt play-mat strip used on immersive surfaces */
+.felt-mat {
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 40%, rgba(42, 90, 62, 0.35), transparent 70%),
+    linear-gradient(180deg, rgba(18, 40, 28, 0.88), rgba(12, 28, 20, 0.92));
+  border: 1px solid rgba(42, 90, 62, 0.45);
+  box-shadow:
+    inset 0 0 40px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(232, 192, 96, 0.08);
 }
 
 @keyframes rise-in {
@@ -214,13 +264,17 @@ h3,
   }
 }
 
-@keyframes ember-glow {
+@keyframes candle-glow {
   0%,
   100% {
-    box-shadow: 0 0 0 0 rgba(212, 175, 55, 0);
+    box-shadow:
+      0 0 0 0 rgba(255, 176, 96, 0),
+      0 10px 28px rgba(0, 0, 0, 0.5);
   }
   50% {
-    box-shadow: 0 0 18px 0 rgba(212, 175, 55, 0.18);
+    box-shadow:
+      0 0 22px 2px rgba(255, 176, 96, 0.2),
+      0 10px 28px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -233,7 +287,36 @@ h3,
 }
 
 .animate-ember {
-  animation: ember-glow 3.5s ease-in-out infinite;
+  animation: candle-glow 3.8s ease-in-out infinite;
+}
+
+/* Physical TW3-style Gwent card chrome */
+.gwent-card-face {
+  border-radius: 0.35rem;
+  border: 2px solid var(--color-wood-edge);
+  box-shadow:
+    inset 0 1px 0 rgba(232, 192, 96, 0.22),
+    inset 0 0 0 1px rgba(26, 58, 40, 0.2),
+    0 6px 18px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(10, 7, 5, 0.85);
+  position: relative;
+}
+
+.gwent-card-face::after {
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  inset: 4px;
+  border: 1px solid rgba(232, 192, 96, 0.22);
+  border-radius: 0.2rem;
+  z-index: 2;
+}
+
+.gwent-card-strength {
+  box-shadow:
+    0 0 0 2px rgba(10, 7, 5, 0.75),
+    0 0 10px rgba(255, 176, 96, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35);
 }
 
 @media (prefers-reduced-motion: reduce) {
