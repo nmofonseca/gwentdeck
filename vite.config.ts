@@ -3,7 +3,8 @@ import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vitest/config'
 
 export default defineConfig({
-  base: '/gwentdeck/',
+  // Custom domain serves the project site at apex (/), not /gwentdeck/
+  base: '/',
   plugins: [react(), tailwindcss()],
   test: {
     environment: 'jsdom',

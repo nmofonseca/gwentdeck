@@ -11,7 +11,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "e2e": "playwright test",
-    "preview": "vite preview --base /gwentdeck/",
+    "preview": "vite preview --base /",
     "art:optimize": "python3 scripts/card-art/optimize.py --src-dir /opt/cursor/artifacts/assets",
     "art:coverage": "python3 scripts/card-art/coverage.py"
   },

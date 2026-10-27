@@ -7,7 +7,7 @@ Free, open-source collection manager and intelligent deck optimiser for **The Wi
 - Browse a verified TW3 Gwent card catalogue (all five factions + neutrals + HoS/BaW).
 - Track owned card quantities in browser `localStorage` (versioned, validated, import/export).
 - Generate **legal** decks from owned cards only, with explanations and missing-card guidance.
-- Static site on GitHub Pages at `/gwentdeck/` — no accounts, backend, hosted DB, or paid APIs.
+- Static site on GitHub Pages at custom domain apex (`https://gwentbuilder.devopsplays.top/`, Vite `base: '/'`) — no accounts, backend, hosted DB, or paid APIs.
 
 ## Non-goals
 

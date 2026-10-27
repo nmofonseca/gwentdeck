@@ -22,7 +22,9 @@ Free, open-source **collection manager** and **intelligent deck optimiser** for 
 
 ## Live demo
 
-**https://nmofonseca.github.io/gwentdeck/**
+**https://gwentbuilder.devopsplays.top/**
+
+(`https://nmofonseca.github.io/gwentdeck/` redirects to the custom domain while it is configured.)
 
 (Live Pages update only after changes merge to `main` and the Pages workflow finishes.)
 
@@ -35,7 +37,7 @@ npm run dev
 
 ```bash
 npm test          # unit tests
-npm run build     # production build (base /gwentdeck/)
+npm run build     # production build (base /)
 npm run preview   # preview production build
 npm run e2e       # Playwright (run build/preview or use webServer config)
 ```
