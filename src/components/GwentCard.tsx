@@ -1,12 +1,21 @@
 import type { Card, FactionId } from '../domain/types'
 
 const FACTION_BG: Record<FactionId, string> = {
-  northern_realms: 'from-[#3d5a80] to-[#1b2838]',
-  nilfgaard: 'from-[#3a3a3a] to-[#1a1a1a]',
-  scoiatael: 'from-[#3d6b3a] to-[#1e331c]',
-  monsters: 'from-[#6b2a3a] to-[#2a1018]',
-  skellige: 'from-[#2a4a6b] to-[#102030]',
-  neutral: 'from-[#6b5a45] to-[#2e261c]',
+  northern_realms: 'from-[#2a4060] via-[#1a2838] to-[#0e141c]',
+  nilfgaard: 'from-[#3a3830] via-[#242220] to-[#121110]',
+  scoiatael: 'from-[#2f4a28] via-[#1c2e18] to-[#0e160c]',
+  monsters: 'from-[#4a1f2e] via-[#2a1018] to-[#14080c]',
+  skellige: 'from-[#1e3a5f] via-[#122030] to-[#0a121c]',
+  neutral: 'from-[#4a4034] via-[#2a241c] to-[#14110c]',
+}
+
+const FACTION_EDGE: Record<FactionId, string> = {
+  northern_realms: 'border-[#6a8ab0]/60',
+  nilfgaard: 'border-[#c4a35a]/50',
+  scoiatael: 'border-[#7a9a4a]/55',
+  monsters: 'border-[#a84858]/55',
+  skellige: 'border-[#5a8aba]/55',
+  neutral: 'border-[#a89870]/50',
 }
 
 const KIND_LABEL: Record<string, string> = {
@@ -29,66 +38,131 @@ interface Props {
   qty?: number
   compact?: boolean
   selected?: boolean
+  imageUrl?: string
   onClick?: () => void
 }
 
-export function GwentCard({ card, qty, compact, selected, onClick }: Props) {
+export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: Props) {
   const Tag = onClick ? 'button' : 'article'
   return (
     <Tag
       type={onClick ? 'button' : undefined}
       onClick={onClick}
       className={[
-        'animate-card text-left rounded-md border overflow-hidden shadow-sm transition',
-        'border-black/20 text-parchment w-full',
-        'bg-gradient-to-br',
+        'animate-card text-left overflow-hidden transition group',
+        'text-[var(--color-parchment)] w-full',
+        'bg-gradient-to-br border shadow-[inset_0_1px_0_rgba(212,175,55,0.12)]',
         FACTION_BG[card.faction],
+        FACTION_EDGE[card.faction],
         selected ? 'ring-2 ring-[var(--color-gold)]' : '',
         onClick ? 'hover:brightness-110 cursor-pointer' : '',
-        compact ? 'p-2 min-h-[5.5rem]' : 'p-3 min-h-[8.5rem]',
+        compact ? 'rounded-sm' : 'rounded',
       ].join(' ')}
       aria-label={`${card.name}, ${KIND_LABEL[card.kind]}, ${card.strength ?? 'no'} strength`}
     >
-      <div className="flex items-start justify-between gap-2">
-        <div className="min-w-0">
-          <div className={`font-display font-semibold leading-tight ${compact ? 'text-sm' : 'text-base'}`}>
-            {card.name}
-          </div>
-          <div className="mt-1 flex flex-wrap gap-1 text-[10px] uppercase tracking-wide opacity-90">
-            <span className="rounded bg-black/35 px-1.5 py-0.5">{KIND_LABEL[card.kind]}</span>
-            {card.row ? (
-              <span className="rounded bg-black/35 px-1.5 py-0.5">{ROW_LABEL[card.row]}</span>
-            ) : null}
-            {card.abilities.slice(0, 3).map((a) => (
-              <span key={a} className="rounded bg-black/35 px-1.5 py-0.5">
-                {a.replace(/_/g, ' ')}
-              </span>
-            ))}
+      {imageUrl ? (
+        <div
+          className={[
+            'relative overflow-hidden border-b border-black/40 bg-black/40',
+            compact ? 'h-16' : 'h-28',
+          ].join(' ')}
+        >
+          <img
+            src={imageUrl}
+            alt=""
+            loading="lazy"
+            decoding="async"
+            className="h-full w-full object-cover object-top opacity-90"
+            onError={(e) => {
+              e.currentTarget.style.display = 'none'
+            }}
+          />
+          <div
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"
+            aria-hidden
+          />
+        </div>
+      ) : (
+        <div
+          className={[
+            'relative overflow-hidden border-b border-black/35',
+            compact ? 'h-10' : 'h-16',
+          ].join(' ')}
+          aria-hidden
+        >
+          <div
+            className={`absolute inset-0 bg-gradient-to-br opacity-90 ${FACTION_BG[card.faction]}`}
+          />
+          <div
+            className="absolute inset-0 opacity-30"
+            style={{
+              backgroundImage:
+                'repeating-linear-gradient(135deg, transparent, transparent 6px, rgba(0,0,0,0.35) 7px), radial-gradient(circle at 30% 40%, rgba(212,175,55,0.2), transparent 45%)',
+            }}
+          />
+          <div className="absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-black/50 to-transparent" />
+          <div className="absolute left-2 bottom-1.5 font-display text-[10px] uppercase tracking-[0.2em] text-[var(--color-gold)]/70">
+            {card.faction.replace(/_/g, ' ')}
           </div>
         </div>
-        <div className="flex flex-col items-end gap-1 shrink-0">
-          {card.strength != null ? (
-            <span
-              className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[var(--color-gold)] text-ink font-display text-lg font-bold"
-              aria-hidden
+      )}
+
+      <div className={compact ? 'p-2 min-h-[4.5rem]' : 'p-3 min-h-[7.5rem]'}>
+        <div className="flex items-start justify-between gap-2">
+          <div className="min-w-0">
+            <div
+              className={`font-display font-semibold leading-tight text-[var(--color-gold)] ${compact ? 'text-sm' : 'text-base'}`}
             >
-              {card.strength}
-            </span>
-          ) : (
-            <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-black/40 text-xs">
-              —
-            </span>
-          )}
-          {typeof qty === 'number' ? (
-            <span className="text-xs bg-black/40 rounded px-1.5 py-0.5" aria-label={`Owned ${qty}`}>
-              ×{qty}
-            </span>
-          ) : null}
+              {card.name}
+            </div>
+            <div className="mt-1.5 flex flex-wrap gap-1 text-[10px] uppercase tracking-wide opacity-90">
+              <span className="rounded-sm bg-black/45 px-1.5 py-0.5 border border-white/10">
+                {KIND_LABEL[card.kind]}
+              </span>
+              {card.row ? (
+                <span className="rounded-sm bg-black/45 px-1.5 py-0.5 border border-white/10">
+                  {ROW_LABEL[card.row]}
+                </span>
+              ) : null}
+              {card.abilities.slice(0, 3).map((a) => (
+                <span
+                  key={a}
+                  className="rounded-sm bg-black/45 px-1.5 py-0.5 border border-white/10"
+                >
+                  {a.replace(/_/g, ' ')}
+                </span>
+              ))}
+            </div>
+          </div>
+          <div className="flex flex-col items-end gap-1 shrink-0">
+            {card.strength != null ? (
+              <span
+                className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-b from-[var(--color-gold)] to-[var(--color-gold-dim)] text-[var(--color-void)] font-display text-lg font-bold shadow-[0_0_0_1px_rgba(0,0,0,0.4)]"
+                aria-hidden
+              >
+                {card.strength}
+              </span>
+            ) : (
+              <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-black/45 text-xs border border-white/10">
+                —
+              </span>
+            )}
+            {typeof qty === 'number' ? (
+              <span
+                className="text-xs bg-black/45 rounded-sm px-1.5 py-0.5 border border-white/10"
+                aria-label={`Owned ${qty}`}
+              >
+                ×{qty}
+              </span>
+            ) : null}
+          </div>
         </div>
+        {!compact && card.abilityText ? (
+          <p className="mt-2 text-xs leading-snug text-[var(--color-parchment)]/80 line-clamp-3">
+            {card.abilityText}
+          </p>
+        ) : null}
       </div>
-      {!compact && card.abilityText ? (
-        <p className="mt-2 text-xs leading-snug opacity-85 line-clamp-3">{card.abilityText}</p>
-      ) : null}
     </Tag>
   )
 }

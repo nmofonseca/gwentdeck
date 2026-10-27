@@ -14,7 +14,7 @@ const EXPANSIONS: Array<Expansion | 'all'> = [
 ]
 
 export function CataloguePage() {
-  const { state, setQty } = useCollection()
+  const { state, setQty, getImageUrl } = useCollection()
   const [q, setQ] = useState('')
   const [faction, setFaction] = useState<FactionId | 'all'>('all')
   const [kind, setKind] = useState<(typeof KINDS)[number]>('all')
@@ -41,30 +41,30 @@ export function CataloguePage() {
   }, [q, faction, kind, expansion, ownedOnly, state.owned])
 
   return (
-    <div className="animate-rise space-y-5">
+    <div className="animate-rise mx-auto max-w-6xl px-4 py-6 space-y-5">
       <header>
-        <h1 className="font-display text-3xl font-bold">Catalogue</h1>
-        <p className="text-sm text-ink/70">
+        <h1 className="font-display text-3xl font-bold text-[var(--color-gold)]">Card Library</h1>
+        <p className="text-sm text-[var(--color-ink-muted)]">
           {catalogue.cards.length} cards · filter, search, and mark owned copies
         </p>
       </header>
 
-      <div className="flex flex-wrap gap-3 items-end">
+      <div className="panel p-4 flex flex-wrap gap-3 items-end">
         <label className="text-sm">
-          <span className="block text-xs uppercase tracking-wide text-ink/60 mb-1">Search</span>
+          <span className="label-caps">Search</span>
           <input
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            className="rounded border border-ink/20 bg-parchment/70 px-3 py-2 min-w-[14rem]"
+            className="field min-w-[14rem]"
             placeholder="Name or ability"
           />
         </label>
         <label className="text-sm">
-          <span className="block text-xs uppercase tracking-wide text-ink/60 mb-1">Faction</span>
+          <span className="label-caps">Faction</span>
           <select
             value={faction}
             onChange={(e) => setFaction(e.target.value as FactionId | 'all')}
-            className="rounded border border-ink/20 bg-parchment/70 px-3 py-2"
+            className="field"
           >
             {factions.map((f) => (
               <option key={f} value={f}>
@@ -74,11 +74,11 @@ export function CataloguePage() {
           </select>
         </label>
         <label className="text-sm">
-          <span className="block text-xs uppercase tracking-wide text-ink/60 mb-1">Type</span>
+          <span className="label-caps">Type</span>
           <select
             value={kind}
             onChange={(e) => setKind(e.target.value as (typeof KINDS)[number])}
-            className="rounded border border-ink/20 bg-parchment/70 px-3 py-2"
+            className="field"
           >
             {KINDS.map((k) => (
               <option key={k} value={k}>
@@ -88,11 +88,11 @@ export function CataloguePage() {
           </select>
         </label>
         <label className="text-sm">
-          <span className="block text-xs uppercase tracking-wide text-ink/60 mb-1">Expansion</span>
+          <span className="label-caps">Expansion</span>
           <select
             value={expansion}
             onChange={(e) => setExpansion(e.target.value as (typeof EXPANSIONS)[number])}
-            className="rounded border border-ink/20 bg-parchment/70 px-3 py-2"
+            className="field"
           >
             {EXPANSIONS.map((x) => (
               <option key={x} value={x}>
@@ -101,7 +101,7 @@ export function CataloguePage() {
             ))}
           </select>
         </label>
-        <label className="inline-flex items-center gap-2 text-sm pb-2">
+        <label className="inline-flex items-center gap-2 text-sm pb-2 text-[var(--color-ink-muted)]">
           <input
             type="checkbox"
             checked={ownedOnly}
@@ -111,7 +111,7 @@ export function CataloguePage() {
         </label>
       </div>
 
-      <p className="text-xs text-ink/60" aria-live="polite">
+      <p className="text-xs text-[var(--color-ink-faint)]" aria-live="polite">
         Showing {filtered.length} cards
       </p>
 
@@ -120,7 +120,7 @@ export function CataloguePage() {
           const qty = state.owned[card.id] ?? 0
           return (
             <li key={card.id} className="space-y-2">
-              <GwentCard card={card} qty={qty || undefined} />
+              <GwentCard card={card} qty={qty || undefined} imageUrl={getImageUrl(card.id)} />
               <QtyStepper
                 value={qty}
                 max={card.maxCopies}
@@ -128,7 +128,9 @@ export function CataloguePage() {
                 label={`Owned copies of ${card.name}`}
               />
               {card.sources[0] ? (
-                <p className="text-[11px] text-ink/55 line-clamp-2">{card.sources[0]}</p>
+                <p className="text-[11px] text-[var(--color-ink-faint)] line-clamp-2">
+                  {card.sources[0]}
+                </p>
               ) : null}
             </li>
           )
