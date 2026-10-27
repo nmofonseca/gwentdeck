@@ -23,15 +23,22 @@ export function HomePage() {
           aria-hidden
         />
         <div
-          className="pointer-events-none absolute -right-8 top-16 hidden md:block h-72 w-52 rotate-6 rounded border border-[var(--color-bronze)]/40 bg-gradient-to-br from-[#2a4060] to-[#0e141c] shadow-[0_20px_60px_rgba(0,0,0,0.55)] animate-ember"
+          className="pointer-events-none absolute -right-8 top-16 hidden md:block h-72 w-52 rotate-6 rounded border border-[var(--color-bronze)]/70 bg-gradient-to-br from-[#2a4060] via-[#1a2838] to-[#0e141c] shadow-[0_20px_60px_rgba(0,0,0,0.7)] animate-ember opacity-95"
           aria-hidden
         >
-          <div className="m-3 h-full rounded-sm border border-[var(--color-gold)]/25 bg-black/25 p-4">
+          <div className="m-3 h-full rounded-sm border border-[var(--color-gold)]/40 bg-black/40 p-4">
             <div className="font-display text-[var(--color-gold)] text-xl">Foltest</div>
             <div className="mt-2 text-[10px] uppercase tracking-widest text-[var(--color-ink-muted)]">
               Leader · Northern Realms
             </div>
-            <div className="mt-8 h-16 w-16 rounded-full bg-gradient-to-b from-[var(--color-gold)] to-[var(--color-gold-dim)] text-[var(--color-void)] font-display text-3xl font-bold grid place-items-center">
+            <div
+              className="mt-6 h-20 opacity-40"
+              style={{
+                backgroundImage:
+                  'radial-gradient(circle at 40% 35%, rgba(212,175,55,0.35), transparent 55%), repeating-linear-gradient(135deg, transparent, transparent 5px, rgba(0,0,0,0.35) 6px)',
+              }}
+            />
+            <div className="mt-4 h-14 w-14 rounded-full bg-gradient-to-b from-[var(--color-gold)] to-[var(--color-gold-dim)] text-[var(--color-void)] font-display text-2xl font-bold grid place-items-center">
               —
             </div>
           </div>
