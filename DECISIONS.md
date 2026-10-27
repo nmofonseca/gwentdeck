@@ -68,3 +68,15 @@
 - **Context:** Feedback that the light parchment look did not feel TW3-branded.
 - **Decision:** Charcoal/near-black surfaces, bronze/gold accents, restrained crimson, self-hosted Cormorant Garamond + Source Sans 3 variables, leather noise texture via CSS/SVG; nav labels Dashboard / Card Library / My Collection / Deck Optimiser; Optimiser uses explicit Generate + Auto faction.
 - **Consequences:** Stronger brand signal without purple-gradient AI clichés; Pages assets change on next deploy after merge.
+
+## ADR-010: Pin GitHub Actions to commit SHAs + least privilege
+
+- **Status:** Accepted
+- **Context:** Workflows used mutable tags (`@v4` / `@v3`), CI had no explicit `permissions` / concurrency, and Pages jobs inherited broad workflow token scopes.
+- **Decision:**
+  1. Pin official `actions/*` to full commit SHAs with version-tag comments (verified via `git ls-remote` / GitHub Releases).
+  2. CI: `permissions: contents: read`; concurrency cancel-in-progress per ref; keep `pull_request` (not `pull_request_target`); no secrets.
+  3. Pages: keep `contents: read` + `pages: write` + `id-token: write`; narrow build to `contents: read` and deploy to `pages`/`id-token`; `cancel-in-progress: false` so deploys are not interrupted.
+  4. Prefer current maintained majors (`checkout`/`setup-node` v7, Pages artifact/deploy v5) without changing CI steps (lint/test/build remain identical).
+- **Consequences:** Tag moves no longer silently change runner code; token blast radius is smaller. Owners should still treat the `github-pages` Environment as the deploy gate (optional required reviewers / wait timer). Re-pin SHAs when bumping action versions.
+- **Environment note:** Restrict who can approve `workflow_dispatch` / Environment deploys in repo Settings → Environments → `github-pages` if extra human gate is desired.
