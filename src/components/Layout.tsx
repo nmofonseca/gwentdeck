@@ -17,14 +17,14 @@ export function Layout() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="border-b border-[var(--color-border)] bg-[var(--color-charcoal)]/95 text-[var(--color-ink)] backdrop-blur sticky top-0 z-20">
+      <header className="border-b border-[var(--color-bronze)]/45 bg-[var(--color-charcoal)]/95 text-[var(--color-ink)] backdrop-blur sticky top-0 z-20 shadow-[0_1px_0_rgba(212,175,55,0.12)]">
         <div className="mx-auto max-w-6xl px-4 py-3 flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-baseline gap-3">
             <span className="font-display text-2xl md:text-3xl font-bold tracking-wide text-[var(--color-gold)]">
               GwentDeck
             </span>
             <span className="hidden sm:inline text-[10px] uppercase tracking-[0.22em] text-[var(--color-ink-faint)]">
-              TW3 minigame · unofficial
+              TW3 minigame · tavern ledger
             </span>
           </div>
           <nav className="flex flex-wrap gap-1" aria-label="Primary">
@@ -35,10 +35,10 @@ export function Layout() {
                 end={end}
                 className={({ isActive }) =>
                   [
-                    'inline-flex items-center gap-1.5 rounded-sm px-2.5 py-1.5 text-sm transition',
+                    'inline-flex items-center gap-1.5 rounded-sm px-2.5 py-1.5 text-sm transition border border-transparent',
                     isActive
-                      ? 'bg-gradient-to-b from-[var(--color-gold)] to-[var(--color-gold-dim)] text-[var(--color-void)] font-semibold'
-                      : 'hover:bg-white/5 text-[var(--color-ink-muted)] hover:text-[var(--color-ink)]',
+                      ? 'bg-gradient-to-b from-[var(--color-parchment)] to-[var(--color-parchment-deep)] text-[var(--color-ledger-ink)] font-semibold border-[var(--color-bronze)]/50 shadow-[inset_0_1px_0_rgba(255,245,220,0.4)]'
+                      : 'hover:bg-[var(--color-leather)]/40 text-[var(--color-ink-muted)] hover:text-[var(--color-ink)] hover:border-[var(--color-border)]',
                   ].join(' ')
                 }
               >

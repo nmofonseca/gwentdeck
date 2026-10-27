@@ -66,34 +66,34 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-12 grid md:grid-cols-3 gap-8">
-        <div>
+      <section className="mx-auto max-w-6xl px-4 py-12 grid md:grid-cols-3 gap-5">
+        <div className="panel p-5">
           <h2 className="font-display text-xl font-semibold text-[var(--color-gold)] mb-2">
             Card Library
           </h2>
-          <p className="text-sm text-[var(--color-ink-muted)] mb-2">
+          <p className="text-sm text-[var(--color-ink-muted)] mb-3">
             {stats.total} verified identities with strength, row, abilities, and acquisition notes.
           </p>
           <Link className="btn-ghost text-sm" to="/catalogue">
             Browse cards
           </Link>
         </div>
-        <div>
+        <div className="panel p-5">
           <h2 className="font-display text-xl font-semibold text-[var(--color-gold)] mb-2">
             My Collection
           </h2>
-          <p className="text-sm text-[var(--color-ink-muted)] mb-2">
+          <p className="text-sm text-[var(--color-ink-muted)] mb-3">
             Mark quantities you own. Saved in this browser only — export anytime.
           </p>
           <Link className="btn-ghost text-sm" to="/collection">
             Manage owned cards
           </Link>
         </div>
-        <div>
+        <div className="panel p-5">
           <h2 className="font-display text-xl font-semibold text-[var(--color-gold)] mb-2">
             Deck Optimiser
           </h2>
-          <p className="text-sm text-[var(--color-ink-muted)] mb-2">
+          <p className="text-sm text-[var(--color-ink-muted)] mb-3">
             Choose faction and strategy, generate a legal owned-only deck with explanations.
           </p>
           <Link className="btn-ghost text-sm" to="/optimiser">
