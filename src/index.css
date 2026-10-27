@@ -1,0 +1,99 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Cormorant Garamond', 'Palatino Linotype', Palatino, serif;
+  --font-body: 'Source Sans 3', 'Segoe UI', sans-serif;
+  --color-ink: #1a1410;
+  --color-parchment: #e8dcc8;
+  --color-parchment-deep: #cbb892;
+  --color-moss: #2f4a3a;
+  --color-moss-bright: #3d6b52;
+  --color-ember: #a33b24;
+  --color-gold: #c4a35a;
+  --color-nilf: #2a2f38;
+  --color-scoia: #3a5a28;
+  --color-monster: #4a1f2e;
+  --color-skellige: #1e3a5f;
+  --color-neutral: #5a5248;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600 700;
+  font-display: swap;
+  src: local('Cormorant Garamond'), local('Palatino Linotype');
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: local('Source Sans 3'), local('Segoe UI');
+}
+
+:root {
+  color: var(--color-ink);
+  background:
+    radial-gradient(ellipse 120% 80% at 10% -10%, rgba(196, 163, 90, 0.25), transparent 50%),
+    radial-gradient(ellipse 90% 60% at 100% 0%, rgba(47, 74, 58, 0.2), transparent 45%),
+    linear-gradient(165deg, #f3ebe0 0%, #e5d7c0 42%, #d4c4a8 100%);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.01em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ember);
+  outline-offset: 2px;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes card-flip {
+  from {
+    transform: rotateY(-8deg) scale(0.98);
+    opacity: 0;
+  }
+  to {
+    transform: rotateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-rise {
+  animation: rise-in 0.55s ease-out both;
+}
+
+.animate-card {
+  animation: card-flip 0.45s ease-out both;
+}
