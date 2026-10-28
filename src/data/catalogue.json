@@ -2569,7 +2569,7 @@
       "name": "Francesca Findabair: Hope of the Aen Seidhe",
       "faction": "scoiatael",
       "kind": "leader",
-      "row": "agile",
+      "row": null,
       "strength": null,
       "abilities": [
         "agile"

@@ -96,3 +96,14 @@
   2. Regenerate catalogue WebPs with **v2 prompts** (`scripts/card-art/rebuild_prompts_v2.py`): per-card visual hints (e.g. white-haired witcher, Temerian king), tight portrait framing instructions, still **original** / anti-CDPR-copy constraints, **CC0**.
   3. Keep CSS fallback + optional local overrides (ADR-008).
 - **Consequences:** Taller Card Library tiles; ~183 WebPs replaced in place under `public/card-art/`. Prompt rebuild is deterministic from catalogue + hint map.
+
+## ADR-014: Card Library exclusive Row filter (Variant A)
+
+- **Status:** Accepted
+- **Context:** TW3 browse UIs expose Close / Ranged / Siege / Agile as exclusive row options. Library had Faction/Type/Expansion but no Row control; Collection remains faction-only.
+- **Decision:**
+  1. Add a **Row** `<select>` beside Type: `All | Close Combat | Ranged | Siege | Agile`.
+  2. Filter with exclusive `card.row === selected` (Agile ≠ Close/Ranged); null-row cards (leaders/specials/weather) drop when a row is set. Type stays orthogonal.
+  3. Pure helpers in `src/domain/cardFilters.ts` with unit tests; Collection unchanged (no shared filter panel).
+  4. Normalize Francesca Hope of the Aen Seidhe `row` to `null` (leader ability moves agile units; she does not occupy a combat row).
+- **Consequences:** Library browse matches community catalogue axes; inclusive “plays on Close” deferred to Optimiser/deck placement if needed later.
