@@ -18,8 +18,8 @@ Card **names**, faction identities, and lore references remain trademarks / IP o
 
 ## Pipeline
 
-- Prompts: `scripts/card-art/prompts.json` (faction-tinted, anti-copy constraints)
-- Optimize: `scripts/card-art/optimize.py` (Pillow → WebP ≤384×512, quality ~78)
+- Prompts: `scripts/card-art/prompts.json` (v2: per-card visual hints + tight portrait framing; rebuild via `npm run art:rebuild-prompts`)
+- Optimize: `scripts/card-art/optimize.py` (Pillow → WebP ≤384×512, quality ~78; default src `/opt/cursor/artifacts/assets-v2`)
 - No Git LFS required at current sizes (~30–45 KB per card)
 
 ## Attribution (optional)

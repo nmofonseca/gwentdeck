@@ -82,7 +82,17 @@
 - **Environment note:** Restrict who can approve `workflow_dispatch` / Environment deploys in repo Settings → Environments → `github-pages` if extra human gate is desired.
 ## ADR-012: Experimental fantasy medallion + parchment mix UI
 
-- **Status:** Experimental (branch `experiment/ui-fantasy-mix` only — not default on `main`)
+- **Status:** Accepted (merged via #8; now default presentation on `main`)
 - **Context:** User feedback preferred a mix of wolf-medallion (#5) and parchment (#6) but wanted a stronger Witcher 3 fantasy-world feel — illuminated manuscript / heraldic flourishes, wood/stone atmosphere, not generic dark SaaS. Imagery must be original (CSS/SVG/CC0 AI atmospheres), not CDPR card or character lookalikes.
 - **Decision:** Hybrid theme: cold steel/silver chrome shell + parchment/ink raised panels with ornamental corner ticks; hero uses full-bleed original CC0 landscape + SVG keep silhouette + steel medallion mark; cards combine metal frame with illuminated parchment body wash. Decorative assets live under `public/atmosphere/` (CC0).
-- **Consequences:** Visual experiment only; compare via draft PR screenshots against #5/#6/#7. Merge to `main` only if chosen (would supersede parts of ADR-009 presentation).
+- **Consequences:** Supersedes parts of ADR-009 presentation tokens while keeping dark charcoal/bronze brand direction.
+
+## ADR-013: Card art v2 — portrait framing + subject-faithful prompts
+
+- **Status:** Accepted (this change set)
+- **Context:** Card Library feedback: art was barely visible (CSS used a short wide strip + `object-cover` on 3:4 portraits) and many faces were hard to recognise from name/role.
+- **Decision:**
+  1. `GwentCard` art plane uses **`aspect-[3/4]`** (compact `16/10`) with `object-cover` + `object-[center_22%]` and a lighter bottom gradient — face/upper body stays readable.
+  2. Regenerate catalogue WebPs with **v2 prompts** (`scripts/card-art/rebuild_prompts_v2.py`): per-card visual hints (e.g. white-haired witcher, Temerian king), tight portrait framing instructions, still **original** / anti-CDPR-copy constraints, **CC0**.
+  3. Keep CSS fallback + optional local overrides (ADR-008).
+- **Consequences:** Taller Card Library tiles; ~183 WebPs replaced in place under `public/card-art/`. Prompt rebuild is deterministic from catalogue + hint map.
