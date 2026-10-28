@@ -12,8 +12,9 @@
     "test:watch": "vitest",
     "e2e": "playwright test",
     "preview": "vite preview --base /",
-    "art:optimize": "python3 scripts/card-art/optimize.py --src-dir /opt/cursor/artifacts/assets",
-    "art:coverage": "python3 scripts/card-art/coverage.py"
+    "art:optimize": "python3 scripts/card-art/optimize.py --src-dir /opt/cursor/artifacts/assets-v2",
+    "art:coverage": "python3 scripts/card-art/coverage.py",
+    "art:rebuild-prompts": "python3 scripts/card-art/rebuild_prompts_v2.py"
   },
   "dependencies": {
     "lucide-react": "^1.62.0",

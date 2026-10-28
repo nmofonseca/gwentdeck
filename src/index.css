@@ -348,6 +348,11 @@ h3,
     inset 0 0 0 1px rgba(197, 208, 222, 0.06);
 }
 
+/* Portrait face: keep subject readable under card chrome */
+.gwent-card-art {
+  z-index: 0;
+}
+
 .gwent-card-body {
   background:
     linear-gradient(180deg, rgba(232, 220, 192, 0.14), rgba(232, 220, 192, 0.04)),

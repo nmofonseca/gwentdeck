@@ -49,8 +49,8 @@ function CssArtFallback({ card, compact }: { card: Card; compact?: boolean }) {
   return (
     <div
       className={[
-        'relative overflow-hidden border-b border-black/35',
-        compact ? 'h-10' : 'h-16',
+        'gwent-card-art relative overflow-hidden border-b border-black/35',
+        compact ? 'aspect-[16/10]' : 'aspect-[3/4]',
       ].join(' ')}
       aria-hidden
     >
@@ -94,8 +94,8 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
       {showArt ? (
         <div
           className={[
-            'relative overflow-hidden border-b border-black/40 bg-black/40',
-            compact ? 'h-16' : 'h-28',
+            'gwent-card-art relative overflow-hidden border-b border-black/40 bg-black/50',
+            compact ? 'aspect-[16/10]' : 'aspect-[3/4]',
           ].join(' ')}
         >
           <img
@@ -103,11 +103,11 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
             alt=""
             loading="lazy"
             decoding="async"
-            className="h-full w-full object-cover object-top opacity-90"
+            className="gwent-card-art-img absolute inset-0 h-full w-full object-cover object-center"
             onError={() => setArtFailed(true)}
           />
           <div
-            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"
+            className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/55 via-black/15 to-transparent"
             aria-hidden
           />
         </div>
@@ -118,7 +118,7 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
       <div
         className={[
           'gwent-card-body relative z-[1]',
-          compact ? 'p-2 min-h-[4.5rem]' : 'p-3 min-h-[7.5rem]',
+          compact ? 'p-2 min-h-[3.75rem]' : 'p-3 min-h-[5.5rem]',
         ].join(' ')}
       >
         <div className="flex items-start justify-between gap-2">
