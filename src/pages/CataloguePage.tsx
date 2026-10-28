@@ -2,6 +2,11 @@ import { useMemo, useState } from 'react'
 import { GwentCard } from '../components/GwentCard'
 import { QtyStepper } from '../components/QtyStepper'
 import { catalogue, factionLabel, playableFactions } from '../domain/catalogue'
+import {
+  filterCatalogueCards,
+  ROW_FILTER_OPTIONS,
+  type RowFilter,
+} from '../domain/cardFilters'
 import type { CardKind, Expansion, FactionId } from '../domain/types'
 import { useCollection } from '../persistence/CollectionContext'
 
@@ -18,27 +23,25 @@ export function CataloguePage() {
   const [q, setQ] = useState('')
   const [faction, setFaction] = useState<FactionId | 'all'>('all')
   const [kind, setKind] = useState<(typeof KINDS)[number]>('all')
+  const [row, setRow] = useState<RowFilter>('all')
   const [expansion, setExpansion] = useState<(typeof EXPANSIONS)[number]>('all')
   const [ownedOnly, setOwnedOnly] = useState(false)
 
   const factions: Array<FactionId | 'all'> = ['all', ...playableFactions, 'neutral']
 
-  const filtered = useMemo(() => {
-    const needle = q.trim().toLowerCase()
-    return catalogue.cards.filter((c) => {
-      if (faction !== 'all' && c.faction !== faction) return false
-      if (kind !== 'all' && c.kind !== kind) return false
-      if (expansion !== 'all' && c.expansion !== expansion) return false
-      const owned = state.owned[c.id] ?? 0
-      if (ownedOnly && owned <= 0) return false
-      if (!needle) return true
-      return (
-        c.name.toLowerCase().includes(needle) ||
-        c.abilities.some((a) => a.includes(needle)) ||
-        (c.abilityText?.toLowerCase().includes(needle) ?? false)
-      )
-    })
-  }, [q, faction, kind, expansion, ownedOnly, state.owned])
+  const filtered = useMemo(
+    () =>
+      filterCatalogueCards(catalogue.cards, {
+        query: q,
+        faction,
+        kind,
+        row,
+        expansion,
+        ownedOnly,
+        owned: state.owned,
+      }),
+    [q, faction, kind, row, expansion, ownedOnly, state.owned],
+  )
 
   return (
     <div className="animate-rise mx-auto max-w-6xl px-4 py-6 space-y-5">
@@ -83,6 +86,20 @@ export function CataloguePage() {
             {KINDS.map((k) => (
               <option key={k} value={k}>
                 {k}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="text-sm">
+          <span className="label-caps">Row</span>
+          <select
+            value={row}
+            onChange={(e) => setRow(e.target.value as RowFilter)}
+            className="field"
+          >
+            {ROW_FILTER_OPTIONS.map((opt) => (
+              <option key={opt.value} value={opt.value}>
+                {opt.label}
               </option>
             ))}
           </select>
