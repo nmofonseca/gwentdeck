@@ -10,6 +10,13 @@ interface Props {
 const stepBtn =
   'inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-sm bg-[var(--color-leather)] text-[var(--color-silver)] border border-[var(--color-border)] disabled:opacity-45 hover:border-[var(--color-bronze)] hover:text-[var(--color-ink)]'
 
+function clampQty(raw: string, max: number): number | null {
+  const trimmed = raw.trim()
+  if (trimmed === '') return 0
+  if (!/^\d+$/.test(trimmed)) return null
+  return Math.max(0, Math.min(max, Number(trimmed)))
+}
+
 export function QtyStepper({ value, max, onChange, label }: Props) {
   return (
     <div
@@ -26,20 +33,28 @@ export function QtyStepper({ value, max, onChange, label }: Props) {
       >
         <Minus className="h-4 w-4" aria-hidden />
       </button>
-      <div className="inline-flex h-8 items-center gap-1 rounded-sm border border-[var(--color-border)] bg-[var(--color-leather)] px-1.5">
+      <div className="inline-flex h-8 min-w-[4rem] items-center justify-center gap-1.5 rounded-sm border border-[var(--color-border)] bg-[var(--color-leather)] px-2.5">
+        {/*
+          text + inputMode (not type=number): Firefox paints native spinner
+          arrows that overlap +/- and / max in a narrow field.
+        */}
         <input
-          type="number"
-          min={0}
-          max={max}
+          type="text"
+          inputMode="numeric"
+          pattern="[0-9]*"
+          autoComplete="off"
           value={value}
           aria-label={label}
-          className="qty-field h-full w-7 border-0 bg-transparent p-0 text-center text-sm font-medium tabular-nums text-[var(--color-ink)] outline-none"
-          onChange={(e) => onChange(Number(e.target.value))}
+          aria-valuemin={0}
+          aria-valuemax={max}
+          aria-valuenow={value}
+          className="qty-field h-full w-6 border-0 bg-transparent p-0 text-center text-sm font-semibold tabular-nums text-[var(--color-ink)] outline-none"
+          onChange={(e) => {
+            const next = clampQty(e.target.value, max)
+            if (next != null) onChange(next)
+          }}
         />
-        <span
-          className="select-none text-xs font-medium tabular-nums text-[var(--color-ink-muted)]"
-          aria-hidden="true"
-        >
+        <span className="select-none text-sm font-medium tabular-nums text-[var(--color-silver)]">
           / {max}
         </span>
       </div>
