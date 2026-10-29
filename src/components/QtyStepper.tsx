@@ -12,7 +12,7 @@ export function QtyStepper({ value, max, onChange, label }: Props) {
     <div className="inline-flex items-center gap-1" role="group" aria-label={label}>
       <button
         type="button"
-        className="h-8 w-8 rounded-sm bg-[var(--color-leather)] text-[var(--color-ink)] border border-[var(--color-border)] disabled:opacity-40 hover:border-[var(--color-bronze)]"
+        className="h-8 w-8 rounded-sm bg-[var(--color-leather)] text-[var(--color-silver)] border border-[var(--color-border)] disabled:opacity-45 hover:border-[var(--color-bronze)] hover:text-[var(--color-ink)]"
         disabled={value <= 0}
         onClick={() => onChange(value - 1)}
         aria-label={`Decrease ${label}`}
@@ -25,19 +25,21 @@ export function QtyStepper({ value, max, onChange, label }: Props) {
         max={max}
         value={value}
         aria-label={label}
-        className="field w-12 text-center text-sm py-1"
+        className="field w-12 text-center text-sm py-1 tabular-nums"
         onChange={(e) => onChange(Number(e.target.value))}
       />
       <button
         type="button"
-        className="h-8 w-8 rounded-sm bg-[var(--color-leather)] text-[var(--color-ink)] border border-[var(--color-border)] disabled:opacity-40 hover:border-[var(--color-bronze)]"
+        className="h-8 w-8 rounded-sm bg-[var(--color-leather)] text-[var(--color-silver)] border border-[var(--color-border)] disabled:opacity-45 hover:border-[var(--color-bronze)] hover:text-[var(--color-ink)]"
         disabled={value >= max}
         onClick={() => onChange(value + 1)}
         aria-label={`Increase ${label}`}
       >
         <Plus className="h-4 w-4 mx-auto" />
       </button>
-      <span className="text-xs text-[var(--color-ink-faint)] ml-1">/ {max}</span>
+      <span className="text-xs font-medium text-[var(--color-ink-muted)] tabular-nums ml-1">
+        / {max}
+      </span>
     </div>
   )
 }
