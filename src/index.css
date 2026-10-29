@@ -170,6 +170,22 @@ h3,
   padding: 0.5rem 0.75rem;
 }
 
+/* QtyStepper owned count — hide native spinners that collide in a narrow field */
+.qty-field {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.qty-field::-webkit-outer-spin-button,
+.qty-field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.panel .qty-field {
+  color: var(--color-ledger-ink);
+}
+
 .panel .field {
   background: rgba(42, 33, 22, 0.92);
   border-color: rgba(138, 106, 56, 0.55);
