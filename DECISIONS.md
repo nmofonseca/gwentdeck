@@ -107,3 +107,14 @@
   3. Pure helpers in `src/domain/cardFilters.ts` with unit tests; Collection unchanged (no shared filter panel).
   4. Normalize Francesca Hope of the Aen Seidhe `row` to `null` (leader ability moves agile units; she does not occupy a combat row).
 - **Consequences:** Library browse matches community catalogue axes; inclusive “plays on Close” deferred to Optimiser/deck placement if needed later.
+
+## ADR-015: Mobile / fold-cover chrome without desktop churn
+
+- **Status:** Accepted
+- **Context:** Live audit showed sticky header ~169–207px on phone/cover from wrapped nav; QtyStepper ± at 32×32; filter selects cramped under ~400px. Desktop (`md`+) was already fine.
+- **Decision:**
+  1. Below `md` (768px): hamburger + expandable primary nav; keep labelled links for a11y. At `md+` keep the existing horizontal Primary nav.
+  2. Below ~400px: collapse Card Library secondary filters behind a disclosure; keep search visible; full-width selects when open. At ≥400px keep the existing flex-wrap filter row.
+  3. QtyStepper ± hit targets `44×44` below `md`, retain `32×32` at `md+`.
+  4. Cheap safe-area: `viewport-fit=cover`, sticky header `pt-[env(safe-area-inset-top)]`, footer bottom padding uses safe-area inset.
+- **Consequences:** Cover/phone first paint shows cards sooner; desktop screenshots at 1280 remain visually unchanged.
