@@ -4,11 +4,24 @@ Free, open-source **collection manager** and **intelligent deck optimiser** for 
 
 **Not** for the standalone CDPR GWENT client. Unofficial fan project — not affiliated with CDPR.
 
-## How to build a deck
+## How to use
+
+Watch a short walkthrough (Card Library → owned cards → Deck Optimiser → export/import):
+
+https://github.com/nmofonseca/gwentdeck/blob/main/docs/howto.mp4
+
+<video src="./docs/howto.mp4" controls width="720" title="GwentDeck how-to walkthrough">
+  <a href="./docs/howto.mp4">Download the how-to walkthrough (MP4)</a>
+</video>
+
+[Download howto.mp4](./docs/howto.mp4) (~48s, Firefox recording of the live site).
+
+### How to build a deck
 
 1. **My Collection** / **Card Library** — mark owned cards and quantities (or load the sample Northern Realms set).
 2. **Deck Optimiser** — choose a faction (or Auto) and a strategy, then press **Generate**.
 3. Review the recommended deck, explanations, and missing-card roadmap; optionally **Save deck** to My Decks.
+4. On **My Collection**, use **Export** / **Import** to back up or restore your `localStorage` collection JSON.
 
 ## Features
 
