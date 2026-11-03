@@ -132,3 +132,17 @@
 - **Context:** After reviewing the copyright discussion and local preview, the owner explicitly requested committing the new artwork and deploying it publicly, with creator/source credit.
 - **Decision:** Ship all 183 full card faces in `public/card-faces/`, use them by default in development and production, and preserve the pinned per-image source map. Credit CD PROJEKT RED and respective creators for game artwork, and Gwent Classic / Arun Sundaram for the source. Include the upstream licence notice, distinguish the images from the MIT code and retained CC0 AI portraits, and keep the unofficial disclaimer. Remove the development-only artwork route and flag. Match leader image names against their embedded labels. Stretch library cards within each responsive row to align the quantity controls.
 - **Consequences:** Pages now publishes the chosen card faces. This explicit owner instruction supersedes the previous no-game-textures repository restriction for these assets; it does not assert a separately negotiated art licence. No mechanics or catalogue stats change.
+
+## ADR-018: A denser library for phone and foldable screens
+
+- **Status:** Accepted.
+- **Context:** Full-width card faces dominated narrow phone screens, and unfolded widths below 1024px still showed only two large cards.
+- **Decision:** Use two columns from 360px and three from 640px, retaining four from 1280px. Collapse secondary filters below 640px. On phone widths, cap the artwork plane at 22rem and show a shorter name/strength summary; activating a card opens an accessible native dialog with the full face, description and acquisition source. Keep ownership buttons at least 44px below 768px and fit the quantity field into the available column width. Preserve equal card heights and aligned controls per row.
+- **Consequences:** More cards fit on cover and unfolded displays; full details remain available by touch or keyboard. No card data or artwork changes.
+
+## ADR-019: Consistent full card faces in generated decks
+
+- **Status:** Accepted.
+- **Context:** The optimiser stretched the leader across its whole panel, while rendering other full card faces inside short landscape compact slots.
+- **Decision:** Place the leader first in the same responsive full-face gallery as the generated cards. Share phone summary and equal-height styling with the Card Library, and open full details in the existing accessible dialog. Give the deck gallery two thirds of the desktop result area and reserve the remaining third for explanations and missing-card suggestions.
+- **Consequences:** Leader and other artwork have the same dimensions within each row. No recommendation, legality, ownership or export logic changes.

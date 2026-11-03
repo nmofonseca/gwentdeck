@@ -43,6 +43,7 @@ interface Props {
   /** User override URL; when omitted, bundled full card face is used. Pass null to force CSS-only. */
   imageUrl?: string | null
   onClick?: () => void
+  opensDialog?: boolean
 }
 
 function CssArtFallback({ card, compact }: { card: Card; compact?: boolean }) {
@@ -72,7 +73,7 @@ function CssArtFallback({ card, compact }: { card: Card; compact?: boolean }) {
   )
 }
 
-export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: Props) {
+export function GwentCard({ card, qty, compact, selected, imageUrl, onClick, opensDialog }: Props) {
   const [failedUrl, setFailedUrl] = useState<string | null>(null)
   const resolvedUrl = imageUrl === null ? null : (imageUrl ?? cardArtPath(card.id))
   const showArt = Boolean(resolvedUrl) && resolvedUrl !== failedUrl
@@ -83,6 +84,7 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
     <Tag
       type={onClick ? 'button' : undefined}
       onClick={onClick}
+      aria-haspopup={opensDialog ? 'dialog' : undefined}
       className={[
         'gwent-card animate-card text-left overflow-hidden transition group',
         'text-[var(--color-parchment)] w-full',
@@ -129,11 +131,11 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
             <div
-              className={`font-display font-semibold leading-tight text-[var(--color-gold)] ${compact ? 'text-sm' : 'text-base'}`}
+              className={`gwent-card-name font-display font-semibold leading-tight text-[var(--color-gold)] ${compact ? 'text-sm' : 'text-base'}`}
             >
               {card.name}
             </div>
-            <div className="mt-1.5 flex flex-wrap gap-1 text-[10px] uppercase tracking-wide opacity-90">
+            <div className="gwent-card-badges mt-1.5 flex flex-wrap gap-1 text-[10px] uppercase tracking-wide opacity-90">
               <span className="rounded-sm bg-black/50 px-1.5 py-0.5 border border-[var(--color-gold)]/25">
                 {KIND_LABEL[card.kind]}
               </span>
@@ -176,7 +178,7 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
           </div>
         </div>
         {!compact && card.abilityText ? (
-          <p className="mt-2 text-xs leading-snug text-[var(--color-parchment)]/85 line-clamp-3">
+          <p className="gwent-card-ability mt-2 text-xs leading-snug text-[var(--color-parchment)]/85 line-clamp-3">
             {card.abilityText}
           </p>
         ) : null}
