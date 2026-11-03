@@ -40,7 +40,7 @@ interface Props {
   qty?: number
   compact?: boolean
   selected?: boolean
-  /** User override URL; when omitted, bundled CC0 AI art is used. Pass null to force CSS-only. */
+  /** User override URL; when omitted, bundled full card face is used. Pass null to force CSS-only. */
   imageUrl?: string | null
   onClick?: () => void
 }
@@ -54,7 +54,9 @@ function CssArtFallback({ card, compact }: { card: Card; compact?: boolean }) {
       ].join(' ')}
       aria-hidden
     >
-      <div className={`absolute inset-0 bg-gradient-to-br opacity-90 ${FACTION_BG[card.faction]}`} />
+      <div
+        className={`absolute inset-0 bg-gradient-to-br opacity-90 ${FACTION_BG[card.faction]}`}
+      />
       <div
         className="absolute inset-0 opacity-30"
         style={{
@@ -71,9 +73,10 @@ function CssArtFallback({ card, compact }: { card: Card; compact?: boolean }) {
 }
 
 export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: Props) {
-  const [artFailed, setArtFailed] = useState(false)
+  const [failedUrl, setFailedUrl] = useState<string | null>(null)
   const resolvedUrl = imageUrl === null ? null : (imageUrl ?? cardArtPath(card.id))
-  const showArt = Boolean(resolvedUrl) && !artFailed
+  const showArt = Boolean(resolvedUrl) && resolvedUrl !== failedUrl
+  const fullCardFace = imageUrl === undefined
   const Tag = onClick ? 'button' : 'article'
 
   return (
@@ -95,7 +98,7 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
         <div
           className={[
             'gwent-card-art relative overflow-hidden border-b border-black/40 bg-black/50',
-            compact ? 'aspect-[16/10]' : 'aspect-[3/4]',
+            compact ? 'aspect-[16/10]' : fullCardFace ? 'aspect-[308/584]' : 'aspect-[3/4]',
           ].join(' ')}
         >
           <img
@@ -103,13 +106,15 @@ export function GwentCard({ card, qty, compact, selected, imageUrl, onClick }: P
             alt=""
             loading="lazy"
             decoding="async"
-            className="gwent-card-art-img absolute inset-0 h-full w-full object-cover object-center"
-            onError={() => setArtFailed(true)}
+            className={`gwent-card-art-img absolute inset-0 h-full w-full object-center ${fullCardFace ? 'object-contain' : 'object-cover'}`}
+            onError={() => setFailedUrl(resolvedUrl)}
           />
-          <div
-            className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/55 via-black/15 to-transparent"
-            aria-hidden
-          />
+          {!fullCardFace && (
+            <div
+              className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/55 via-black/15 to-transparent"
+              aria-hidden
+            />
+          )}
         </div>
       ) : (
         <CssArtFallback card={card} compact={compact} />

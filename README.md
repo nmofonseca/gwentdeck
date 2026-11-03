@@ -30,7 +30,7 @@ https://github.com/nmofonseca/gwentdeck/blob/main/docs/howto.mp4
 - Import / export collection and saved decks as JSON
 - Generate **legal** decks from cards you own
 - Explanations for inclusions and a missing-card roadmap
-- Original CC0 AI card portraits with CSS fallback; optional local image map if you supply your own URLs
+- Witcher 3 card faces with artwork credits and CSS fallback; optional personal image URL overrides
 - Static site — no accounts, no server, no tracking
 
 ## Live demo
@@ -70,7 +70,8 @@ Vite · React · TypeScript (strict) · HashRouter · Tailwind CSS v4 · Lucide 
 
 - Code: [MIT](./LICENSE)
 - Card names, stats, and acquisition text are derived from community datasets citing the [Witcher Wiki](https://witcher.fandom.com/) (CC BY-SA). See `src/data/catalogue.json` `sources` and the in-app About page.
-- **Original AI card art** under `public/card-art/` is dedicated **[CC0 1.0](./public/card-art/LICENSE)** — see [NOTICE-ART.md](./NOTICE-ART.md). Not official CDPR art; UI falls back to CSS faces if an image is missing. Optional user-supplied image URLs stay in your browser only.
+- **Game card faces** under `public/card-faces/`: artwork © CD PROJEKT RED and respective creators, sourced from Gwent Classic by Arun Sundaram. See [NOTICE-ART.md](./NOTICE-ART.md) and [upstream notices](./public/card-faces/NOTICE.md). These images are not covered by the code MIT licence or CC0.
+- **Retained original AI card art** under `public/card-art/` is dedicated **[CC0 1.0](./public/card-art/LICENSE)** — see [NOTICE-ART.md](./NOTICE-ART.md). This older portrait set is no longer the default. UI falls back to CSS faces if an image is missing. Optional user-supplied image URLs stay in your browser only.
 - This is an unofficial fan work and is not approved or endorsed by CD PROJEKT RED.
 ## Docs
 

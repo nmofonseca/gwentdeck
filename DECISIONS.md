@@ -118,3 +118,17 @@
   3. QtyStepper ± hit targets `44×44` below `md`, retain `32×32` at `md+`.
   4. Cheap safe-area: `viewport-fit=cover`, sticky header `pt-[env(safe-area-inset-top)]`, footer bottom padding uses safe-area inset.
 - **Consequences:** Cover/phone first paint shows cards sooner; desktop screenshots at 1280 remain visually unchanged.
+
+## ADR-016: Personal full-card artwork in local development
+
+- **Status:** Accepted for the requested local preview.
+- **Context:** The owner requested more authentic artwork and screenshots without deployment.
+- **Decision:** Opt-in `VITE_LOCAL_CARD_ART=true` serves personal WebPs from ignored `.local/card-art/` through development-only Vite middleware. Full faces retain their aspect ratio, borders and symbols without the portrait overlay. Explicit personal URL overrides retain priority. The desktop library uses four columns at xl widths.
+- **Consequences:** Game artwork stays outside Git and production assets, preserving rule 9. Production still uses bundled original portraits. Local provenance is retained alongside the personal files. No mechanics, catalogue stats, collection data, or deployment settings change.
+
+## ADR-017: Publish the owner-approved game card faces
+
+- **Status:** Accepted; supersedes the local-only choice in ADR-016.
+- **Context:** After reviewing the copyright discussion and local preview, the owner explicitly requested committing the new artwork and deploying it publicly, with creator/source credit.
+- **Decision:** Ship all 183 full card faces in `public/card-faces/`, use them by default in development and production, and preserve the pinned per-image source map. Credit CD PROJEKT RED and respective creators for game artwork, and Gwent Classic / Arun Sundaram for the source. Include the upstream licence notice, distinguish the images from the MIT code and retained CC0 AI portraits, and keep the unofficial disclaimer. Remove the development-only artwork route and flag. Match leader image names against their embedded labels. Stretch library cards within each responsive row to align the quantity controls.
+- **Consequences:** Pages now publishes the chosen card faces. This explicit owner instruction supersedes the previous no-game-textures repository restriction for these assets; it does not assert a separately negotiated art licence. No mechanics or catalogue stats change.

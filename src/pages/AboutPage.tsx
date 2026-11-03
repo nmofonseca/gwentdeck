@@ -4,12 +4,14 @@ export function AboutPage() {
   const stats = catalogueStats()
   return (
     <div className="animate-rise mx-auto max-w-3xl px-4 py-6 space-y-6 text-sm leading-relaxed text-[var(--color-ink-muted)]">
-      <h1 className="font-display text-3xl font-bold text-[var(--color-silver)]">About GwentDeck</h1>
+      <h1 className="font-display text-3xl font-bold text-[var(--color-silver)]">
+        About GwentDeck
+      </h1>
       <p>
-        GwentDeck helps you track your <em className="text-[var(--color-ink)]">The Witcher 3: Wild
-        Hunt</em>{' '}
-        Gwent collection and build legal decks from cards you actually own. It is free, open source
-        (MIT), and runs entirely in your browser — no accounts, no backend, no tracking.
+        GwentDeck helps you track your{' '}
+        <em className="text-[var(--color-ink)]">The Witcher 3: Wild Hunt</em> Gwent collection and
+        build legal decks from cards you actually own. It is free, open source (MIT), and runs
+        entirely in your browser — no accounts, no backend, no tracking.
       </p>
       <p>
         This tool covers the{' '}
@@ -62,14 +64,27 @@ export function AboutPage() {
         Art &amp; trademarks
       </h2>
       <p>
-        Portrait art under <code className="text-[var(--color-bronze)]">card-art/</code> is{' '}
-        <strong className="text-[var(--color-ink)]">original AI illustration</strong> dedicated
-        under <strong className="text-[var(--color-ink)]">CC0 1.0</strong> (see{' '}
-        <code className="text-[var(--color-bronze)]">NOTICE-ART.md</code>). It is not official CDPR /
-        Witcher Wiki art and is not a lookalike rip of Gwent compositions. If an image fails to load,
-        the UI falls back to procedural CSS faces. You may optionally supply your own local image
-        URLs under My Collection if you hold the rights. Official CDPR art is{' '}
-        <strong className="text-[var(--color-ink)]">not</strong> redistributed.
+        Card faces use artwork from The Witcher 3: Wild Hunt, © CD PROJEKT RED and the respective
+        creators. The images are sourced from{' '}
+        <a href="https://github.com/asundr/gwent-classic" className="underline">
+          Gwent Classic
+        </a>{' '}
+        by Arun Sundaram, and converted to WebP for this site. GwentDeck’s MIT code licence does not
+        cover this artwork, and the card faces are not CC0. Source and upstream licence notices are
+        available in the{' '}
+        <a href={`${import.meta.env.BASE_URL}card-faces/NOTICE.md`} className="underline">
+          artwork notice
+        </a>{' '}
+        and{' '}
+        <a
+          href={`${import.meta.env.BASE_URL}card-faces/LICENSE.upstream.txt`}
+          className="underline"
+        >
+          upstream licence
+        </a>
+        . Original AI portraits retained under card-art/ remain CC0; they are not the default card
+        faces. Missing images use procedural CSS faces. Personal image URL overrides remain
+        available under My Collection.
       </p>
       <p>
         The Witcher and Gwent are trademarks of their respective owners.{' '}

@@ -174,11 +174,11 @@ export function CataloguePage() {
         Showing {filtered.length} cards
       </p>
 
-      <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 list-none p-0 m-0">
+      <ul className="card-library-grid grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 list-none p-0 m-0">
         {filtered.map((card) => {
           const qty = state.owned[card.id] ?? 0
           return (
-            <li key={card.id} className="space-y-2">
+            <li key={card.id} className="grid min-w-0 grid-rows-[1fr_auto_2.25rem] gap-2">
               <GwentCard card={card} qty={qty || undefined} imageUrl={getImageUrl(card.id)} />
               <QtyStepper
                 value={qty}

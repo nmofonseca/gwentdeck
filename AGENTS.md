@@ -12,7 +12,7 @@ This repository is **GwentDeck**: a free, static TW3 Gwent collection manager an
 6. **localStorage persistence** — Collection/decks must be versioned and schema-validated; support import/export.
 7. **Static GitHub Pages** — `base: '/'` (custom domain apex), `HashRouter`, Actions-based Pages deploy; `public/CNAME` for `gwentbuilder.devopsplays.top`.
 8. **MIT license** — Keep `LICENSE` accurate; attribute third-party data (wiki CC BY-SA for names/stats).
-9. **No copyrighted art redistribution** — Do not vendor wiki/game textures. Original CC0 AI art under `public/card-art/` is allowed (ADR-008); CSS faces remain the mandatory fallback; optional user-local image URLs stay in the browser only.
+9. **Artwork provenance** — The owner explicitly approved publishing the game card faces under `public/card-faces/` (ADR-017). Preserve their source map, CDPR/source credits, and separate upstream notices; never label these images MIT or CC0. Retained AI portraits under `public/card-art/` remain CC0 (ADR-008). CSS faces remain the mandatory fallback; optional personal image overrides stay in the browser only.
 10. **TypeScript strict** — No `any` escapes for catalogue/engine paths; prefer Zod at persistence boundaries.
 11. **Tests for engines** — Legality and recommender changes require unit tests; do not ship placeholder optimisers.
 12. **Simplicity** — No Docker/K8s/auth/feature flags; prefer readable pure functions in `src/domain/`.

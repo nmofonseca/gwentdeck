@@ -75,7 +75,12 @@ export function Layout() {
           {/* Desktop primary nav — unchanged at md+ */}
           <nav className="hidden md:flex flex-wrap gap-1" aria-label="Primary">
             {links.map(({ to, label, icon: Icon, end }) => (
-              <NavLink key={to} to={to} end={end} className={({ isActive }) => navLinkClass(isActive)}>
+              <NavLink
+                key={to}
+                to={to}
+                end={end}
+                className={({ isActive }) => navLinkClass(isActive)}
+              >
                 <Icon className="h-4 w-4" aria-hidden />
                 {label}
               </NavLink>
@@ -84,8 +89,7 @@ export function Layout() {
 
           <div className="flex items-center gap-2 shrink-0">
             <div className="text-xs text-[var(--color-ink-muted)]" aria-live="polite">
-              Owned unique:{' '}
-              <strong className="text-[var(--color-silver)]">{ownedUnique}</strong>
+              Owned unique: <strong className="text-[var(--color-silver)]">{ownedUnique}</strong>
             </div>
             <button
               type="button"
@@ -95,7 +99,11 @@ export function Layout() {
               aria-label={menuOpen ? 'Close menu' : 'Open menu'}
               onClick={() => setMenuOpen((o) => !o)}
             >
-              {menuOpen ? <X className="h-5 w-5" aria-hidden /> : <Menu className="h-5 w-5" aria-hidden />}
+              {menuOpen ? (
+                <X className="h-5 w-5" aria-hidden />
+              ) : (
+                <Menu className="h-5 w-5" aria-hidden />
+              )}
             </button>
           </div>
         </div>
@@ -146,7 +154,11 @@ export function Layout() {
 
       <footer className="relative z-10 border-t border-[var(--color-border)] py-4 pb-[max(1rem,env(safe-area-inset-bottom,0px))] text-center text-xs text-[var(--color-ink-faint)] max-w-3xl mx-auto px-4 space-y-1">
         <div>
-          Unofficial fan project · MIT · Card art CC0 · No accounts · Data stays in your browser
+          Unofficial fan project · Code MIT · Game artwork © CD PROJEKT RED ·{' '}
+          <NavLink to="/about" className="underline">
+            Art credits
+          </NavLink>{' '}
+          · No accounts · Data stays in your browser
         </div>
         <div>
           Not approved or endorsed by CD PROJEKT RED. The Witcher and Gwent are trademarks of their
