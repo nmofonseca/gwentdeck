@@ -1,8 +1,9 @@
 import { useMemo, useState } from 'react'
 import { GwentCard } from '../components/GwentCard'
+import { CardDetailsDialog } from '../components/CardDetailsDialog'
 import { catalogue, factionLabel, playableFactions } from '../domain/catalogue'
 import { recommendDeck, STRATEGY_LABELS } from '../domain/recommend'
-import type { PlayableFaction, StrategyId } from '../domain/types'
+import type { Card, PlayableFaction, StrategyId } from '../domain/types'
 import { useCollection } from '../persistence/CollectionContext'
 
 type FactionChoice = PlayableFaction | 'auto'
@@ -28,6 +29,7 @@ function pickAutoFaction(owned: Record<string, number>): PlayableFaction {
 
 export function OptimiserPage() {
   const { state, saveDeck, getImageUrl } = useCollection()
+  const [selectedCard, setSelectedCard] = useState<Card | null>(null)
   const [factionChoice, setFactionChoice] = useState<FactionChoice>('auto')
   const [strategy, setStrategy] = useState<StrategyId>('balanced')
   const [generated, setGenerated] = useState<{
@@ -42,8 +44,7 @@ export function OptimiserPage() {
   }, [generated, state.owned])
 
   function onGenerate() {
-    const faction =
-      factionChoice === 'auto' ? pickAutoFaction(state.owned) : factionChoice
+    const faction = factionChoice === 'auto' ? pickAutoFaction(state.owned) : factionChoice
     setGenerated({ faction, strategy })
     setSavedMsg(null)
   }
@@ -194,22 +195,41 @@ export function OptimiserPage() {
             ) : null}
           </div>
 
-          <section className="grid lg:grid-cols-2 gap-8">
+          <section className="grid lg:grid-cols-[minmax(0,2fr)_minmax(16rem,1fr)] gap-8 items-start">
             <div className="space-y-3">
               <h2 className="font-display text-2xl font-semibold text-[var(--color-silver)]">
                 Leader &amp; cards
               </h2>
-              {result.leader ? (
-                <GwentCard card={result.leader} imageUrl={getImageUrl(result.leader.id)} />
-              ) : (
+              <p className="text-xs text-[var(--color-ink-faint)]">
+                Select a card for its full artwork and details. The leader is listed first.
+              </p>
+              {!result.leader && (
                 <p className="text-sm text-[var(--color-crimson-bright)]">
                   No owned leader for this faction.
                 </p>
               )}
-              <ul className="grid sm:grid-cols-2 gap-2 list-none p-0 m-0">
+              <ul
+                aria-label="Generated deck cards"
+                className="deck-card-grid card-gallery-grid grid min-[360px]:grid-cols-2 sm:grid-cols-3 gap-3 list-none p-0 m-0"
+              >
+                {result.leader && (
+                  <li className="min-w-0" aria-label="Deck leader">
+                    <GwentCard
+                      card={result.leader}
+                      imageUrl={getImageUrl(result.leader.id)}
+                      onClick={() => setSelectedCard(result.leader)}
+                      opensDialog
+                    />
+                  </li>
+                )}
                 {result.cards.map((card, idx) => (
-                  <li key={`${card.id}-${idx}`}>
-                    <GwentCard card={card} compact imageUrl={getImageUrl(card.id)} />
+                  <li key={`${card.id}-${idx}`} className="min-w-0">
+                    <GwentCard
+                      card={card}
+                      imageUrl={getImageUrl(card.id)}
+                      onClick={() => setSelectedCard(card)}
+                      opensDialog
+                    />
                   </li>
                 ))}
               </ul>
@@ -250,6 +270,13 @@ export function OptimiserPage() {
             </div>
           </section>
         </>
+      )}
+      {selectedCard && (
+        <CardDetailsDialog
+          card={selectedCard}
+          imageUrl={getImageUrl(selectedCard.id)}
+          onClose={() => setSelectedCard(null)}
+        />
       )}
     </div>
   )

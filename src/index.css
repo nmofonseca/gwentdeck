@@ -364,20 +364,68 @@ h3,
     inset 0 0 0 1px rgba(197, 208, 222, 0.06);
 }
 
-/* Stretch each library card to its grid row's tallest description, keeping
+/* Stretch each gallery card to its grid row's tallest description, keeping
    artwork unstretched and the ownership controls aligned underneath. */
-.card-library-grid .gwent-card {
+.card-gallery-grid .gwent-card {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-.card-library-grid .gwent-card-art {
+.card-gallery-grid .gwent-card-art {
   flex-shrink: 0;
 }
 
-.card-library-grid .gwent-card-body {
+.card-gallery-grid .gwent-card-body {
   flex: 1;
+}
+
+/* Small gallery faces stay browsable; the full description opens in a dialog. */
+@media (max-width: 639px) {
+  .card-gallery-grid .gwent-card-art {
+    width: 100%;
+    max-height: 22rem;
+  }
+
+  .card-gallery-grid .gwent-card-body {
+    padding: 0.5rem;
+    min-height: 0;
+  }
+
+  .card-gallery-grid .gwent-card-name {
+    font-size: 0.875rem;
+    min-height: 2.5em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+
+  .card-gallery-grid .gwent-card-badges,
+  .card-gallery-grid .gwent-card-ability {
+    display: none;
+  }
+}
+
+/* Unfolded touchscreens still need finger-sized ownership controls. */
+@media (pointer: coarse) {
+  .qty-stepper,
+  .qty-stepper-value,
+  .qty-stepper-button {
+    min-height: 2.75rem;
+  }
+
+  .qty-stepper-button {
+    min-width: 2.75rem;
+  }
+}
+
+.card-details-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.card-details-dialog .gwent-card-ability {
+  -webkit-line-clamp: unset;
 }
 
 /* Portrait face: keep subject readable under card chrome */

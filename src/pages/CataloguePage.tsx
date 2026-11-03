@@ -1,6 +1,7 @@
 import { useId, useMemo, useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 import { GwentCard } from '../components/GwentCard'
+import { CardDetailsDialog } from '../components/CardDetailsDialog'
 import { QtyStepper } from '../components/QtyStepper'
 import { catalogue, factionLabel, playableFactions } from '../domain/catalogue'
 import {
@@ -21,6 +22,7 @@ const EXPANSIONS: Array<Expansion | 'all'> = [
 
 export function CataloguePage() {
   const { state, setQty, getImageUrl } = useCollection()
+  const [selectedCard, setSelectedCard] = useState<(typeof catalogue.cards)[number] | null>(null)
   const [q, setQ] = useState('')
   const [faction, setFaction] = useState<FactionId | 'all'>('all')
   const [kind, setKind] = useState<(typeof KINDS)[number]>('all')
@@ -61,21 +63,21 @@ export function CataloguePage() {
         </p>
       </header>
 
-      <div className="panel p-4 flex flex-wrap gap-3 items-end max-[399px]:flex-col max-[399px]:items-stretch">
-        <label className="text-sm max-[399px]:w-full">
+      <div className="panel p-4 flex flex-wrap gap-3 items-end max-[639px]:flex-col max-[639px]:items-stretch">
+        <label className="text-sm max-[639px]:w-full">
           <span className="label-caps">Search</span>
           <input
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            className="field min-w-[14rem] max-[399px]:min-w-0 max-[399px]:w-full"
+            className="field min-w-[14rem] max-[639px]:min-w-0 max-[639px]:w-full"
             placeholder="Name or ability"
           />
         </label>
 
-        {/* Toggle only below ~400px (fold cover / narrow phones) */}
+        {/* Keep secondary filters tucked away on phone screens. */}
         <button
           type="button"
-          className="min-[400px]:hidden inline-flex min-h-11 w-full items-center justify-between gap-2 rounded-sm border border-[rgba(138,106,56,0.55)] bg-[rgba(42,33,22,0.92)] px-3 text-sm text-[var(--color-parchment)]"
+          className="min-[640px]:hidden inline-flex min-h-11 w-full items-center justify-between gap-2 rounded-sm border border-[rgba(138,106,56,0.55)] bg-[rgba(42,33,22,0.92)] px-3 text-sm text-[var(--color-parchment)]"
           aria-expanded={filtersOpen}
           aria-controls={filtersId}
           onClick={() => setFiltersOpen((o) => !o)}
@@ -98,16 +100,16 @@ export function CataloguePage() {
           id={filtersId}
           className={
             filtersOpen
-              ? 'contents max-[399px]:flex max-[399px]:w-full max-[399px]:flex-col max-[399px]:gap-3'
-              : 'contents max-[399px]:hidden'
+              ? 'contents max-[639px]:flex max-[639px]:w-full max-[639px]:flex-col max-[639px]:gap-3'
+              : 'contents max-[639px]:hidden'
           }
         >
-          <label className="text-sm max-[399px]:block max-[399px]:w-full">
+          <label className="text-sm max-[639px]:block max-[639px]:w-full">
             <span className="label-caps">Faction</span>
             <select
               value={faction}
               onChange={(e) => setFaction(e.target.value as FactionId | 'all')}
-              className="field max-[399px]:w-full"
+              className="field max-[639px]:w-full"
             >
               {factions.map((f) => (
                 <option key={f} value={f}>
@@ -116,12 +118,12 @@ export function CataloguePage() {
               ))}
             </select>
           </label>
-          <label className="text-sm max-[399px]:block max-[399px]:w-full">
+          <label className="text-sm max-[639px]:block max-[639px]:w-full">
             <span className="label-caps">Type</span>
             <select
               value={kind}
               onChange={(e) => setKind(e.target.value as (typeof KINDS)[number])}
-              className="field max-[399px]:w-full"
+              className="field max-[639px]:w-full"
             >
               {KINDS.map((k) => (
                 <option key={k} value={k}>
@@ -130,12 +132,12 @@ export function CataloguePage() {
               ))}
             </select>
           </label>
-          <label className="text-sm max-[399px]:block max-[399px]:w-full">
+          <label className="text-sm max-[639px]:block max-[639px]:w-full">
             <span className="label-caps">Row</span>
             <select
               value={row}
               onChange={(e) => setRow(e.target.value as RowFilter)}
-              className="field max-[399px]:w-full"
+              className="field max-[639px]:w-full"
             >
               {ROW_FILTER_OPTIONS.map((opt) => (
                 <option key={opt.value} value={opt.value}>
@@ -144,12 +146,12 @@ export function CataloguePage() {
               ))}
             </select>
           </label>
-          <label className="text-sm max-[399px]:block max-[399px]:w-full">
+          <label className="text-sm max-[639px]:block max-[639px]:w-full">
             <span className="label-caps">Expansion</span>
             <select
               value={expansion}
               onChange={(e) => setExpansion(e.target.value as (typeof EXPANSIONS)[number])}
-              className="field max-[399px]:w-full"
+              className="field max-[639px]:w-full"
             >
               {EXPANSIONS.map((x) => (
                 <option key={x} value={x}>
@@ -158,7 +160,7 @@ export function CataloguePage() {
               ))}
             </select>
           </label>
-          <label className="inline-flex items-center gap-2 text-sm pb-2 text-[var(--color-ink-muted)] max-[399px]:pb-0">
+          <label className="inline-flex items-center gap-2 text-sm pb-2 text-[var(--color-ink-muted)] max-[639px]:pb-0">
             <input
               type="checkbox"
               checked={ownedOnly}
@@ -171,16 +173,23 @@ export function CataloguePage() {
       </div>
 
       <p className="text-xs text-[var(--color-ink-faint)]" aria-live="polite">
-        Showing {filtered.length} cards
+        Showing {filtered.length} cards · Select a card for details
       </p>
 
-      <ul className="card-library-grid grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 list-none p-0 m-0">
+      <ul className="card-library-grid card-gallery-grid grid min-[360px]:grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-3 list-none p-0 m-0">
         {filtered.map((card) => {
           const qty = state.owned[card.id] ?? 0
           return (
             <li key={card.id} className="grid min-w-0 grid-rows-[1fr_auto_2.25rem] gap-2">
-              <GwentCard card={card} qty={qty || undefined} imageUrl={getImageUrl(card.id)} />
+              <GwentCard
+                card={card}
+                qty={qty || undefined}
+                imageUrl={getImageUrl(card.id)}
+                onClick={() => setSelectedCard(card)}
+                opensDialog
+              />
               <QtyStepper
+                fitWidth
                 value={qty}
                 max={card.maxCopies}
                 onChange={(n) => setQty(card.id, n)}
@@ -195,6 +204,13 @@ export function CataloguePage() {
           )
         })}
       </ul>
+      {selectedCard && (
+        <CardDetailsDialog
+          card={selectedCard}
+          imageUrl={getImageUrl(selectedCard.id)}
+          onClose={() => setSelectedCard(null)}
+        />
+      )}
     </div>
   )
 }

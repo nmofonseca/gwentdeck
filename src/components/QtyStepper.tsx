@@ -5,10 +5,11 @@ interface Props {
   max: number
   onChange: (n: number) => void
   label: string
+  fitWidth?: boolean
 }
 
 const stepBtn =
-  'inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-sm bg-[var(--color-leather)] text-[var(--color-silver)] border border-[var(--color-border)] disabled:opacity-45 hover:border-[var(--color-bronze)] hover:text-[var(--color-ink)] md:h-8 md:w-8'
+  'qty-stepper-button inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-sm bg-[var(--color-leather)] text-[var(--color-silver)] border border-[var(--color-border)] disabled:opacity-45 hover:border-[var(--color-bronze)] hover:text-[var(--color-ink)] md:h-8 md:w-8'
 
 function clampQty(raw: string, max: number): number | null {
   const trimmed = raw.trim()
@@ -17,10 +18,10 @@ function clampQty(raw: string, max: number): number | null {
   return Math.max(0, Math.min(max, Number(trimmed)))
 }
 
-export function QtyStepper({ value, max, onChange, label }: Props) {
+export function QtyStepper({ value, max, onChange, label, fitWidth }: Props) {
   return (
     <div
-      className="inline-flex h-11 items-center gap-1.5 md:h-8"
+      className={`qty-stepper inline-flex h-11 items-center md:h-8 ${fitWidth ? 'w-full gap-1 md:w-auto md:gap-1.5' : 'gap-1.5'}`}
       role="group"
       aria-label={label}
     >
@@ -33,7 +34,9 @@ export function QtyStepper({ value, max, onChange, label }: Props) {
       >
         <Minus className="h-4 w-4" aria-hidden />
       </button>
-      <div className="inline-flex h-11 min-w-[4rem] items-center justify-center gap-1.5 rounded-sm border border-[var(--color-border)] bg-[var(--color-leather)] px-2.5 md:h-8">
+      <div
+        className={`qty-stepper-value inline-flex h-11 items-center justify-center rounded-sm border border-[var(--color-border)] bg-[var(--color-leather)] md:h-8 ${fitWidth ? 'min-w-0 flex-1 gap-1 px-1 md:min-w-[4rem] md:flex-none md:gap-1.5 md:px-2.5' : 'min-w-[4rem] gap-1.5 px-2.5'}`}
+      >
         {/*
           text + inputMode (not type=number): Firefox paints native spinner
           arrows that overlap +/- and / max in a narrow field.
