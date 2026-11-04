@@ -3,6 +3,17 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: [main]
+    # Deploy only when inputs to the published static site change.
+    # Container files, repository docs and workflow-only edits do not deploy.
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'index.html'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'vite.config.ts'
+      - 'tsconfig*.json'
+  # Explicit redeploys remain available, including after workflow-only edits.
   workflow_dispatch:
 
 # Workflow defaults; jobs below narrow further where possible.

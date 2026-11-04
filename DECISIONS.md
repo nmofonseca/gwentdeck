@@ -146,3 +146,18 @@
 - **Context:** The optimiser stretched the leader across its whole panel, while rendering other full card faces inside short landscape compact slots.
 - **Decision:** Place the leader first in the same responsive full-face gallery as the generated cards. Share phone summary and equal-height styling with the Card Library, and open full details in the existing accessible dialog. Give the deck gallery two thirds of the desktop result area and reserve the remaining third for explanations and missing-card suggestions.
 - **Consequences:** Leader and other artwork have the same dimensions within each row. No recommendation, legality, ownership or export logic changes.
+
+## ADR-020: A hardened static container for local testing
+
+- **Status:** Accepted and verified.
+- **Context:** The owner requested nerdctl instead of a GwentDeck systemd service, with a multi-stage build, Docker Hardened Images, pinned versions/digests, and a pinned Dockerfile frontend.
+- **Decision:** Compile and test with DHI Node, then serve only the static build and artwork notices with DHI Nginx. Keep registry credentials outside build inputs. Use an allowlisted context, lockfile integrity checks, a non-root build user and runtime, a read-only runtime root, a limited tmpfs, dropped capabilities, no-new-privileges, resource limits and an HTTP readiness endpoint. Use Zod’s supported jitless validation mode so its optional eval probe does not violate the strict script CSP in Firefox. Keep the existing LAN port 5173 for browser/localStorage continuity. Containerd's existing rootless infrastructure remains in place.
+- **Consequences:** This owner instruction supersedes the former repository restriction on Docker for this local preview. The container serves a built snapshot; source edits require rebuilding. GitHub Pages and application data/logic remain unchanged.
+- **Verification:** The container build passed lint, all 27 unit tests and the production build. Chrome and Firefox passed desktop, phone and foldable viewport checks; localhost/LAN HTTP, artwork integrity, actual runtime restrictions and stop/start were verified. The former transient `gwentdeck-preview.service` was already absent, with no persistent unit file to delete. The replacement container is running on port 5173.
+
+## ADR-021: Deploy Pages only for published-site inputs
+
+- **Status:** Accepted.
+- **Context:** The owner requested that container and repository documentation changes stop causing unnecessary GitHub Pages deployments.
+- **Decision:** Use GitHub's native `push.paths` allowlist, alongside the existing `main` branch restriction, for `src/**`, `public/**`, `index.html`, the package manifest/lockfile, Vite configuration and TypeScript configurations. Keep `workflow_dispatch` for deliberate redeploys. Repository docs, container configuration, artwork-generation scripts, and workflow-only edits do not trigger Pages. Public artwork, attribution notices and CNAME remain deployment inputs because Vite publishes them. Mixed commits deploy if any published input changes. CI and CodeQL triggers remain unchanged.
+- **Consequences:** No additional action, token scope or runtime dependency is required. Maintainers must extend the allowlist if new build inputs are introduced. The current container branch still includes application validation changes and therefore qualifies for deployment when merged. Like other native GitHub path filters, exceptionally large pushes or diff timeouts follow GitHub's documented filter limits.

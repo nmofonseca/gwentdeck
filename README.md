@@ -39,7 +39,19 @@ https://github.com/nmofonseca/gwentdeck/blob/main/docs/howto.mp4
 
 (`https://nmofonseca.github.io/gwentdeck/` redirects to the custom domain while it is configured.)
 
-(Live Pages update only after changes merge to `main` and the Pages workflow finishes.)
+Pages deploys automatically when a push or merge to `main` changes application
+source (`src/**`), published assets (`public/**`), `index.html`, `package.json`,
+`package-lock.json`, `vite.config.ts`, or `tsconfig*.json`. Assets include artwork,
+its published credit notices, and the custom-domain `CNAME` file.
+
+Documentation-only changes outside the published inputs, container files
+(`Dockerfile`, `.dockerignore`, `container/**`), and workflow-only changes skip
+automatic deployment. A mixed change still deploys if it includes any published
+input. CI and CodeQL continue running for PRs and pushes to `main`.
+
+For an explicit redeploy, open **Actions → Deploy GitHub Pages → Run workflow**
+and choose `main`. Keep the workflow's `paths` list current if new build inputs
+are introduced. The live site updates after the Pages workflow finishes.
 
 ## Quick start
 
@@ -54,6 +66,20 @@ npm run build     # production build (base /)
 npm run preview   # preview production build
 npm run e2e       # Playwright (run build/preview or use webServer config)
 ```
+
+## Local container preview
+
+With rootless nerdctl and BuildKit available:
+
+```bash
+nerdctl login dhi.io
+container/preview.sh build
+container/preview.sh run
+```
+
+Open `http://127.0.0.1:5173/`. Stop it with `container/preview.sh stop`; use `container/preview.sh rm` to remove
+the stopped container. See [container instructions](./docs/containers.md)
+for pinned DHI versions/digests, LAN access, rebuilds and security settings.
 
 ## Stack
 

@@ -15,7 +15,7 @@ This repository is **GwentDeck**: a free, static TW3 Gwent collection manager an
 9. **Artwork provenance** — The owner explicitly approved publishing the game card faces under `public/card-faces/` (ADR-017). Preserve their source map, CDPR/source credits, and separate upstream notices; never label these images MIT or CC0. Retained AI portraits under `public/card-art/` remain CC0 (ADR-008). CSS faces remain the mandatory fallback; optional personal image overrides stay in the browser only.
 10. **TypeScript strict** — No `any` escapes for catalogue/engine paths; prefer Zod at persistence boundaries.
 11. **Tests for engines** — Legality and recommender changes require unit tests; do not ship placeholder optimisers.
-12. **Simplicity** — No Docker/K8s/auth/feature flags; prefer readable pure functions in `src/domain/`.
+12. **Simplicity** — The owner-approved nerdctl container is for local static-site testing (ADR-020); keep it separate from GitHub Pages. No K8s, backend/auth, or feature flags; prefer readable pure functions in `src/domain/`.
 13. **Do not mark PLAN items done until verified** — Checklists in `PLAN.md` stay unchecked until tested.
 14. **Record decisions** — Non-trivial choices go in `DECISIONS.md` (ADR style).
 15. **Faction completeness** — Catalogue must cover NR, NG, ST, Monsters, Skellige, Neutrals, HoS, BaW.

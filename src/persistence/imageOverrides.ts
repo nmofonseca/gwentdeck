@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from './validation'
 import { getCard } from '../domain/catalogue'
 
 export const IMAGE_OVERRIDES_KEY = 'gwentdeck.imageOverrides.v1'
