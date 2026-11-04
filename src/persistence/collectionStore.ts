@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from './validation'
 import { catalogue, getCard } from '../domain/catalogue'
 import type { CollectionState, OwnedMap, SavedDeck } from '../domain/types'
 
