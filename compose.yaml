@@ -1,0 +1,31 @@
+name: gwentdeck
+
+services:
+  preview:
+    image: gwentdeck:local
+    pull_policy: never
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${GWENTDECK_BIND_ADDRESS:-0.0.0.0}:${GWENTDECK_PORT:-5173}:8080/tcp"
+    user: "65532:65532"
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,nodev,size=16m,uid=65532,gid=65532,mode=0700
+    # Keep limits at service level for nerdctl 2.4.1 compatibility.
+    pids_limit: 64
+    cpus: 1
+    mem_limit: 128m
+    # nerdctl Compose 2.4.1 ignores memswap_limit; use its default swap allowance.
+    ulimits:
+      nofile:
+        soft: 1024
+        hard: 1024
+    stop_signal: SIGQUIT
+    stop_grace_period: 10s
+    restart: unless-stopped
