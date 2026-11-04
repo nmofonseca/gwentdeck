@@ -45,7 +45,7 @@ source (`src/**`), published assets (`public/**`), `index.html`, `package.json`,
 its published credit notices, and the custom-domain `CNAME` file.
 
 Documentation-only changes outside the published inputs, container files
-(`Dockerfile`, `.dockerignore`, `container/**`), and workflow-only changes skip
+(`Dockerfile`, `.dockerignore`, `compose.yaml`, `container/**`), and workflow-only changes skip
 automatic deployment. A mixed change still deploys if it includes any published
 input. CI and CodeQL continue running for PRs and pushes to `main`.
 
@@ -73,13 +73,14 @@ With rootless nerdctl and BuildKit available:
 
 ```bash
 nerdctl login dhi.io
-container/preview.sh build
-container/preview.sh run
+nerdctl compose build --build-arg VCS_REF="$(git rev-parse HEAD)"
+nerdctl compose up -d
 ```
 
-Open `http://127.0.0.1:5173/`. Stop it with `container/preview.sh stop`; use `container/preview.sh rm` to remove
-the stopped container. See [container instructions](./docs/containers.md)
-for pinned DHI versions/digests, LAN access, rebuilds and security settings.
+Open `http://127.0.0.1:5173/`. Stop it with `nerdctl compose stop`; use
+`nerdctl compose down` to remove the container and its Compose network. See
+[container instructions](./docs/containers.md) for pinned DHI versions/digests,
+LAN access, rebuilds, migration from the old runner and security settings.
 
 ## Stack
 
