@@ -161,3 +161,11 @@
 - **Context:** The owner requested that container and repository documentation changes stop causing unnecessary GitHub Pages deployments.
 - **Decision:** Use GitHub's native `push.paths` allowlist, alongside the existing `main` branch restriction, for `src/**`, `public/**`, `index.html`, the package manifest/lockfile, Vite configuration and TypeScript configurations. Keep `workflow_dispatch` for deliberate redeploys. Repository docs, container configuration, artwork-generation scripts, and workflow-only edits do not trigger Pages. Public artwork, attribution notices and CNAME remain deployment inputs because Vite publishes them. Mixed commits deploy if any published input changes. CI and CodeQL triggers remain unchanged.
 - **Consequences:** No additional action, token scope or runtime dependency is required. Maintainers must extend the allowlist if new build inputs are introduced. The current container branch still includes application validation changes and therefore qualifies for deployment when merged. Like other native GitHub path filters, exceptionally large pushes or diff timeouts follow GitHub's documented filter limits.
+
+## ADR-022: Heredoc style for Dockerfile shell steps
+
+- **Status:** Accepted.
+- **Context:** The owner requested heredoc-style Dockerfile syntax and a recorded convention for future changes.
+- **Decision:** Write Dockerfile shell `RUN` steps as quoted heredocs (`RUN <<'EOF'`), with one command per line and POSIX `set -eu` at the start. Keep `RUN` options such as cache mounts and `--network=none` on the instruction before the heredoc. Quoting the delimiter leaves shell expansion to the build-time shell. Preserve normal syntax for non-shell directives and JSON exec form for `ENTRYPOINT`/`CMD`.
+- **Consequences:** Shell steps are readable without continuation backslashes or `&&` chains, and failed commands stop the build. The pinned frontend, image digests, dependency/cache behavior, offline lint/test/build step and hardened runtime settings remain unchanged.
+- **Verification:** The nerdctl build passed strict Dockerfile frontend checks, lint, all 27 unit tests and the production build. A temporary container passed Nginx configuration, HTTP health, HTML/CSP and artwork checks; its HTML matched the existing preview. The test container was removed afterward.
